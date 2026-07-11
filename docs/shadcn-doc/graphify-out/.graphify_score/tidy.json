@@ -1,0 +1,59 @@
+{
+  "subscore": 82.1,
+  "metrics": {
+    "nodes": 1224,
+    "edges": 2857,
+    "mean_degree": 4.67,
+    "density": 0.00382,
+    "components": 3,
+    "largest_component_frac": 0.855,
+    "orphan_nodes": 0,
+    "orphan_frac": 0.0,
+    "self_loops": 0,
+    "dangling_edges": 0,
+    "duplicate_label_groups": 131,
+    "extra_duplicate_nodes": 345,
+    "duplicate_frac": 0.282,
+    "top_hub_edge_share": 0.076,
+    "distinct_relations": 8,
+    "relation_cardinality": 0.003,
+    "modularity": 0.791,
+    "communities": 46,
+    "confidence": {
+      "EXTRACTED": 2673,
+      "INFERRED": 170,
+      "AMBIGUOUS": 14
+    }
+  },
+  "checks": {
+    "connected": {
+      "score": 0.855,
+      "detail": "largest cluster holds 85% of dots (3 islands)"
+    },
+    "not_orphaned": {
+      "score": 1.0,
+      "detail": "0 lonely dots (0%)"
+    },
+    "clean_edges": {
+      "score": 1.0,
+      "detail": "0 self-loops, 0 broken lines"
+    },
+    "deduped": {
+      "score": 0.0,
+      "detail": "345 duplicate dots (28%)"
+    },
+    "hub_sane": {
+      "score": 1.0,
+      "detail": "busiest dot touches 8% of lines"
+    },
+    "linked": {
+      "score": 1.0,
+      "detail": "avg 4.7 lines per dot, density 0.004"
+    },
+    "well_clustered": {
+      "score": 1.0,
+      "detail": "community separation (modularity) = 0.79"
+    }
+  },
+  "graph_json": "/Users/mrp/Documents/1-Projects/webscraping/shadcn-doc-scraper/docs/graphify-out/graph.json"
+}

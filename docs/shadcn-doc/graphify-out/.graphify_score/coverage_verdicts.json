@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "file": "docs-components-button-group.md",
+      "facts": [
+        {
+          "fact": "ButtonGroup composition tree (Button / ButtonGroupSeparator / ButtonGroupText)",
+          "present": true
+        },
+        {
+          "fact": "Integration examples with DropdownMenu, Tooltip, Select, InputGroup",
+          "present": true
+        },
+        {
+          "fact": "Install command (npx shadcn@latest add button-group) and @base-ui/react dependency",
+          "present": true
+        },
+        {
+          "fact": "Accessibility: role=group, Tab navigation, aria-label",
+          "present": true
+        },
+        {
+          "fact": "ButtonGroup vs ToggleGroup distinction",
+          "present": true
+        }
+      ]
+    },
+    {
+      "file": "docs-components-avatar.md",
+      "facts": [
+        {
+          "fact": "Avatar composition (AvatarImage / AvatarFallback / AvatarBadge)",
+          "present": true
+        },
+        {
+          "fact": "AvatarGroup composition with AvatarGroupCount",
+          "present": true
+        },
+        {
+          "fact": "Reference to Radix UI Avatar",
+          "present": true
+        },
+        {
+          "fact": "Install via npx shadcn add avatar + @base-ui/react",
+          "present": true
+        }
+      ]
+    },
+    {
+      "file": "docs-components-resizable.md",
+      "facts": [
+        {
+          "fact": "Built on react-resizable-panels",
+          "present": true
+        },
+        {
+          "fact": "ResizablePanelGroup composition (ResizablePanel / ResizableHandle)",
+          "present": true
+        },
+        {
+          "fact": "Vertical orientation option",
+          "present": true
+        },
+        {
+          "fact": "Install command + dependency",
+          "present": true
+        }
+      ]
+    },
+    {
+      "file": "docs-components-sidebar.md",
+      "facts": [
+        {
+          "fact": "Sidebar full sub-tree (Provider/Content/Header/Footer/Group/Menu/Rail/Trigger)",
+          "present": true
+        },
+        {
+          "fact": "useSidebar hook and SidebarProvider composition",
+          "present": true
+        },
+        {
+          "fact": "Install via npx shadcn add sidebar",
+          "present": true
+        },
+        {
+          "fact": "Collapsible integration inside SidebarGroup",
+          "present": true
+        }
+      ]
+    }
+  ]
+}

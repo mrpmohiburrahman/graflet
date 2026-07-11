@@ -1,0 +1,406 @@
+{
+  "graph_json": "/Users/mrp/Documents/1-Projects/webscraping/shadcn-doc-scraper/docs/graphify-out/graph.json",
+  "root": "/Users/mrp/Documents/1-Projects/webscraping/shadcn-doc-scraper/docs",
+  "edges": [
+    {
+      "idx": 0,
+      "source": "Bug Report Form Action",
+      "relation": "calls",
+      "target": "Form Schema",
+      "confidence": "EXTRACTED",
+      "source_file": "actions.ts",
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 1,
+      "source": "migrate rtl command",
+      "relation": "conceptually_related_to",
+      "target": "Accordion Component",
+      "confidence": "INFERRED",
+      "source_file": "docs-cli.md",
+      "source_location": null,
+      "evidence": "---\ntitle: shadcn\ndescription: Use the shadcn CLI to add components to your project.\n---\n\nimport { TriangleAlertIcon } from \"lucide-react\"\n\n## init\n\nUse the `init` command to initialize configuration and dependencies for an existing project, or create a new project with `--name`.\n\nThe `init` command installs dependencies, adds the `cn` util and configures CSS variables for the project.\n\n```bash\nnpx shadcn@latest init\n```\n\n**Options**\n\n```bash\nUsage: shadcn init [options] [components...]\n\ninitialize your project and install dependencies\n\nArguments:\n  components                 names, url or local path to component\n\nOptions:\n  -t, --template <template>  the template to use. (next, vite, start, react-router, laravel, astro)\n  -b, --base <base>          the component library to use. (base, radix)\n  -p, --preset [name]        use a preset configuration\n  -y, --yes                  skip confirmation prompt. (default: true)\n  -d, --defaults             use default configuration: --template=next --preset=nova (default: false)\n  -f, --force                force overwrite of existing configuration. (default: false)\n  -c, --cwd <cwd>            the working directory. defaults to the current d"
+    },
+    {
+      "idx": 2,
+      "source": "Avatar",
+      "relation": "references",
+      "target": "Radix UI Avatar",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-avatar.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Avatar\ndescription: An image element with a fallback for representing the user.\nbase: base\ncomponent: true\nlinks:\n  doc: https://base-ui.com/react/components/avatar\n  api: https://base-ui.com/react/components/avatar#api-reference\n---\n\n<ComponentPreview\n  styleName=\"base-nova\"\n  name=\"avatar-demo\"\n  previewClassName=\"h-72\"\n/>\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add avatar\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-ui/react\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"avatar\"\n  title=\"components/ui/avatar.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n"
+    },
+    {
+      "idx": 3,
+      "source": "AvatarWithBadge",
+      "relation": "implements",
+      "target": "AvatarImage",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-avatar.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Avatar\ndescription: An image element with a fallback for representing the user.\nbase: base\ncomponent: true\nlinks:\n  doc: https://base-ui.com/react/components/avatar\n  api: https://base-ui.com/react/components/avatar#api-reference\n---\n\n<ComponentPreview\n  styleName=\"base-nova\"\n  name=\"avatar-demo\"\n  previewClassName=\"h-72\"\n/>\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add avatar\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-ui/react\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"avatar\"\n  title=\"components/ui/avatar.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n"
+    },
+    {
+      "idx": 4,
+      "source": "ButtonGroupDemo",
+      "relation": "references",
+      "target": "CalendarPlusIcon",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-button-group.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Button Group\ndescription: A container that groups related buttons together with consistent styling.\nbase: base\ncomponent: true\n---\n\n<ComponentPreview styleName=\"base-nova\" name=\"button-group-demo\" />\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add button-group\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-ui/react\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"button-group\"\n  title=\"components/ui/button-group.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n\n```tsx\nimport {\n  ButtonGroup,\n  ButtonGroupSeparator,\n  ButtonGroupText,\n} from \"@/components/ui/button-group\"\n```"
+    },
+    {
+      "idx": 5,
+      "source": "ButtonGroupPopover",
+      "relation": "implements",
+      "target": "FieldDescription",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-button-group.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Button Group\ndescription: A container that groups related buttons together with consistent styling.\nbase: base\ncomponent: true\n---\n\n<ComponentPreview styleName=\"base-nova\" name=\"button-group-demo\" />\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add button-group\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-ui/react\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"button-group\"\n  title=\"components/ui/button-group.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n\n```tsx\nimport {\n  ButtonGroup,\n  ButtonGroupSeparator,\n  ButtonGroupText,\n} from \"@/components/ui/button-group\"\n```"
+    },
+    {
+      "idx": 6,
+      "source": "ButtonGroup",
+      "relation": "references",
+      "target": "PlusIcon",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-button-group.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Button Group\ndescription: A container that groups related buttons together with consistent styling.\nbase: base\ncomponent: true\n---\n\n<ComponentPreview styleName=\"base-nova\" name=\"button-group-demo\" />\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add button-group\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-ui/react\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"button-group\"\n  title=\"components/ui/button-group.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n\n```tsx\nimport {\n  ButtonGroup,\n  ButtonGroupSeparator,\n  ButtonGroupText,\n} from \"@/components/ui/button-group\"\n```"
+    },
+    {
+      "idx": 7,
+      "source": "Carousel",
+      "relation": "implements",
+      "target": "CarouselPrevious",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-carousel.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Carousel\ndescription: A carousel with motion and swipe built using Embla.\nbase: base\ncomponent: true\nlinks:\n  doc: https://www.embla-carousel.com/get-started/react\n  api: https://www.embla-carousel.com/api\n---\n\n<ComponentPreview\n  styleName=\"base-nova\"\n  name=\"carousel-demo\"\n  previewClassName=\"h-80 sm:h-[32rem]\"\n/>\n\n## About\n\nThe carousel component is built using the [Embla Carousel](https://www.embla-carousel.com/) library.\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add carousel\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install embla-carousel-react\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"carousel\"\n  title=\"components/ui/carousel.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>"
+    },
+    {
+      "idx": 8,
+      "source": "CheckboxRtl",
+      "relation": "calls",
+      "target": "Checkbox",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-checkbox.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Checkbox\ndescription: A control that allows the user to toggle between checked and not checked.\nbase: base\ncomponent: true\nlinks:\n  doc: https://base-ui.com/react/components/checkbox\n  api: https://base-ui.com/react/components/checkbox#api-reference\n---\n\n<ComponentPreview\n  styleName=\"base-nova\"\n  name=\"checkbox-demo\"\n  previewClassName=\"h-80\"\n/>\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add checkbox\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-ui/react\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"checkbox\"\n  title=\"components/ui/checkbox.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n"
+    },
+    {
+      "idx": 9,
+      "source": "CommandDemo",
+      "relation": "implements",
+      "target": "CommandGroup",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-command.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Command\ndescription: Command menu for search and quick actions.\nbase: base\ncomponent: true\nlinks:\n  doc: https://github.com/dip/cmdk\n---\n\n<ComponentPreview\n  styleName=\"base-nova\"\n  name=\"command-demo\"\n  align=\"start\"\n  previewClassName=\"h-[24.5rem]\"\n/>\n\n## About\n\nThe `<Command />` component uses the [`cmdk`](https://github.com/dip/cmdk) component by [Dip](https://www.dip.org/).\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add command\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install cmdk\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"command\"\n  title=\"components/ui/command.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n"
+    },
+    {
+      "idx": 10,
+      "source": "CommandWithGroups",
+      "relation": "implements",
+      "target": "CommandShortcut",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-command.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Command\ndescription: Command menu for search and quick actions.\nbase: base\ncomponent: true\nlinks:\n  doc: https://github.com/dip/cmdk\n---\n\n<ComponentPreview\n  styleName=\"base-nova\"\n  name=\"command-demo\"\n  align=\"start\"\n  previewClassName=\"h-[24.5rem]\"\n/>\n\n## About\n\nThe `<Command />` component uses the [`cmdk`](https://github.com/dip/cmdk) component by [Dip](https://www.dip.org/).\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add command\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install cmdk\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"command\"\n  title=\"components/ui/command.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n"
+    },
+    {
+      "idx": 11,
+      "source": "DatePickerRtl",
+      "relation": "implements",
+      "target": "Popover",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-date-picker.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Date Picker\ndescription: A date picker component with range and presets.\nbase: base\ncomponent: true\n---\n\n<ComponentPreview styleName=\"base-nova\" name=\"date-picker-demo\" />\n\n## Installation\n\nThe Date Picker is built using a composition of the `<Popover />` and the `<Calendar />` components.\n\nSee installation instructions for the [Popover](/docs/components/base/popover#installation) and the [Calendar](/docs/components/base/calendar#installation) components.\n\n## Usage\n\n```tsx showLineNumbers title=\"components/example-date-picker.tsx\"\n\"use client\"\n\nimport * as React from \"react\"\nimport { format } from \"date-fns\"\nimport { Calendar as CalendarIcon } from \"lucide-react\"\n\nimport { cn } from \"@/lib/utils\"\nimport { Button } from \"@/components/ui/button\"\nimport { Calendar } from \"@/components/ui/calendar\"\nimport {\n  Popover,\n  PopoverContent,\n  PopoverTrigger,\n} from \"@/components/ui/popover\"\n\nexport function DatePickerDemo() {\n  const [date, setDate] = React.useState<Date>()\n\n  return (\n    <Popover>\n      <PopoverTrigger\n        render={\n          <Button\n            variant=\"outline\"\n            data-empty={!date}\n            className=\"justify-start text-left font-normal data-["
+    },
+    {
+      "idx": 12,
+      "source": "DialogDemo",
+      "relation": "implements",
+      "target": "DialogContent",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-dialog.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Dialog\ndescription: A window overlaid on either the primary window or another dialog window, rendering the content underneath inert.\nfeatured: true\nbase: base\ncomponent: true\nlinks:\n  doc: https://base-ui.com/react/components/dialog\n  api: https://base-ui.com/react/components/dialog#api-reference\n---\n\n<ComponentPreview\n  styleName=\"base-nova\"\n  name=\"dialog-demo\"\n  description=\"A dialog for editing profile details.\"\n/>\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add dialog\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-ui/react\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"dialog\"\n  title=\"components/ui/dialog.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage"
+    },
+    {
+      "idx": 13,
+      "source": "CardRtl",
+      "relation": "calls",
+      "target": "CardHeader",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-direction.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Direction\ndescription: A provider component that sets the text direction for your application.\nbase: base\ncomponent: true\nlinks:\n  doc: https://base-ui.com/react/utils/direction-provider\n  api: https://base-ui.com/react/utils/direction-provider#api-reference\n---\n\nThe `DirectionProvider` component is used to set the text direction (`ltr` or `rtl`) for your application. This is essential for supporting right-to-left languages like Arabic, Hebrew, and Persian.\n\nHere's a preview of the component in RTL mode. Use the language selector to switch the language. To see more examples, look for the RTL section on components pages.\n\n<ComponentPreview\n  styleName=\"base-nova\"\n  name=\"card-rtl\"\n  direction=\"rtl\"\n  previewClassName=\"h-auto\"\n  hideCode\n/>\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add direction\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-ui/react\n```\n\n<Step>Copy and paste the following code into yo"
+    },
+    {
+      "idx": 14,
+      "source": "EmptyMuted",
+      "relation": "implements",
+      "target": "EmptyContent",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-empty.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Empty\ndescription: Use the Empty component to display an empty state.\nbase: base\ncomponent: true\n---\n\n<ComponentPreview\n  styleName=\"base-nova\"\n  name=\"empty-demo\"\n  previewClassName=\"h-96 p-0\"\n/>\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add empty\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"empty\"\n  title=\"components/ui/empty.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n\n```tsx\nimport {\n  Empty,\n  EmptyContent,\n  EmptyDescription,\n  EmptyHeader,\n  EmptyMedia,\n  EmptyTitle,\n} from \"@/components/ui/empty\""
+    },
+    {
+      "idx": 15,
+      "source": "InputGroupButton",
+      "relation": "shares_data_with",
+      "target": "CopyIcon",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-input-group.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Input Group\ndescription: Add addons, buttons, and helper content to inputs.\nbase: base\ncomponent: true\n---\n\nimport { IconInfoCircle } from \"@tabler/icons-react\"\n\n<ComponentPreview\n  styleName=\"base-nova\"\n  name=\"input-group-demo\"\n  previewClassName=\"h-[26rem]\"\n/>\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add input-group\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"input-group\"\n  title=\"components/ui/input-group.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n\n```tsx showLineNumbers\nimport {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupButton,\n  InputGroupInput,\n  InputGroupText,"
+    },
+    {
+      "idx": 16,
+      "source": "MenubarIcons",
+      "relation": "calls",
+      "target": "MenubarSeparator",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-menubar.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Menubar\ndescription: A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.\nbase: base\ncomponent: true\nlinks:\n  doc: https://base-ui.com/react/components/menubar\n  api: https://base-ui.com/react/components/menubar#api-reference\n---\n\n<ComponentPreview styleName=\"base-nova\" name=\"menubar-demo\" />\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add menubar\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-ui/react\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"menubar\"\n  title=\"components/ui/menubar.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n\n```tsx showLineNumbers\nimport {\n  Menubar,\n  MenubarContent,"
+    },
+    {
+      "idx": 17,
+      "source": "PaginationDemo",
+      "relation": "calls",
+      "target": "PaginationPrevious",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-pagination.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Pagination\ndescription: Pagination with page navigation, next and previous links.\nbase: base\ncomponent: true\n---\n\n<ComponentPreview styleName=\"base-nova\" name=\"pagination-demo\" />\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add pagination\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"pagination\"\n  title=\"components/ui/pagination.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n\n```tsx showLineNumbers\nimport {\n  Pagination,\n  PaginationContent,\n  PaginationEllipsis,\n  PaginationItem,\n  PaginationLink,\n  PaginationNext,\n  PaginationPrevious,\n} from \"@/components/ui/pagination\"\n```\n\n```tsx showLineNumbers"
+    },
+    {
+      "idx": 18,
+      "source": "FieldContent",
+      "relation": "shares_data_with",
+      "target": "FieldLabel",
+      "confidence": "INFERRED",
+      "source_file": "docs-components-radio-group.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Radio Group\ndescription: A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time.\nbase: base\ncomponent: true\nlinks:\n  doc: https://base-ui.com/react/components/radio-group\n  api: https://base-ui.com/react/components/radio-group#api-reference\n---\n\n<ComponentPreview styleName=\"base-nova\" name=\"radio-group-demo\" />\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add radio-group\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-ui/react\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"radio-group\"\n  title=\"components/ui/radio-group.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n\n```tsx showLineNumbers\nimport { Label } from \"@/components/ui/label\"\nimport { RadioGroup, RadioGroupItem } from \"@/components/ui/radio-"
+    },
+    {
+      "idx": 19,
+      "source": "RadioGroupDisabled",
+      "relation": "calls",
+      "target": "RadioGroup",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-radio-group.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Radio Group\ndescription: A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time.\nbase: base\ncomponent: true\nlinks:\n  doc: https://base-ui.com/react/components/radio-group\n  api: https://base-ui.com/react/components/radio-group#api-reference\n---\n\n<ComponentPreview styleName=\"base-nova\" name=\"radio-group-demo\" />\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add radio-group\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-ui/react\n```\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"radio-group\"\n  title=\"components/ui/radio-group.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n\n```tsx showLineNumbers\nimport { Label } from \"@/components/ui/label\"\nimport { RadioGroup, RadioGroupItem } from \"@/components/ui/radio-"
+    },
+    {
+      "idx": 20,
+      "source": "Sidebar",
+      "relation": "shares_data_with",
+      "target": "SidebarRail",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-sidebar.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Sidebar\ndescription: A composable, themeable and customizable sidebar component.\nbase: base\ncomponent: true\n---\n\nimport { ExternalLinkIcon } from \"lucide-react\"\n\n<figure className=\"flex flex-col gap-4\">\n  <ComponentPreview\n    styleName=\"base-nova\"\n    name=\"sidebar-demo\"\n    type=\"block\"\n    className=\"w-full\"\n  />\n  <figcaption className=\"text-center text-sm text-gray-500\">\n    A sidebar that collapses to icons.\n  </figcaption>\n</figure>\n\nSidebars are one of the most complex components to build. They are central\nto any application and often contain a lot of moving parts.\n\nWe now have a solid foundation to build on top of. Composable. Themeable.\nCustomizable.\n\n[Browse the Blocks Library](/blocks).\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add sidebar\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<ComponentSource\n  name=\"sidebar\"\n  title=\"components/ui/sidebar.tsx\"\n  styleName=\"base-nova\"\n/>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n\n```tsx showLineNumbers title=\"app/layout.tsx\""
+    },
+    {
+      "idx": 21,
+      "source": "Spinner",
+      "relation": "calls",
+      "target": "LoaderIcon (lucide-react)",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-spinner.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Spinner\ndescription: An indicator that can be used to show a loading state.\nbase: base\ncomponent: true\n---\n\n<ComponentPreview styleName=\"base-nova\" name=\"spinner-demo\" />\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add spinner\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"spinner\"\n  title=\"components/ui/spinner.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n\n```tsx\nimport { Spinner } from \"@/components/ui/spinner\"\n```\n\n```tsx\n<Spinner />\n```\n\n## Customization\n\nYou can replace the default spinner icon with any other icon by editing the `Spinner` component.\n\n<ComponentPreview styleName=\"base-nova\" name=\"spinner-custom\" />"
+    },
+    {
+      "idx": 22,
+      "source": "TextareaDisabled",
+      "relation": "implements",
+      "target": "Field",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-textarea.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Textarea\ndescription: Displays a form textarea or a component that looks like a textarea.\nbase: base\ncomponent: true\n---\n\n<ComponentPreview\n  styleName=\"base-nova\"\n  name=\"textarea-demo\"\n  previewClassName=\"*:max-w-xs\"\n/>\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n```bash\nnpx shadcn@latest add textarea\n```\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Copy and paste the following code into your project.</Step>\n\n<ComponentSource\n  name=\"textarea\"\n  title=\"components/ui/textarea.tsx\"\n  styleName=\"base-nova\"\n/>\n\n<Step>Update the import paths to match your project setup.</Step>\n\n</Steps>\n\n</TabsContent>\n\n</CodeTabs>\n\n## Usage\n\n```tsx\nimport { Textarea } from \"@/components/ui/textarea\"\n```\n\n```tsx\n<Textarea />\n```\n\n## Examples"
+    },
+    {
+      "idx": 23,
+      "source": "Button",
+      "relation": "semantically_similar_to",
+      "target": "Button",
+      "confidence": "AMBIGUOUS",
+      "source_file": "docs-components-tooltip.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Tooltip\ndescription: A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.\nbase: base\ncomponent: true\nlinks:\n  doc: https://base-ui.com/react/components/tooltip\n  api: https://base-ui.com/react/components/tooltip#api-reference\n---\n\n<ComponentPreview styleName=\"base-nova\" name=\"tooltip-demo\" />\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Run the following command:</Step>\n\n```bash\nnpx shadcn@latest add tooltip\n```\n\n<Step>Add the `TooltipProvider` to the root of your app.</Step>\n\n```tsx title=\"app/layout.tsx\" showLineNumbers {1,7}\nimport { TooltipProvider } from \"@/components/ui/tooltip\"\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"en\">\n      <body>\n        <TooltipProvider>{children}</TooltipProvider>\n      </body>\n    </html>\n  )\n}\n```\n\n</Steps>\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-u"
+    },
+    {
+      "idx": 24,
+      "source": "TooltipDemo",
+      "relation": "implements",
+      "target": "TooltipTrigger",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-components-tooltip.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Tooltip\ndescription: A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.\nbase: base\ncomponent: true\nlinks:\n  doc: https://base-ui.com/react/components/tooltip\n  api: https://base-ui.com/react/components/tooltip#api-reference\n---\n\n<ComponentPreview styleName=\"base-nova\" name=\"tooltip-demo\" />\n\n## Installation\n\n<CodeTabs>\n\n<TabsList>\n  <TabsTrigger value=\"cli\">Command</TabsTrigger>\n  <TabsTrigger value=\"manual\">Manual</TabsTrigger>\n</TabsList>\n<TabsContent value=\"cli\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Run the following command:</Step>\n\n```bash\nnpx shadcn@latest add tooltip\n```\n\n<Step>Add the `TooltipProvider` to the root of your app.</Step>\n\n```tsx title=\"app/layout.tsx\" showLineNumbers {1,7}\nimport { TooltipProvider } from \"@/components/ui/tooltip\"\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"en\">\n      <body>\n        <TooltipProvider>{children}</TooltipProvider>\n      </body>\n    </html>\n  )\n}\n```\n\n</Steps>\n\n</TabsContent>\n\n<TabsContent value=\"manual\">\n\n<Steps className=\"mb-0 pt-2\">\n\n<Step>Install the following dependencies:</Step>\n\n```bash\nnpm install @base-u"
+    },
+    {
+      "idx": 25,
+      "source": "DropdownMenu",
+      "relation": "semantically_similar_to",
+      "target": "DropdownMenu",
+      "confidence": "AMBIGUOUS",
+      "source_file": "docs-dark-mode-astro.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Astro\ndescription: Adding dark mode to your astro app.\n---\n\n## Create an inline theme script\n\n```astro title=\"src/pages/index.astro\"\n---\nimport '../styles/globals.css'\n---\n\n<script is:inline>\n\tconst getThemePreference = () => {\n\t\tif (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {\n\t\t\treturn localStorage.getItem('theme');\n\t\t}\n\t\treturn window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';\n\t};\n\tconst isDark = getThemePreference() === 'dark';\n\tdocument.documentElement.classList[isDark ? 'add' : 'remove']('dark');\n\n\tif (typeof localStorage !== 'undefined') {\n\t\tconst observer = new MutationObserver(() => {\n\t\t\tconst isDark = document.documentElement.classList.contains('dark');\n\t\t\tlocalStorage.setItem('theme', isDark ? 'dark' : 'light');\n\t\t});\n\t\tobserver.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });\n\t}\n</script>\n\n<html lang=\"en\">\n\t<body>\n      <h1>Astro</h1>\n\t</body>\n</html>\n```\n\n## Add a mode toggle\n\n```tsx title=\"src/components/ModeToggle.tsx\"\nimport * as React from \"react\"\nimport { Moon, Sun } from \"lucide-react\"\n\nimport { Button } from \"@/components/ui/button\"\nimport {\n  DropdownMenu,\n  Dr"
+    },
+    {
+      "idx": 26,
+      "source": "ModeToggle",
+      "relation": "references",
+      "target": "useTheme",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-dark-mode-remix.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Remix\ndescription: Adding dark mode to your Remix app.\n---\n\n<Steps>\n\n## Modify your tailwind.css file\n\nAdd `:root[class~=\"dark\"]` to your tailwind.css file. This will allow you to use the `dark` class on your html element to apply dark mode styles.\n\n```css {2} title=\"app/tailwind.css\" showLineNumbers\n.dark,\n:root[class~=\"dark\"] {\n  ...;\n}\n```\n\n## Install remix-themes\n\nStart by installing `remix-themes`:\n\n```bash\nnpm install remix-themes\n```\n\n## Create a session storage and theme session resolver\n\n```tsx title=\"app/sessions.server.tsx\" showLineNumbers\nimport { createThemeSessionResolver } from \"remix-themes\"\n\n// You can default to 'development' if process.env.NODE_ENV is not set\nconst isProduction = process.env.NODE_ENV === \"production\"\n\nconst sessionStorage = createCookieSessionStorage({\n  cookie: {\n    name: \"theme\",\n    path: \"/\",\n    httpOnly: true,\n    sameSite: \"lax\",\n    secrets: [\"s3cr3t\"],\n    // Set domain and secure only if in production\n    ...(isProduction\n      ? { domain: \"your-production-domain.com\", secure: true }\n      : {}),\n  },\n})\n\nexport const themeSessionResolver = createThemeSessionResolver(sessionStorage)\n```\n\n## Set up Remix Themes\n\nAdd the `Them"
+    },
+    {
+      "idx": 27,
+      "source": "BugReportForm Component",
+      "relation": "references",
+      "target": "UI Spinner Component",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-forms-next.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Next.js\ndescription: Build forms in React using useActionState and Server Actions.\n---\n\nimport { InfoIcon } from \"lucide-react\"\n\nIn this guide, we will take a look at building forms with Next.js using `useActionState` and Server Actions. We'll cover building forms, validation, pending states, accessibility, and more.\n\n## Demo\n\nWe are going to build the following form with a simple text input and a textarea. On submit, we'll use a server action to validate the form data and update the form state.\n\n<ComponentPreview\n  styleName=\"new-york-v4\"\n  name=\"form-next-demo\"\n  className=\"[&_.preview]:h-[700px] [&_pre]:h-[700px]!\"\n/>\n\n<Callout icon={<InfoIcon />}>\n  **Note:** The examples on this page intentionally disable browser validation\n  to show how schema validation and form errors work in server actions.\n</Callout>\n\n## Approach\n\nThis form leverages Next.js and React's built-in capabilities for form handling. We'll build our form using the `<Field />` component, which gives you **complete flexibility over the markup and styling**.\n\n- Uses Next.js `<Form />` component for navigation and progressive enhancement.\n- `<Field />` components for building accessible forms.\n- `useActio"
+    },
+    {
+      "idx": 28,
+      "source": "BugReportForm Component",
+      "relation": "calls",
+      "target": "InputGroupText Component",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-forms-react-hook-form.md",
+      "source_location": null,
+      "evidence": "---\ntitle: React Hook Form\ndescription: Build forms in React using React Hook Form and Zod.\nlinks:\n  doc: https://react-hook-form.com\n---\n\nimport { InfoIcon } from \"lucide-react\"\n\nIn this guide, we will take a look at building forms with React Hook Form. We'll cover building forms with the `<Field />` component, adding schema validation using Zod, error handling, accessibility, and more.\n\n## Demo\n\nWe are going to build the following form. It has a simple text input and a textarea. On submit, we'll validate the form data and display any errors.\n\n<Callout icon={<InfoIcon />}>\n  **Note:** For the purpose of this demo, we have intentionally disabled browser\n  validation to show how schema validation and form errors work in React Hook\n  Form. It is recommended to add basic browser validation in your production\n  code.\n</Callout>\n\n<ComponentPreview\n  styleName=\"new-york-v4\"\n  name=\"form-rhf-demo\"\n  className=\"sm:[&_.preview]:h-[700px]\"\n  chromeLessOnMobile\n/>\n\n## Approach\n\nThis form leverages React Hook Form for performant, flexible form handling. We'll build our form using the `<Field />` component, which gives you **complete flexibility over the markup and styling**.\n\n- Uses React Hook"
+    },
+    {
+      "idx": 29,
+      "source": "FormRhfTextarea Component",
+      "relation": "references",
+      "target": "formSchema (Zod)",
+      "confidence": "AMBIGUOUS",
+      "source_file": "docs-forms-react-hook-form.md",
+      "source_location": null,
+      "evidence": "---\ntitle: React Hook Form\ndescription: Build forms in React using React Hook Form and Zod.\nlinks:\n  doc: https://react-hook-form.com\n---\n\nimport { InfoIcon } from \"lucide-react\"\n\nIn this guide, we will take a look at building forms with React Hook Form. We'll cover building forms with the `<Field />` component, adding schema validation using Zod, error handling, accessibility, and more.\n\n## Demo\n\nWe are going to build the following form. It has a simple text input and a textarea. On submit, we'll validate the form data and display any errors.\n\n<Callout icon={<InfoIcon />}>\n  **Note:** For the purpose of this demo, we have intentionally disabled browser\n  validation to show how schema validation and form errors work in React Hook\n  Form. It is recommended to add basic browser validation in your production\n  code.\n</Callout>\n\n<ComponentPreview\n  styleName=\"new-york-v4\"\n  name=\"form-rhf-demo\"\n  className=\"sm:[&_.preview]:h-[700px]\"\n  chromeLessOnMobile\n/>\n\n## Approach\n\nThis form leverages React Hook Form for performant, flexible form handling. We'll build our form using the `<Field />` component, which gives you **complete flexibility over the markup and styling**.\n\n- Uses React Hook"
+    },
+    {
+      "idx": 30,
+      "source": "Astro Installation",
+      "relation": "references",
+      "target": "DropdownMenu",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-installation-astro.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Astro\ndescription: Adding dark mode to your astro app.\n---\n\n## Create an inline theme script\n\n```astro title=\"src/pages/index.astro\"\n---\nimport '../styles/globals.css'\n---\n\n<script is:inline>\n\tconst getThemePreference = () => {\n\t\tif (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {\n\t\t\treturn localStorage.getItem('theme');\n\t\t}\n\t\treturn window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';\n\t};\n\tconst isDark = getThemePreference() === 'dark';\n\tdocument.documentElement.classList[isDark ? 'add' : 'remove']('dark');\n\n\tif (typeof localStorage !== 'undefined') {\n\t\tconst observer = new MutationObserver(() => {\n\t\t\tconst isDark = document.documentElement.classList.contains('dark');\n\t\t\tlocalStorage.setItem('theme', isDark ? 'dark' : 'light');\n\t\t});\n\t\tobserver.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });\n\t}\n</script>\n\n<html lang=\"en\">\n\t<body>\n      <h1>Astro</h1>\n\t</body>\n</html>\n```\n\n## Add a mode toggle\n\n```tsx title=\"src/components/ModeToggle.tsx\"\nimport * as React from \"react\"\nimport { Moon, Sun } from \"lucide-react\"\n\nimport { Button } from \"@/components/ui/button\"\nimport {\n  DropdownMenu,\n  Dr"
+    },
+    {
+      "idx": 31,
+      "source": "Gatsby",
+      "relation": "shares_data_with",
+      "target": "Tailwind CSS",
+      "confidence": "INFERRED",
+      "source_file": "docs-installation-gatsby.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Gatsby\ndescription: Install and configure shadcn/ui for Gatsby.\n---\n\n<Callout className=\"mb-6 border-blue-600 bg-blue-50 dark:border-blue-900 dark:bg-blue-950 [&_code]:bg-blue-100 dark:[&_code]:bg-blue-900\">\n  **Note:** This guide is for Gatsby with Tailwind CSS v3. For new projects, we\n  recommend using one of the other frameworks that support Tailwind CSS v4.\n</Callout>\n\n<Steps>\n\n### Create project\n\nStart by creating a new Gatsby project using `create-gatsby`:\n\n```bash\nnpm init gatsby\n```\n\n### Configure your Gatsby project to use TypeScript and Tailwind CSS\n\nYou will be asked a few questions to configure your project:\n\n```txt showLineNumbers\n✔ What would you like to call your site?\n· your-app-name\n✔ What would you like to name the folder where your site will be created?\n· your-app-name\n✔ Will you be using JavaScript or TypeScript?\n· TypeScript\n✔ Will you be using a CMS?\n· Choose whatever you want\n✔ Would you like to install a styling system?\n· Tailwind CSS\n✔ Would you like to install additional features with other plugins?\n· Choose whatever you want\n✔ Shall we do this? (Y/n) · Yes\n```\n\n### Edit tsconfig.json file\n\nAdd the following code to the `tsconfig.json` file to r"
+    },
+    {
+      "idx": 32,
+      "source": "VS Code",
+      "relation": "references",
+      "target": ".mcp.json",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-mcp.md",
+      "source_location": null,
+      "evidence": "---\ntitle: MCP Server\ndescription: Use the shadcn MCP server to browse, search, and install components from registries.\n---\n\nThe shadcn MCP Server allows AI assistants to interact with items from registries. You can browse available components, search for specific ones, and install them directly into your project using natural language.\n\nFor example, you can ask an AI assistant to \"Build a landing page using components from the acme registry\" or \"Find me a login form from the shadcn registry\".\n\nRegistries are configured in your project's `components.json` file.\n\n```json title=\"components.json\" showLineNumbers\n{\n  \"registries\": {\n    \"@acme\": \"https://acme.com/r/{name}.json\"\n  }\n}\n```\n\n---\n\n## Quick Start\n\nSelect your MCP client and follow the instructions to configure the shadcn MCP server. If you'd like to do it manually, see the [Configuration](#configuration) section.\n\n<Tabs defaultValue=\"claude\">\n  <TabsList>\n    <TabsTrigger value=\"claude\">Claude Code</TabsTrigger>\n    <TabsTrigger value=\"cursor\">Cursor</TabsTrigger>\n    <TabsTrigger value=\"vscode\">VS Code</TabsTrigger>\n    <TabsTrigger value=\"codex\">Codex</TabsTrigger>\n    <TabsTrigger value=\"opencode\">OpenCode</TabsTrigger>\n"
+    },
+    {
+      "idx": 33,
+      "source": "Hello World Block",
+      "relation": "shares_data_with",
+      "target": "Hello Config",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-registry-faq.md",
+      "source_location": null,
+      "evidence": "---\ntitle: FAQ\ndescription: Frequently asked questions about running a registry.\n---\n\n## Frequently asked questions\n\n### What does a complex component look like?\n\nHere's an example of a complex component that installs a page, two components, a hook, a format-date utils and a config file.\n\n```json showLineNumbers\n{\n  \"$schema\": \"https://ui.shadcn.com/schema/registry-item.json\",\n  \"name\": \"hello-world\",\n  \"title\": \"Hello World\",\n  \"type\": \"registry:block\",\n  \"description\": \"A complex hello world component\",\n  \"files\": [\n    {\n      \"path\": \"registry/new-york/hello-world/page.tsx\",\n      \"type\": \"registry:page\",\n      \"target\": \"app/hello/page.tsx\"\n    },\n    {\n      \"path\": \"registry/new-york/hello-world/components/hello-world.tsx\",\n      \"type\": \"registry:component\"\n    },\n    {\n      \"path\": \"registry/new-york/hello-world/components/formatted-message.tsx\",\n      \"type\": \"registry:component\"\n    },\n    {\n      \"path\": \"registry/new-york/hello-world/hooks/use-hello.ts\",\n      \"type\": \"registry:hook\"\n    },\n    {\n      \"path\": \"registry/new-york/hello-world/lib/format-date.ts\",\n      \"type\": \"registry:lib\"\n    },\n    {\n      \"path\": \"registry/new-york/hello-world/hello.config.ts\",\n   "
+    },
+    {
+      "idx": 34,
+      "source": "devDependencies (registry-item.json)",
+      "relation": "implements",
+      "target": "registry-item.json",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-registry-registry-item-json.md",
+      "source_location": null,
+      "evidence": "---\ntitle: registry-item.json\ndescription: Specification for registry items.\n---\n\nThe `registry-item.json` schema is used to define your custom registry items.\n\n```json title=\"registry-item.json\" showLineNumbers\n{\n  \"$schema\": \"https://ui.shadcn.com/schema/registry-item.json\",\n  \"name\": \"hello-world\",\n  \"type\": \"registry:block\",\n  \"title\": \"Hello World\",\n  \"description\": \"A simple hello world component.\",\n  \"registryDependencies\": [\n    \"button\",\n    \"@acme/input-form\",\n    \"https://example.com/r/foo\"\n  ],\n  \"dependencies\": [\"is-even@3.0.0\", \"motion\"],\n  \"devDependencies\": [\"tw-animate-css\"],\n  \"files\": [\n    {\n      \"path\": \"registry/new-york/hello-world/hello-world.tsx\",\n      \"type\": \"registry:component\"\n    },\n    {\n      \"path\": \"registry/new-york/hello-world/use-hello-world.ts\",\n      \"type\": \"registry:hook\"\n    }\n  ],\n  \"cssVars\": {\n    \"theme\": {\n      \"font-heading\": \"Poppins, sans-serif\"\n    },\n    \"light\": {\n      \"brand\": \"oklch(0.205 0.015 18)\"\n    },\n    \"dark\": {\n      \"brand\": \"oklch(0.205 0.015 18)\"\n    }\n  }\n}\n```\n\n<div className=\"mt-6 flex items-center gap-2\">\n  <Link href=\"/docs/registry/examples\">See more examples</Link>\n</div>\n\n## Definitions\n\nYou can see the "
+    },
+    {
+      "idx": 35,
+      "source": "Tailwind v4 Upgrade Guide",
+      "relation": "references",
+      "target": "@tailwindcss/upgrade@next",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-tailwind-v4.md",
+      "source_location": null,
+      "evidence": "---\ntitle: Tailwind v4\ndescription: How to use shadcn/ui with Tailwind v4 and React 19.\n---\n\nIt’s here! Tailwind v4 and React 19. Ready for you to try out. You can start using it today.\n\n## What's New\n\n- The CLI can now initialize projects with Tailwind v4.\n- Full support for the new `@theme` directive and `@theme inline` option.\n- All components are updated for Tailwind v4 and React 19.\n- We’ve removed the forwardRefs and adjusted the types.\n- Every primitive now has a `data-slot` attribute for styling.\n- We've fixed and cleaned up the style of the components.\n- We're deprecating the `toast` component in favor of `sonner`.\n- Buttons now use the default cursor.\n- We're deprecating the `default` style. New projects will use `new-york`.\n- HSL colors are now converted to OKLCH.\n\n**Note: this is non-breaking. Your existing apps with Tailwind v3 and React 18 will still work. When you add new components, they'll still be in v3 and React 18 until you upgrade. Only new projects start with Tailwind v4 and React 19.**\n\n## Try It Out\n\nYou can start using Tailwind v4 + React 19 today. See the framework specific guides below for how to get started.\n\n<div className=\"mt-8 grid gap-4 sm:grid-cols-"
+    },
+    {
+      "idx": 36,
+      "source": "AlertDialog",
+      "relation": "shares_data_with",
+      "target": "AlertDialogTitle",
+      "confidence": "INFERRED",
+      "source_file": "docs/components/alert-dialog.md",
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 37,
+      "source": "AlertDialogDemo",
+      "relation": "calls",
+      "target": "AlertDialogContent",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/components/alert-dialog.md",
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 38,
+      "source": "AlertBasic",
+      "relation": "calls",
+      "target": "CheckCircle2Icon",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/components/alert.md",
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 39,
+      "source": "ContextMenuDemo",
+      "relation": "calls",
+      "target": "ContextMenuSeparator",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/components/context-menu.md",
+      "source_location": null,
+      "evidence": ""
+    }
+  ]
+}

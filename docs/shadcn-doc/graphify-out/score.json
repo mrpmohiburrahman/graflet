@@ -1,0 +1,76 @@
+{
+  "graphscore": 95.1,
+  "band": "great",
+  "axes": {
+    "truthful": 97.3,
+    "complete": 100.0,
+    "tidy": 82.1
+  },
+  "weights": {
+    "truthful": 0.5,
+    "complete": 0.3,
+    "tidy": 0.2
+  },
+  "detail": {
+    "truthful": {
+      "supported": 36,
+      "unsupported": 1,
+      "unclear": 3,
+      "graded": 37,
+      "made_up": [
+        {
+          "source": "migrate rtl command",
+          "relation": "conceptually_related_to",
+          "target": "Accordion Component",
+          "confidence": "INFERRED",
+          "source_file": "docs-cli.md",
+          "why": "Source is the CLI `init` command docs; there is no relationship stated or implied between a 'migrate rtl command' and the Accordion component. Fabricated INFERRED edge."
+        }
+      ]
+    },
+    "complete": {
+      "total_facts": 17,
+      "present": 17,
+      "missed": []
+    },
+    "tidy": {
+      "nodes": 1224,
+      "edges": 2857,
+      "mean_degree": 4.67,
+      "density": 0.00382,
+      "components": 3,
+      "largest_component_frac": 0.855,
+      "orphan_nodes": 0,
+      "orphan_frac": 0.0,
+      "self_loops": 0,
+      "dangling_edges": 0,
+      "duplicate_label_groups": 131,
+      "extra_duplicate_nodes": 345,
+      "duplicate_frac": 0.282,
+      "top_hub_edge_share": 0.076,
+      "distinct_relations": 8,
+      "relation_cardinality": 0.003,
+      "modularity": 0.791,
+      "communities": 46,
+      "confidence": {
+        "EXTRACTED": 2673,
+        "INFERRED": 170,
+        "AMBIGUOUS": 14
+      }
+    }
+  },
+  "improve": {
+    "worst_files": [
+      {
+        "file": "docs-cli.md",
+        "made_up": 1,
+        "missed": 0
+      }
+    ],
+    "structural": [
+      "345 duplicate dots (28%) — the same thing named slightly differently. Use consistent naming/casing so entity-resolution merges them."
+    ]
+  },
+  "judge_model": "tencent/hy3:free (Hermes)",
+  "graph_json": "/Users/mrp/Documents/1-Projects/webscraping/shadcn-doc-scraper/docs/graphify-out/graph.json"
+}

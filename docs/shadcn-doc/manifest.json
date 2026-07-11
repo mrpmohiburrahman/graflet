@@ -1,0 +1,779 @@
+{
+  "entries": {
+    "https://ui.shadcn.com/": {
+      "path": "index.md",
+      "sha256": "da73912cd191b41585440249602b3acf6a937e4c9062473d796628ad2812769e",
+      "bytes": 10999,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.283136+06:00"
+    },
+    "https://ui.shadcn.com/docs": {
+      "path": "docs.md",
+      "sha256": "da73912cd191b41585440249602b3acf6a937e4c9062473d796628ad2812769e",
+      "bytes": 10999,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.282487+06:00"
+    },
+    "https://ui.shadcn.com/docs/changelog": {
+      "path": "docs-changelog.md",
+      "sha256": "5f0b08936d41d629178b623ec35976734b81d06efeb1da410300dc0d509510ea",
+      "bytes": 1732,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.282787+06:00"
+    },
+    "https://ui.shadcn.com/docs/cli": {
+      "path": "docs-cli.md",
+      "sha256": "b55da553a374e11b208c6f19a8de4aa8e37d545c2d422c3e0211a93f026bd2d0",
+      "bytes": 13599,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.282633+06:00"
+    },
+    "https://ui.shadcn.com/docs/components-json": {
+      "path": "docs-components-json.md",
+      "sha256": "8dd04ec57364664c35a69679de426ae6e74ee24420a15fcee914cd09c77f4106",
+      "bytes": 9025,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:15.822693+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/accordion": {
+      "path": "docs-components-accordion.md",
+      "sha256": "685ac20b9d99bd9aad67ba4eb35921eca180ed37ce24c15fa67b6cf7a93519d5",
+      "bytes": 3376,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.282418+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/alert": {
+      "path": "docs-components-alert.md",
+      "sha256": "4d19793e6bf73e9304f5e54a5db1d0169a3a778a6a46743a13ab7a8384ce059b",
+      "bytes": 3339,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.283254+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/alert-dialog": {
+      "path": "docs-components-alert-dialog.md",
+      "sha256": "1e984127140f243b78c180ce1a29ef724a1ccf7de8b12cc293b32fab4ccce034",
+      "bytes": 4189,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.282231+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/aspect-ratio": {
+      "path": "docs-components-aspect-ratio.md",
+      "sha256": "5366e9fa411604e8a3f8c970ccf990f65a48ae39931fd93866cf63c141a788aa",
+      "bytes": 2180,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.28271+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/avatar": {
+      "path": "docs-components-avatar.md",
+      "sha256": "99ee48780a5f7dfa7d9e883f78aba9b4c02fd12e58d2e4691eee64e88ac05363",
+      "bytes": 5229,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.283386+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/badge": {
+      "path": "docs-components-badge.md",
+      "sha256": "f39043195d5cde80a02b041056da6d1bf3185aa11297b331de5d63c4bde48bef",
+      "bytes": 2575,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:22.363316+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/breadcrumb": {
+      "path": "docs-components-breadcrumb.md",
+      "sha256": "0217d3857ff7f0b6f791dc9efad8a3804624c7e5f61cc50fa792df3a4e4d3d7e",
+      "bytes": 4725,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.284105+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/button": {
+      "path": "docs-components-button.md",
+      "sha256": "59df1b86377111cc794b6ac41ac54ad5d556f492c8a4601b29f9420f13f98722",
+      "bytes": 4221,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:22.92582+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/button-group": {
+      "path": "docs-components-button-group.md",
+      "sha256": "85e414d7264079c38e8e0c622ff4bbcd6f2156ea3b074d5d3c59f1188f1aaebe",
+      "bytes": 5524,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.283512+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/calendar": {
+      "path": "docs-components-calendar.md",
+      "sha256": "3ec6de943b6c0138a5954948a57ac96f885537376261650de31e2cfb183884ae",
+      "bytes": 9607,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.284754+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/card": {
+      "path": "docs-components-card.md",
+      "sha256": "a7c04e92fc9b5bd54c54f84d8252efe9a3748b31b5f226ec1b8c31a6b109142d",
+      "bytes": 7093,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:23.218734+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/carousel": {
+      "path": "docs-components-carousel.md",
+      "sha256": "389f39d27efd19b012ad237cf7917effda1cda0ddce35f8689ebcde9eb56a3c8",
+      "bytes": 7609,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:23.521856+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/chart": {
+      "path": "docs-components-chart.md",
+      "sha256": "2d2a256a5fa2f2dd71faabde8f78108910d65a864fc708d015880bd7d45b2043",
+      "bytes": 15941,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:24.056922+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/checkbox": {
+      "path": "docs-components-checkbox.md",
+      "sha256": "af6c0a71bf0e1ca8a0939b11086bb56f463e35dc84364b1b038cec4fbbd4039a",
+      "bytes": 2764,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.284839+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/collapsible": {
+      "path": "docs-components-collapsible.md",
+      "sha256": "cbee7daeb73dba9a0b6bc11e3efc20f723d4f8ca55623263525e0f5a90991150",
+      "bytes": 2771,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:23.950385+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/combobox": {
+      "path": "docs-components-combobox.md",
+      "sha256": "6c778995f2abf4b6a85874f347771a6b6bc9a62331f9a83c6ca21790f009ff32",
+      "bytes": 7300,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.283868+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/command": {
+      "path": "docs-components-command.md",
+      "sha256": "402aa8d6e43d973074f7b09472ff720f329f9d0ef2d4a1b8ea86e3d13a9c2eef",
+      "bytes": 3066,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.285018+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/context-menu": {
+      "path": "docs-components-context-menu.md",
+      "sha256": "103b9b27c674d08e19fd0954bc2a23150102fd1dc0776c5890a0679e0e0d0523",
+      "bytes": 4546,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.284755+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/data-table": {
+      "path": "docs-components-data-table.md",
+      "etag": "W/\"a26f0a37ab4effb64ea33c3ef37664ab\"",
+      "sha256": "9217aea05b01f95c20d868624906d0489884455f0202f6d28cb1fe1606c41d66",
+      "bytes": 27659,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-11T17:36:10.821559+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/date-picker": {
+      "path": "docs-components-date-picker.md",
+      "sha256": "2970cec788ee5b67739f189f5217408195dfd4ba1a05e8b6cbb77be8cabea728",
+      "bytes": 3010,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.285174+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/dialog": {
+      "path": "docs-components-dialog.md",
+      "sha256": "2976a41902f9782695a12dcbf7250f5ef05e7b421ead6ef925cacd41e5ae4877",
+      "bytes": 2842,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.285489+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/direction": {
+      "path": "docs-components-direction.md",
+      "sha256": "8d589ea68ae084d4d25cf0077be47504b5ef773120b7107017ef0cf9516afe8f",
+      "bytes": 1993,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.285233+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/drawer": {
+      "path": "docs-components-drawer.md",
+      "sha256": "314eec67891285bd058d118e6b1f7eb83cd03a51aa52a1755191f0db678ba437",
+      "bytes": 10307,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.28653+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/dropdown-menu": {
+      "path": "docs-components-dropdown-menu.md",
+      "sha256": "d95f47bd0e47c42dbf1e3bad4b846b901312e4039b061bf0a84bae9fb242434b",
+      "bytes": 4857,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.285909+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/empty": {
+      "path": "docs-components-empty.md",
+      "sha256": "b4917d10ebd8379e6d554366b667234b351373289bc0f12de03119a2832000e4",
+      "bytes": 4636,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.286637+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/field": {
+      "path": "docs-components-field.md",
+      "sha256": "59960a33e32c48396bb8edb7036a9d18fe76da532b9adfb61bf99d7b5a4337c9",
+      "bytes": 11069,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:30.755837+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/hover-card": {
+      "path": "docs-components-hover-card.md",
+      "sha256": "5f7c160d0928a7377036a335e8573d4a4915d0a126af307ac85db10266ea835b",
+      "bytes": 2650,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:30.746515+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/input": {
+      "path": "docs-components-input.md",
+      "sha256": "54d0425c9429b4fb59b02a645b0ad92d78fffe44b383f2ff0f11b4b338a07e8f",
+      "bytes": 3792,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.28673+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/input-group": {
+      "path": "docs-components-input-group.md",
+      "sha256": "df585a3071e257b017e41af30f7fea6aa3f34d694de45e2edc466c5f12df3385",
+      "bytes": 7227,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:31.052882+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/input-otp": {
+      "path": "docs-components-input-otp.md",
+      "sha256": "d3304803d9c2554301bd9438cf202d38b24a587f97d92d7dbb3a3d1ac731d270",
+      "bytes": 3660,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.286807+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/item": {
+      "path": "docs-components-item.md",
+      "sha256": "b46f5cc17e957c4c8f2353369a961c99f45bd4be2a98f2d7c503434eeebade30",
+      "bytes": 5774,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:31.384023+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/kbd": {
+      "path": "docs-components-kbd.md",
+      "sha256": "cf6e94d277899ba37f2a70c8e9e2746661fa08ca320b1befa49809a83da0c2e8",
+      "bytes": 2297,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.287451+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/label": {
+      "path": "docs-components-label.md",
+      "sha256": "7e84849ed5c8f4101e12b79de7567c07c77871f7c59f173b4ea471b3b35d04f0",
+      "bytes": 1939,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.286986+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/menubar": {
+      "path": "docs-components-menubar.md",
+      "sha256": "9d15ab1b25a35073d6bbb216d64c9c9de23be99f3bb30bd32ddf25e3d693ebf6",
+      "bytes": 3856,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.28757+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/native-select": {
+      "path": "docs-components-native-select.md",
+      "sha256": "aa5f3cd32bee89c5bdad00b25ea34df847317bed32d733cb9c95230f7998d911",
+      "bytes": 3980,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.28731+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/navigation-menu": {
+      "path": "docs-components-navigation-menu.md",
+      "sha256": "dd2698a2b4d07e0ddecf51415640205b843464cd9802492ee58837b05df88412",
+      "bytes": 2989,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:34.324694+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/pagination": {
+      "path": "docs-components-pagination.md",
+      "sha256": "42d0dd00babd9cee98866e833f2810238c90ff3a3c0804fc45a6960c99d3af72",
+      "bytes": 4652,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.287623+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/popover": {
+      "path": "docs-components-popover.md",
+      "sha256": "1da71068a10540406b04f82217a2ba3339fb6d30f1792ad7571ad93577488fb4",
+      "bytes": 2337,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:36.221195+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/progress": {
+      "path": "docs-components-progress.md",
+      "sha256": "a5a38df28cb150062ecede85c37385a80a489cc6b3d7159f7a8991ce083f008c",
+      "bytes": 2255,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.287503+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/radio-group": {
+      "path": "docs-components-radio-group.md",
+      "sha256": "9e6974773d5e8c3757b5fb1c2cd021729eea9677096b7032e8c15ec7fdb44a87",
+      "bytes": 2922,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.287725+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/resizable": {
+      "path": "docs-components-resizable.md",
+      "sha256": "fe7fb25bca651b1593a57abd73293c98905fc9871b6ecbc1483c8950d7fdf9b9",
+      "bytes": 3445,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:37.182363+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/scroll-area": {
+      "path": "docs-components-scroll-area.md",
+      "sha256": "84c3c80c71318215afb5dfa35229ed855128a134be8107c955553bfb502cae21",
+      "bytes": 1924,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:37.660904+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/select": {
+      "path": "docs-components-select.md",
+      "sha256": "2bcb301ab04177a33fddf6b83b3ee557d769f4e4a6bafaceb5961f11537aa4e4",
+      "bytes": 3528,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.288206+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/separator": {
+      "path": "docs-components-separator.md",
+      "sha256": "320a2447709f3f32fdf0463845fed8dffd388a7a3ba22ad5e06854491ca58bd2",
+      "bytes": 1807,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:38.368973+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/sheet": {
+      "path": "docs-components-sheet.md",
+      "sha256": "16e32b6fdd4134c9803bddac340789489db634f08a68d05a49e2a11c7dfa0609",
+      "bytes": 2410,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.288489+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/sidebar": {
+      "path": "docs-components-sidebar.md",
+      "sha256": "87478d4f72aefa0fa105986fb1b2db1f40b92db9a4daa2ee63f255dda2b6bf6a",
+      "bytes": 18725,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:39.241244+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/skeleton": {
+      "path": "docs-components-skeleton.md",
+      "sha256": "64c703cca395545550fa23eed232bf9d21a28c718da9ba6729369cd27567bf4c",
+      "bytes": 1492,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:39.786608+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/slider": {
+      "path": "docs-components-slider.md",
+      "sha256": "3d6d8e46e70f143b3ee38626852b735c43c143444e784959558c6fb8bf0cbb36",
+      "bytes": 2021,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.28879+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/sonner": {
+      "path": "docs-components-sonner.md",
+      "sha256": "bedfccfd2b4278e3849e6f430e65bab2de48dc8a74b4eedac3949544361735c2",
+      "bytes": 2201,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.288856+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/spinner": {
+      "path": "docs-components-spinner.md",
+      "sha256": "25ddbb07310507771edd2c2b74ade9a06817785278e961c406283851a23d4139",
+      "bytes": 2504,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:41.65533+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/switch": {
+      "path": "docs-components-switch.md",
+      "sha256": "076437293b6492b1be13be87c7d1f0e4becec039c88be043ddb3ba8c966e225d",
+      "bytes": 2223,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.288543+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/table": {
+      "path": "docs-components-table.md",
+      "sha256": "3081c4db9a720ee39e6832edc0b43520396d84005dfd2931be1e895b4067803d",
+      "bytes": 3053,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.288617+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/tabs": {
+      "path": "docs-components-tabs.md",
+      "sha256": "6ca233b79053085d0b85186e4fa1ccf0c023d4a5348fe3389bfb87aba69609da",
+      "bytes": 2423,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.288759+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/textarea": {
+      "path": "docs-components-textarea.md",
+      "sha256": "35afddce5f9c06c2bc2b1245c1dc9456fd6b5cb143ce1e6bf600ecef14a83ad9",
+      "bytes": 2006,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.28902+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/toast": {
+      "path": "docs-components-toast.md",
+      "sha256": "59a1bf80710d15d5a16e0adad7582e8aa12941bd120f48e8455a7d315623e5e6",
+      "bytes": 214,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:38.988423+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/toggle": {
+      "path": "docs-components-toggle.md",
+      "sha256": "d9ba26500474cca7feaaef88e7a7c95d3de2fa4ec97dc992f9c73ac4ff0ffeb8",
+      "bytes": 1774,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.289101+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/toggle-group": {
+      "path": "docs-components-toggle-group.md",
+      "sha256": "1ab16f4fe48ded374f99db3906f40d22c4c0585524451f378528d9f6e652abcc",
+      "bytes": 2803,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.289299+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/tooltip": {
+      "path": "docs-components-tooltip.md",
+      "sha256": "c5ee7a2bc540086439afe0474d394f255e0ed4af1577302c9bcc6ba06bbc5e9b",
+      "bytes": 2956,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.289283+06:00"
+    },
+    "https://ui.shadcn.com/docs/components/typography": {
+      "path": "docs-components-typography.md",
+      "sha256": "94675f629d08d41feca386477ee4b66f7e3db551980ea9061ac66d2c699cfd70",
+      "bytes": 1571,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:45.763817+06:00"
+    },
+    "https://ui.shadcn.com/docs/dark-mode": {
+      "path": "docs-dark-mode.md",
+      "sha256": "d8d7f9527bdda1975290caab59129cf474069dcde44debdc56f28765f0f681ab",
+      "bytes": 16012,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:40.029237+06:00"
+    },
+    "https://ui.shadcn.com/docs/dark-mode/astro": {
+      "path": "docs-dark-mode-astro.md",
+      "sha256": "9c0016a2f18c9cf4bd5ea34fb1c137f5a6ecbff142a5205a186097a551b7fe86",
+      "bytes": 3111,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:40.279295+06:00"
+    },
+    "https://ui.shadcn.com/docs/dark-mode/next": {
+      "path": "docs-dark-mode-next.md",
+      "sha256": "120d7057240e1f2d509abfcc3193a66ed69eaa2d1e50f3c5bd91f3335146396c",
+      "bytes": 1466,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.289917+06:00"
+    },
+    "https://ui.shadcn.com/docs/dark-mode/remix": {
+      "path": "docs-dark-mode-remix.md",
+      "sha256": "d356160b97a56b8dfa39835952a08f64e2b6949c3f1d6b5f9625f260ed132fde",
+      "bytes": 4367,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:40.895637+06:00"
+    },
+    "https://ui.shadcn.com/docs/dark-mode/vite": {
+      "path": "docs-dark-mode-vite.md",
+      "sha256": "e6fe9637973b02eed5b58bbfe13742ee100cac016440a13da070f0c200def0a0",
+      "bytes": 3449,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:41.093216+06:00"
+    },
+    "https://ui.shadcn.com/docs/directory": {
+      "path": "docs-directory.md",
+      "etag": "W/\"594ae1a09e20d01c03c01db38b918861\"",
+      "sha256": "7bff5f9daeb5d64a44fd27199b4afa0c26f449c350816f83989684395392d3db",
+      "bytes": 793,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-11T17:36:09.844724+06:00"
+    },
+    "https://ui.shadcn.com/docs/figma": {
+      "path": "docs-figma.md",
+      "sha256": "f9b173a80cee77924cd7af6c7361140837f5bbc8a525c43079662c4bd87b2ef6",
+      "bytes": 2381,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.290057+06:00"
+    },
+    "https://ui.shadcn.com/docs/forms": {
+      "path": "docs-forms.md",
+      "sha256": "29593e14381e34626f8e0e9c15c59f3394b92a0623af6a6ec94585400123853c",
+      "bytes": 4857,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.289788+06:00"
+    },
+    "https://ui.shadcn.com/docs/forms/formisch": {
+      "path": "docs-forms-formisch.md",
+      "sha256": "403a8cc49b7acc7997739eef8cfb715f293e74801f6074f3293d5bafb7f4dcaf",
+      "bytes": 21908,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.29005+06:00"
+    },
+    "https://ui.shadcn.com/docs/forms/next": {
+      "path": "docs-forms-next.md",
+      "sha256": "0624b710fd5f4e05336df0e9e852da98338a89616fbecb9e9d1f63828aec539f",
+      "bytes": 10684,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.290376+06:00"
+    },
+    "https://ui.shadcn.com/docs/forms/react-hook-form": {
+      "path": "docs-forms-react-hook-form.md",
+      "sha256": "23dc9a437a661f7475b0f2469738899c66487e5459a4c13594af0fba5aa06857",
+      "bytes": 18635,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.290255+06:00"
+    },
+    "https://ui.shadcn.com/docs/forms/tanstack-form": {
+      "path": "docs-forms-tanstack-form.md",
+      "sha256": "97e95f9fe69d8e27ef30e417bedf01ed6d61d84ac5d52696e4c9b735bdbb9d00",
+      "bytes": 20982,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.29042+06:00"
+    },
+    "https://ui.shadcn.com/docs/installation/astro": {
+      "path": "docs-installation-astro.md",
+      "sha256": "9c0016a2f18c9cf4bd5ea34fb1c137f5a6ecbff142a5205a186097a551b7fe86",
+      "bytes": 3111,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:50.117272+06:00"
+    },
+    "https://ui.shadcn.com/docs/installation/gatsby": {
+      "path": "docs-installation-gatsby.md",
+      "sha256": "b5607119a68262ff66ffa44038090664fca41e70831e9b2f34d26262d87f8d1c",
+      "bytes": 2434,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:43.503242+06:00"
+    },
+    "https://ui.shadcn.com/docs/installation/laravel": {
+      "path": "docs-installation-laravel.md",
+      "etag": "W/\"c424fcad0ff4dbe3b80da2cf342c8b38\"",
+      "sha256": "09a32226d9c6a7e1783225e1a5537d9cd4b66ae2ad4e42365d40a8fa0ec62691",
+      "bytes": 2422,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-11T17:36:08.846908+06:00"
+    },
+    "https://ui.shadcn.com/docs/installation/manual": {
+      "path": "docs-installation-manual.md",
+      "sha256": "579afc58e5b372de93208b25d47fdab4532ad2eb9bb8d27c024752b71f91a64b",
+      "bytes": 7198,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.291171+06:00"
+    },
+    "https://ui.shadcn.com/docs/installation/next": {
+      "path": "docs-installation-next.md",
+      "sha256": "226c6cacb9db1e1a67f28f5aacd59d849a19c31960e87376bb602cd83b63581c",
+      "bytes": 2534,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:50.426453+06:00"
+    },
+    "https://ui.shadcn.com/docs/installation/react-router": {
+      "path": "docs-installation-react-router.md",
+      "etag": "W/\"j67r9ltcecebrs\"",
+      "sha256": "09f50146422c9a64514587ba3191d714e3ac9cacd010dc9dc4fd44fecbf84b23",
+      "bytes": 4047,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-11T17:36:09.467875+06:00"
+    },
+    "https://ui.shadcn.com/docs/installation/remix": {
+      "path": "docs-installation-remix.md",
+      "sha256": "be7930ff97f6811d3e8cc453b45e67f52a448845490b9b7d90aedb733a406c9e",
+      "bytes": 897,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:45.082163+06:00"
+    },
+    "https://ui.shadcn.com/docs/installation/tanstack": {
+      "path": "docs-installation-tanstack.md",
+      "etag": "W/\"3343cf41ca59d89b41f3bc8d45899618\"",
+      "sha256": "0896c32af511bbd8c7a4c03cc8980ed1a7fc65dcf9acbcf8e4fc4f067fcd02f3",
+      "bytes": 4637,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-11T17:36:08.472251+06:00"
+    },
+    "https://ui.shadcn.com/docs/installation/tanstack-router": {
+      "path": "docs-installation-tanstack-router.md",
+      "sha256": "53576d40b822033848cf3467bf7291f3fdd56ea868ad8468bd90f35701a30df9",
+      "bytes": 830,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:46.425358+06:00"
+    },
+    "https://ui.shadcn.com/docs/installation/vite": {
+      "path": "docs-installation-vite.md",
+      "sha256": "46dc5da84e47434631c3206cd21fc4cb95f2e5c23ba0630b173347f912127fa1",
+      "bytes": 2871,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:52.533552+06:00"
+    },
+    "https://ui.shadcn.com/docs/javascript": {
+      "path": "docs-javascript.md",
+      "sha256": "c0a6953c989495b589774af59ace8454aa21992be2204c4fe0f1666bc6d1a9ee",
+      "bytes": 1028,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:47.888427+06:00"
+    },
+    "https://ui.shadcn.com/docs/mcp": {
+      "path": "docs-mcp.md",
+      "sha256": "61ff48f5d6c640dadeb1e3c5eada93aa0d06de9dea4966d357be3fe1c8f10bcf",
+      "bytes": 11481,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:49.280096+06:00"
+    },
+    "https://ui.shadcn.com/docs/monorepo": {
+      "path": "docs-monorepo.md",
+      "sha256": "b1f58c3d736bccbacdb5df0bf23c25e85e2874fde533ed920fb45f8db89e831d",
+      "bytes": 6995,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.911932+06:00"
+    },
+    "https://ui.shadcn.com/docs/react-19": {
+      "path": "docs-react-19.md",
+      "sha256": "96f7329dcd1df271df0af9a5cecd6cb12897fe872c4f471a053cea0c9eb34b83",
+      "bytes": 7422,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:51.044644+06:00"
+    },
+    "https://ui.shadcn.com/docs/registry": {
+      "path": "docs-registry.md",
+      "sha256": "4f239be36bd2b58e17047db1ca80ab7da00e15a8b73242e5e4d50d113c4caa05",
+      "bytes": 8817,
+      "tier": "github-raw",
+      "fetched_at": "2026-06-11T17:11:55.812569+06:00"
+    },
+    "https://ui.shadcn.com/docs/registry/authentication": {
+      "path": "docs-registry-authentication.md",
+      "sha256": "329c3d70ec3228692c09dae70c2fefe942a5afbd74c2147e153efb7442a8eea0",
+      "bytes": 9391,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:51.473178+06:00"
+    },
+    "https://ui.shadcn.com/docs/registry/examples": {
+      "path": "docs-registry-examples.md",
+      "sha256": "1f9d4093f672d6f335ac33cbd852806fe64488b7b81d29d70eac82c3628bd55e",
+      "bytes": 29260,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:52.08684+06:00"
+    },
+    "https://ui.shadcn.com/docs/registry/faq": {
+      "path": "docs-registry-faq.md",
+      "sha256": "61740d8e1a5d6ba37ddbb27171c137866f5cdf62ab8699a315204c2bbbe02ded",
+      "bytes": 3520,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:52.425126+06:00"
+    },
+    "https://ui.shadcn.com/docs/registry/getting-started": {
+      "path": "docs-registry-getting-started.md",
+      "sha256": "caf76504c98863051b23d55411d101280375a527b3cb4c3233f2cd86c7a1d60e",
+      "bytes": 18214,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:52.624228+06:00"
+    },
+    "https://ui.shadcn.com/docs/registry/mcp": {
+      "path": "docs-registry-mcp.md",
+      "sha256": "a38f31a23fa0d17782daf7bd2ce22dab848fd9ab261c092756222ddc4ebb6e14",
+      "bytes": 5028,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:53.06086+06:00"
+    },
+    "https://ui.shadcn.com/docs/registry/namespace": {
+      "path": "docs-registry-namespace.md",
+      "sha256": "81e73a56cc83f1dc133afea2b830fb3cc7b585f4185e36ef9accd28296d2c6ec",
+      "bytes": 25988,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:53.383843+06:00"
+    },
+    "https://ui.shadcn.com/docs/registry/open-in-v0": {
+      "path": "docs-registry-open-in-v0.md",
+      "sha256": "bd9b4e46dfb8f4639ad01990802f4569cfe3183978886037c60d1fc1e9f618fa",
+      "bytes": 3645,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:53.657905+06:00"
+    },
+    "https://ui.shadcn.com/docs/registry/registry-index": {
+      "path": "docs-registry-registry-index.md",
+      "sha256": "66b98b5a70b9c447c29919908c98549ff69f8564d265a7de63446163de7091b8",
+      "bytes": 2366,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:53.902547+06:00"
+    },
+    "https://ui.shadcn.com/docs/registry/registry-item-json": {
+      "path": "docs-registry-registry-item-json.md",
+      "sha256": "31c5c50e4a82f059fde185a8baca93faf2bd08a93d16ce6db24efb78fc8f9022",
+      "bytes": 14702,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:54.09437+06:00"
+    },
+    "https://ui.shadcn.com/docs/registry/registry-json": {
+      "path": "docs-registry-registry-json.md",
+      "sha256": "55195b1f45d2c6f5ff367091d04a9d59807ba15648ca5869b7da3b3c768d7cd4",
+      "bytes": 4356,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:54.22547+06:00"
+    },
+    "https://ui.shadcn.com/docs/rtl": {
+      "path": "docs-rtl.md",
+      "sha256": "da73912cd191b41585440249602b3acf6a937e4c9062473d796628ad2812769e",
+      "bytes": 10999,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.913173+06:00"
+    },
+    "https://ui.shadcn.com/docs/rtl/next": {
+      "path": "docs-rtl-next.md",
+      "sha256": "226c6cacb9db1e1a67f28f5aacd59d849a19c31960e87376bb602cd83b63581c",
+      "bytes": 2534,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:54.738183+06:00"
+    },
+    "https://ui.shadcn.com/docs/rtl/start": {
+      "path": "docs-rtl-start.md",
+      "sha256": "53739fa35942b4890d3818f09b03b339038029f9ae91e2fe30db18fbe77df59d",
+      "bytes": 2571,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:55.042198+06:00"
+    },
+    "https://ui.shadcn.com/docs/rtl/vite": {
+      "path": "docs-rtl-vite.md",
+      "sha256": "46dc5da84e47434631c3206cd21fc4cb95f2e5c23ba0630b173347f912127fa1",
+      "bytes": 2871,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:55.232026+06:00"
+    },
+    "https://ui.shadcn.com/docs/skills": {
+      "path": "docs-skills.md",
+      "sha256": "66a68588cf28d3b3e1f7b300331be30c248a5daee81e02267f06bb95b9c51198",
+      "bytes": 3195,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.913484+06:00"
+    },
+    "https://ui.shadcn.com/docs/tailwind-v4": {
+      "path": "docs-tailwind-v4.md",
+      "sha256": "ddcaf9a32cc957faeae41431ca510a077aeefaee4e6fa4023fbd251bb271693e",
+      "bytes": 23963,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:55.670351+06:00"
+    },
+    "https://ui.shadcn.com/docs/theming": {
+      "path": "docs-theming.md",
+      "sha256": "403a71fea629dd9d5eebdf3656baab6b8550972adfb4fc5ed0847d13b3dc73f0",
+      "bytes": 12665,
+      "tier": "md-companion",
+      "fetched_at": "2026-06-11T17:11:55.829956+06:00"
+    },
+    "https://ui.shadcn.com/docs/typeset": {
+      "path": "docs-typeset.md",
+      "sha256": "9604cd9f456d2cef3c03678c2175fb2330a02b1ed8e28ccbf0e71f6b6b799ec7",
+      "bytes": 8764,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.913855+06:00"
+    },
+    "https://ui.shadcn.com/docs/v0": {
+      "path": "docs-v0.md",
+      "sha256": "da73912cd191b41585440249602b3acf6a937e4c9062473d796628ad2812769e",
+      "bytes": 10999,
+      "tier": "github-raw",
+      "fetched_at": "2026-07-11T17:36:05.914091+06:00"
+    }
+  }
+}

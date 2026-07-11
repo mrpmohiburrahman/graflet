@@ -1,0 +1,1927 @@
+{
+  "communities": {
+    "0": [
+      "bugreportform",
+      "bugreportformaction",
+      "demoformaction",
+      "direction_cardrtl",
+      "direction_translations",
+      "direction_usedirection",
+      "direction_usetranslation",
+      "docs_bugreportform",
+      "docs_formrhfinput",
+      "docs_formrhftextarea",
+      "docs_forms",
+      "docs_forms_formisch",
+      "docs_forms_next",
+      "docs_forms_react_hook_form",
+      "docs_forms_tanstack_form",
+      "docs_formschema",
+      "dropdownmenu_dropdownmenutrigger",
+      "form_next_complex",
+      "form_next_complex_action",
+      "form_next_complex_schema",
+      "form_next_demo",
+      "form_next_demo_action",
+      "form_next_demo_schema",
+      "formisch_field",
+      "formisch_form",
+      "formisch_getinput",
+      "formisch_insert",
+      "formisch_move",
+      "formisch_react",
+      "formisch_reset",
+      "formisch_submithandler",
+      "formisch_useform",
+      "formschema",
+      "formstate",
+      "next_form",
+      "react",
+      "react_hook_form_controller",
+      "react_hook_form_useform",
+      "sonner_toast",
+      "tanstack_form_field",
+      "tanstack_form_useform",
+      "ui_button",
+      "ui_card",
+      "ui_cardaction",
+      "ui_cardcontent",
+      "ui_carddescription",
+      "ui_cardfooter",
+      "ui_cardheader",
+      "ui_cardtitle",
+      "ui_checkbox",
+      "ui_field",
+      "ui_fielddescription",
+      "ui_fielderror",
+      "ui_fieldgroup",
+      "ui_fieldlabel",
+      "ui_input",
+      "ui_input_group",
+      "ui_inputgroup",
+      "ui_inputgroupaddon",
+      "ui_inputgrouptext",
+      "ui_inputgrouptextarea",
+      "ui_label",
+      "ui_radio_group",
+      "ui_select",
+      "ui_spinner",
+      "ui_switch",
+      "ui_textarea",
+      "useactionstate",
+      "valibot",
+      "valibot_schema",
+      "zod",
+      "zod_formschema",
+      "zod_z",
+      "zod_zodresolver"
+    ],
+    "1": [
+      "docs_components_tooltip",
+      "docs_components_tooltip_button",
+      "docs_components_tooltip_kbd",
+      "docs_components_tooltip_saveicon",
+      "docs_components_tooltip_tooltipcontent",
+      "docs_components_tooltip_tooltipdemo",
+      "docs_components_tooltip_tooltipdisabled",
+      "docs_components_tooltip_tooltipkeyboard",
+      "docs_components_tooltip_tooltipprovider",
+      "docs_components_tooltip_tooltiprtl",
+      "docs_components_tooltip_tooltipsides",
+      "docs_components_tooltip_tooltiptrigger",
+      "docs_components_tooltip_usetranslation",
+      "docs_dark_mode_astro_button",
+      "docs_dark_mode_astro_dropdownmenu",
+      "docs_dark_mode_astro_dropdownmenucontent",
+      "docs_dark_mode_astro_dropdownmenuitem",
+      "docs_dark_mode_astro_dropdownmenutrigger",
+      "docs_dark_mode_astro_modetoggle",
+      "docs_dark_mode_astro_moon",
+      "docs_dark_mode_astro_sun",
+      "docs_dark_mode_next_button",
+      "docs_dark_mode_next_dropdownmenu",
+      "docs_dark_mode_next_dropdownmenucontent",
+      "docs_dark_mode_next_dropdownmenuitem",
+      "docs_dark_mode_next_dropdownmenutrigger",
+      "docs_dark_mode_next_modetoggle",
+      "docs_dark_mode_next_moon",
+      "docs_dark_mode_next_sun",
+      "docs_dark_mode_next_usetheme",
+      "docs_dark_mode_remix_button",
+      "docs_dark_mode_remix_dropdownmenu",
+      "docs_dark_mode_remix_dropdownmenucontent",
+      "docs_dark_mode_remix_dropdownmenuitem",
+      "docs_dark_mode_remix_dropdownmenutrigger",
+      "docs_dark_mode_remix_modetoggle",
+      "docs_dark_mode_remix_moon",
+      "docs_dark_mode_remix_sun",
+      "docs_dark_mode_remix_theme",
+      "docs_dark_mode_remix_usetheme",
+      "docs_dark_mode_vite_button",
+      "docs_dark_mode_vite_dropdownmenu",
+      "docs_dark_mode_vite_dropdownmenucontent",
+      "docs_dark_mode_vite_dropdownmenuitem",
+      "docs_dark_mode_vite_dropdownmenutrigger",
+      "docs_dark_mode_vite_modetoggle",
+      "docs_dark_mode_vite_moon",
+      "docs_dark_mode_vite_sun",
+      "docs_dark_mode_vite_usetheme",
+      "radix_tooltip"
+    ],
+    "2": [
+      "docs_components_context_menu_contextmenu",
+      "docs_components_context_menu_contextmenubasic",
+      "docs_components_context_menu_contextmenucheckboxes",
+      "docs_components_context_menu_contextmenucheckboxitem",
+      "docs_components_context_menu_contextmenucontent",
+      "docs_components_context_menu_contextmenudemo",
+      "docs_components_context_menu_contextmenudestructive",
+      "docs_components_context_menu_contextmenuitem",
+      "docs_components_context_menu_contextmenuseparator",
+      "docs_components_context_menu_contextmenushortcut",
+      "docs_components_context_menu_contextmenusubcontent",
+      "docs_components_context_menu_contextmenutrigger",
+      "docs_components_language_selector",
+      "docs_components_textarea",
+      "docs_components_textarea_button",
+      "docs_components_textarea_field",
+      "docs_components_textarea_fielddescription",
+      "docs_components_textarea_fieldlabel",
+      "docs_components_textarea_textareabutton",
+      "docs_components_textarea_textareademo",
+      "docs_components_textarea_textareadisabled",
+      "docs_components_textarea_textareafield",
+      "docs_components_textarea_textareainvalid",
+      "docs_components_textarea_textareartl",
+      "docs_components_toggle",
+      "docs_components_toggle_group",
+      "docs_components_toggle_group_field",
+      "docs_components_toggle_group_fielddescription",
+      "docs_components_toggle_group_fieldlabel",
+      "docs_components_toggle_group_togglegroupdisabled",
+      "docs_components_toggle_group_togglegroupfontweightselector",
+      "docs_components_toggle_group_togglegroupitem_concept",
+      "docs_components_toggle_group_togglegroupoutline",
+      "docs_components_toggle_group_togglegrouprtl",
+      "docs_components_toggle_group_togglegroupspacing",
+      "docs_components_toggle_group_togglegroupvertical",
+      "docs_components_toggle_toggledemo",
+      "docs_components_toggle_toggledisabled",
+      "docs_components_toggle_toggleoutline",
+      "docs_components_toggle_togglertl",
+      "docs_components_toggle_togglesizes",
+      "docs_components_toggle_toggletext",
+      "lucide_react",
+      "radix_ui_contextmenu",
+      "radix_ui_toggle"
+    ],
+    "3": [
+      "docs_components_calendar_button",
+      "docs_components_calendar_calendar",
+      "docs_components_calendar_calendarbasic",
+      "docs_components_calendar_calendarbookeddates",
+      "docs_components_calendar_calendarcaption",
+      "docs_components_calendar_calendarcustomdays",
+      "docs_components_calendar_calendarhijri",
+      "docs_components_calendar_calendarrange",
+      "docs_components_calendar_calendarwithpresets",
+      "docs_components_calendar_calendarwithtime",
+      "docs_components_calendar_chevrondownicon",
+      "docs_components_calendar_chevronlefticon",
+      "docs_components_calendar_chevronrighticon",
+      "docs_components_calendar_clock2icon",
+      "docs_components_calendar_date_fns",
+      "docs_components_calendar_daypicker",
+      "docs_components_calendar_vazirmatn",
+      "docs_components_card_card",
+      "docs_components_card_cardcontent",
+      "docs_components_card_cardfooter",
+      "docs_components_card_field",
+      "docs_components_card_fieldgroup",
+      "docs_components_card_fieldlabel",
+      "docs_components_card_inputgroup",
+      "docs_components_card_inputgroupaddon",
+      "docs_components_card_inputgroupinput",
+      "docs_react_19_class_variance_authority",
+      "docs_react_19_cmdk",
+      "docs_react_19_embla_carousel_react",
+      "docs_react_19_input_otp",
+      "docs_react_19_lucide_react",
+      "docs_react_19_next_js_15",
+      "docs_react_19_radix_ui",
+      "docs_react_19_radix_ui_react_icons",
+      "docs_react_19_react_19",
+      "docs_react_19_react_day_picker",
+      "docs_react_19_react_resizable_panels",
+      "docs_react_19_recharts",
+      "docs_react_19_sonner",
+      "docs_react_19_tailwind_v4",
+      "docs_react_19_tailwindcss_animate",
+      "docs_react_19_vaul"
+    ],
+    "4": [
+      "docs_components_avatar_avatar",
+      "docs_components_avatar_avatarbadge",
+      "docs_components_avatar_avatarbadgeiconexample",
+      "docs_components_avatar_avatardemo",
+      "docs_components_avatar_avatardropdown",
+      "docs_components_avatar_avatarfallback",
+      "docs_components_avatar_avatargroup",
+      "docs_components_avatar_avatargroupcount",
+      "docs_components_avatar_avatargroupcountexample",
+      "docs_components_avatar_avatargroupexample",
+      "docs_components_avatar_avatarimage",
+      "docs_components_avatar_avatarrtl",
+      "docs_components_avatar_avatarsizeexample",
+      "docs_components_avatar_avatarwithbadge",
+      "docs_components_breadcrumb_breadcrumb",
+      "docs_components_breadcrumb_breadcrumbbasic",
+      "docs_components_breadcrumb_breadcrumbdemo",
+      "docs_components_breadcrumb_breadcrumbdropdown",
+      "docs_components_breadcrumb_breadcrumbellipsis",
+      "docs_components_breadcrumb_breadcrumbellipsisdemo",
+      "docs_components_breadcrumb_breadcrumbitem",
+      "docs_components_breadcrumb_breadcrumbpage",
+      "docs_components_breadcrumb_breadcrumbseparator",
+      "docs_components_button_button",
+      "docs_components_dropdownmenu_dropdownmenucontent",
+      "docs_components_dropdownmenu_dropdownmenugroup",
+      "docs_components_dropdownmenu_dropdownmenuseparator",
+      "docs_components_dropdownmenu_dropdownmenutrigger",
+      "docs_installation_astro",
+      "lucide_chevrondownicon",
+      "lucide_doticon",
+      "lucide_moon",
+      "lucide_plusicon",
+      "lucide_sun",
+      "radix_ui_avatar",
+      "ui_dropdownmenu",
+      "ui_dropdownmenucontent",
+      "ui_dropdownmenuitem",
+      "ui_dropdownmenutrigger"
+    ],
+    "5": [
+      "docs_mcp_claude_code",
+      "docs_mcp_codex",
+      "docs_mcp_components_json",
+      "docs_mcp_cursor",
+      "docs_mcp_mcp_json",
+      "docs_mcp_mcp_server",
+      "docs_mcp_model_context_protocol",
+      "docs_mcp_namespaced_registries",
+      "docs_mcp_opencode",
+      "docs_mcp_private_registries",
+      "docs_mcp_registries",
+      "docs_mcp_shadcn_cli",
+      "docs_mcp_shadcn_ui_registry",
+      "docs_mcp_third_party_registries",
+      "docs_mcp_vscode",
+      "docs_monorepo_monorepo_support",
+      "docs_monorepo_package_json_imports",
+      "docs_monorepo_turborepo",
+      "index_arrow_right_icon",
+      "index_calendar",
+      "index_card_rtl",
+      "index_chevron_left_icon",
+      "index_cli",
+      "index_components_json",
+      "index_direction_component",
+      "index_direction_provider",
+      "index_next_js",
+      "index_noto_font",
+      "index_pagination",
+      "index_popover",
+      "index_rtl",
+      "index_sidebar",
+      "index_tanstack_start",
+      "index_tooltip",
+      "index_tw_animate_css",
+      "index_v0",
+      "index_vite"
+    ],
+    "6": [
+      "docs_components_sidebar_chevrondown",
+      "docs_components_sidebar_collapsible",
+      "docs_components_sidebar_collapsiblecontent",
+      "docs_components_sidebar_collapsibletrigger",
+      "docs_components_sidebar_componentsource",
+      "docs_components_sidebar_dropdownmenu",
+      "docs_components_sidebar_dropdownmenucontent",
+      "docs_components_sidebar_dropdownmenuitem",
+      "docs_components_sidebar_dropdownmenutrigger",
+      "docs_components_sidebar_panellefticon",
+      "docs_components_sidebar_plus",
+      "docs_components_sidebar_sidebar",
+      "docs_components_sidebar_sidebarcontent",
+      "docs_components_sidebar_sidebarfooter",
+      "docs_components_sidebar_sidebargroup",
+      "docs_components_sidebar_sidebargroupaction",
+      "docs_components_sidebar_sidebargroupcontent",
+      "docs_components_sidebar_sidebargrouplabel",
+      "docs_components_sidebar_sidebarheader",
+      "docs_components_sidebar_sidebarinset",
+      "docs_components_sidebar_sidebarmenu",
+      "docs_components_sidebar_sidebarmenuaction",
+      "docs_components_sidebar_sidebarmenubadge",
+      "docs_components_sidebar_sidebarmenubutton",
+      "docs_components_sidebar_sidebarmenuitem",
+      "docs_components_sidebar_sidebarmenusub",
+      "docs_components_sidebar_sidebarmenusubbutton",
+      "docs_components_sidebar_sidebarmenusubitem",
+      "docs_components_sidebar_sidebarprovider",
+      "docs_components_sidebar_sidebarrail",
+      "docs_components_sidebar_sidebartrigger",
+      "docs_components_sidebar_user2",
+      "docs_components_sidebar_usesidebar"
+    ],
+    "7": [
+      "docs_components_empty_arrowuprighticon",
+      "docs_components_empty_avatar",
+      "docs_components_empty_avatarfallback",
+      "docs_components_empty_avatarimage",
+      "docs_components_empty_button",
+      "docs_components_empty_empty",
+      "docs_components_empty_emptyavatar",
+      "docs_components_empty_emptycontent",
+      "docs_components_empty_emptydemo",
+      "docs_components_empty_emptydescription",
+      "docs_components_empty_emptyheader",
+      "docs_components_empty_emptyinputgroup",
+      "docs_components_empty_emptymedia",
+      "docs_components_empty_emptymuted",
+      "docs_components_empty_emptyoutline",
+      "docs_components_empty_emptyrtl",
+      "docs_components_empty_emptytitle",
+      "docs_components_empty_iconbell",
+      "docs_components_empty_iconcloud",
+      "docs_components_empty_iconfoldercode",
+      "docs_components_empty_inputgroup",
+      "docs_components_empty_inputgroupaddon",
+      "docs_components_empty_inputgroupinput",
+      "docs_components_empty_kbd",
+      "docs_components_empty_plusicon",
+      "docs_components_empty_searchicon",
+      "docs_components_input_otp_inputotp",
+      "docs_components_input_otp_inputotpgroup",
+      "docs_components_input_otp_inputotpseparator",
+      "docs_components_input_otp_inputotpslot",
+      "input_otp_lib",
+      "refreshcwicon"
+    ],
+    "8": [
+      "docs_registry_absolute_url",
+      "docs_registry_button",
+      "docs_registry_hello_world",
+      "docs_registry_item_json",
+      "docs_registry_item_json_author",
+      "docs_registry_item_json_categories",
+      "docs_registry_item_json_css",
+      "docs_registry_item_json_cssvars",
+      "docs_registry_item_json_dependencies",
+      "docs_registry_item_json_description",
+      "docs_registry_item_json_devdependencies",
+      "docs_registry_item_json_docs",
+      "docs_registry_item_json_envvars",
+      "docs_registry_item_json_files",
+      "docs_registry_item_json_font",
+      "docs_registry_item_json_meta",
+      "docs_registry_item_json_name",
+      "docs_registry_item_json_registrydependencies",
+      "docs_registry_item_json_schema",
+      "docs_registry_item_json_tailwind",
+      "docs_registry_item_json_title",
+      "docs_registry_item_json_type",
+      "docs_registry_json",
+      "docs_registry_json_homepage",
+      "docs_registry_json_include",
+      "docs_registry_json_items",
+      "docs_registry_json_name",
+      "docs_registry_json_schema",
+      "docs_registry_login_form"
+    ],
+    "9": [
+      "docs_access_logging",
+      "docs_api_key_authentication",
+      "docs_authenticateuser",
+      "docs_environment_variables",
+      "docs_error_handling",
+      "docs_expressjs_example",
+      "docs_generatetoken",
+      "docs_getcomponentsforteam",
+      "docs_getpersonalizedcomponent",
+      "docs_getteamfromtoken",
+      "docs_getuserpreferences",
+      "docs_hasaccesstocomponent",
+      "docs_https",
+      "docs_isvalidtoken",
+      "docs_logaccess",
+      "docs_multi_registry_authentication",
+      "docs_namespaced_registries",
+      "docs_nextjs_api_route_example",
+      "docs_query_parameter_authentication",
+      "docs_rate_limiting",
+      "docs_registry_authentication",
+      "docs_security_best_practices",
+      "docs_team_based_access",
+      "docs_temporary_access_tokens",
+      "docs_token_based_authentication",
+      "docs_token_rotation",
+      "docs_user_personalized_registries",
+      "docs_validatetemporarytoken"
+    ],
+    "10": [
+      "button_component_tsx",
+      "components_ui_registry_json",
+      "docs_registry_faq",
+      "docs_registry_getting_started",
+      "docs_registry_mcp",
+      "format_date_lib_ts",
+      "formatted_message_component_tsx",
+      "github_registries_doc",
+      "hello_config_ts",
+      "hello_world_block",
+      "hello_world_component_tsx",
+      "hello_world_page_tsx",
+      "hooks_registry_json",
+      "load_registry_function",
+      "mcp_documentation",
+      "mcp_server",
+      "registry_index_doc",
+      "registry_item_json_schema",
+      "registry_item_schema_spec_doc",
+      "registry_json",
+      "registry_json_schema",
+      "registry_schema_spec_doc",
+      "registry_template",
+      "shadcn_build_command",
+      "use_hello_hook_ts",
+      "use_media_query_hook_ts",
+      "use_toggle_hook_ts"
+    ],
+    "11": [
+      "docs_components_checkbox_checkbox",
+      "docs_components_checkbox_checkboxbasic",
+      "docs_components_checkbox_checkboxdemo",
+      "docs_components_checkbox_checkboxdescription",
+      "docs_components_checkbox_checkboxdisabled",
+      "docs_components_checkbox_checkboxgroup",
+      "docs_components_checkbox_checkboxintable",
+      "docs_components_checkbox_checkboxinvalid",
+      "docs_components_checkbox_checkboxrtl",
+      "docs_components_checkbox_example",
+      "docs_components_checkbox_field",
+      "docs_components_checkbox_fieldcontent",
+      "docs_components_checkbox_fielddescription",
+      "docs_components_checkbox_fieldgroup",
+      "docs_components_checkbox_fieldlabel",
+      "docs_components_checkbox_fieldlegend",
+      "docs_components_checkbox_fieldset",
+      "docs_components_checkbox_fieldtitle",
+      "docs_components_checkbox_label",
+      "docs_components_checkbox_table",
+      "docs_components_checkbox_tablebody",
+      "docs_components_checkbox_tablecell",
+      "docs_components_checkbox_tablehead",
+      "docs_components_checkbox_tableheader",
+      "docs_components_checkbox_tablerow",
+      "docs_components_checkbox_usetranslation"
+    ],
+    "12": [
+      "docs_components_date_picker_button",
+      "docs_components_date_picker_calendar",
+      "docs_components_date_picker_calendaricon",
+      "docs_components_date_picker_chevrondownicon",
+      "docs_components_date_picker_chrono_node",
+      "docs_components_date_picker_datepickerdemo",
+      "docs_components_date_picker_datepickerinput",
+      "docs_components_date_picker_datepickernaturallanguage",
+      "docs_components_date_picker_datepickerrtl",
+      "docs_components_date_picker_datepickersimple",
+      "docs_components_date_picker_datepickertime",
+      "docs_components_date_picker_datepickerwithrange",
+      "docs_components_date_picker_field",
+      "docs_components_date_picker_fieldlabel",
+      "docs_components_date_picker_format",
+      "docs_components_date_picker_input",
+      "docs_components_date_picker_inputgroup",
+      "docs_components_date_picker_inputgroupaddon",
+      "docs_components_date_picker_inputgroupbutton",
+      "docs_components_date_picker_inputgroupinput",
+      "docs_components_date_picker_parsedate",
+      "docs_components_date_picker_popover",
+      "docs_components_date_picker_popovercontent",
+      "docs_components_date_picker_popovertrigger",
+      "docs_components_date_picker_react_day_picker"
+    ],
+    "13": [
+      "docs_components_command_button",
+      "docs_components_command_calculator",
+      "docs_components_command_calendar",
+      "docs_components_command_cmdk",
+      "docs_components_command_command",
+      "docs_components_command_commandbasic",
+      "docs_components_command_commanddemo",
+      "docs_components_command_commanddialog",
+      "docs_components_command_commandempty",
+      "docs_components_command_commandgroup",
+      "docs_components_command_commandinput",
+      "docs_components_command_commanditem",
+      "docs_components_command_commandlist",
+      "docs_components_command_commandmanyitems",
+      "docs_components_command_commandrtl",
+      "docs_components_command_commandseparator",
+      "docs_components_command_commandshortcut",
+      "docs_components_command_commandwithgroups",
+      "docs_components_command_commandwithshortcuts",
+      "docs_components_command_creditcard",
+      "docs_components_command_languageselector",
+      "docs_components_command_settings",
+      "docs_components_command_smile",
+      "docs_components_command_user"
+    ],
+    "14": [
+      "components_json",
+      "direction_provider",
+      "docs_rtl",
+      "docs_rtl_start",
+      "docs_rtl_vite",
+      "docs_v0",
+      "docs_v0_calendar_rtl",
+      "docs_v0_cli_rtl_transform",
+      "docs_v0_direction_component",
+      "docs_v0_direction_provider",
+      "docs_v0_migration_guide",
+      "docs_v0_next_js_rtl",
+      "docs_v0_pagination_rtl",
+      "docs_v0_rtl_icons",
+      "docs_v0_rtl_support",
+      "docs_v0_sidebar_rtl",
+      "docs_v0_vite_rtl",
+      "index_html",
+      "main_tsx",
+      "root_tsx",
+      "rtl_migration",
+      "shadcn_cli",
+      "shadcn_create"
+    ],
+    "15": [
+      "docs_components_progress_progress",
+      "docs_components_progress_progresscontrolled",
+      "docs_components_progress_progressdemo",
+      "docs_components_progress_progressrtl",
+      "docs_components_progress_progresswithlabel",
+      "docs_components_progress_slider",
+      "docs_components_progress_usetranslation",
+      "docs_components_radio_group_field",
+      "docs_components_radio_group_fieldcontent",
+      "docs_components_radio_group_fielddescription",
+      "docs_components_radio_group_fieldlabel",
+      "docs_components_radio_group_fieldlegend",
+      "docs_components_radio_group_fieldset",
+      "docs_components_radio_group_fieldtitle",
+      "docs_components_radio_group_label",
+      "docs_components_radio_group_radiogroup",
+      "docs_components_radio_group_radiogroupchoicecard",
+      "docs_components_radio_group_radiogroupdemo",
+      "docs_components_radio_group_radiogroupdescription",
+      "docs_components_radio_group_radiogroupdisabled",
+      "docs_components_radio_group_radiogroupfieldset",
+      "docs_components_radio_group_radiogroupinvalid",
+      "docs_components_radio_group_usetranslation"
+    ],
+    "16": [
+      "manifest",
+      "manifest_entries",
+      "manifest_entries_https_ui_shadcn_com",
+      "manifest_entries_https_ui_shadcn_com_docs_components_aspect_ratio",
+      "manifest_entries_https_ui_shadcn_com_docs_components_dropdown_menu",
+      "manifest_entries_https_ui_shadcn_com_docs_components_kbd",
+      "manifest_entries_https_ui_shadcn_com_docs_components_native_select",
+      "manifest_entries_https_ui_shadcn_com_docs_components_navigation_menu",
+      "manifest_entries_https_ui_shadcn_com_docs_components_radio_group",
+      "manifest_entries_https_ui_shadcn_com_docs_components_typography",
+      "manifest_entries_https_ui_shadcn_com_docs_dark_mode",
+      "manifest_entries_https_ui_shadcn_com_docs_forms",
+      "manifest_entries_https_ui_shadcn_com_docs_forms_react_hook_form",
+      "manifest_entries_https_ui_shadcn_com_docs_forms_tanstack_form",
+      "manifest_entries_https_ui_shadcn_com_docs_installation_gatsby",
+      "manifest_entries_https_ui_shadcn_com_docs_installation_laravel",
+      "manifest_entries_https_ui_shadcn_com_docs_installation_next",
+      "manifest_https_ui_shadcn_com_bytes",
+      "manifest_https_ui_shadcn_com_docs_directory_etag",
+      "manifest_https_ui_shadcn_com_fetched_at",
+      "manifest_https_ui_shadcn_com_path",
+      "manifest_https_ui_shadcn_com_sha256",
+      "manifest_https_ui_shadcn_com_tier"
+    ],
+    "17": [
+      "copyicon",
+      "docs_components_input_badge",
+      "docs_components_input_field",
+      "docs_components_input_fielddescription",
+      "docs_components_input_fieldgroup",
+      "docs_components_input_fieldlabel",
+      "docs_components_input_group_inputgroup",
+      "docs_components_input_group_inputgroupaddon",
+      "docs_components_input_group_inputgroupbutton",
+      "docs_components_input_group_inputgroupinput",
+      "docs_components_input_group_inputgrouptext",
+      "docs_components_input_input",
+      "docs_components_input_select",
+      "docs_components_input_selectcontent",
+      "docs_components_input_selectitem",
+      "docs_components_input_selecttrigger",
+      "docs_components_input_selectvalue",
+      "icon_infocircle",
+      "infoicon",
+      "searchicon"
+    ],
+    "18": [
+      "docs_components_menubar_lucide_icons",
+      "docs_components_menubar_menubar",
+      "docs_components_menubar_menubarcheckbox",
+      "docs_components_menubar_menubarcontent",
+      "docs_components_menubar_menubardemo",
+      "docs_components_menubar_menubargroup",
+      "docs_components_menubar_menubaricons",
+      "docs_components_menubar_menubaritem",
+      "docs_components_menubar_menubarmenu",
+      "docs_components_menubar_menubarradio",
+      "docs_components_menubar_menubarradiogroup",
+      "docs_components_menubar_menubarradioitem",
+      "docs_components_menubar_menubarrtl",
+      "docs_components_menubar_menubarseparator",
+      "docs_components_menubar_menubarshortcut",
+      "docs_components_menubar_menubarsub",
+      "docs_components_menubar_menubarsubcontent",
+      "docs_components_menubar_menubarsubtrigger",
+      "docs_components_menubar_menubartrigger",
+      "docs_components_menubar_use_translation"
+    ],
+    "19": [
+      "docs_components_tabs",
+      "docs_components_tabs_card",
+      "docs_components_tabs_cardcontent",
+      "docs_components_tabs_carddescription",
+      "docs_components_tabs_cardheader",
+      "docs_components_tabs_cardtitle",
+      "docs_components_tabs_codetabs",
+      "docs_components_tabs_tabscontent",
+      "docs_components_tabs_tabscontent_concept",
+      "docs_components_tabs_tabsdemo",
+      "docs_components_tabs_tabsdisabled",
+      "docs_components_tabs_tabsicons",
+      "docs_components_tabs_tabsline",
+      "docs_components_tabs_tabslist",
+      "docs_components_tabs_tabslist_concept",
+      "docs_components_tabs_tabsrtl",
+      "docs_components_tabs_tabstrigger",
+      "docs_components_tabs_tabstrigger_concept",
+      "docs_components_tabs_tabsvertical",
+      "radix_ui_tabs"
+    ],
+    "20": [
+      "components_ui_inputgroupaddon",
+      "components_ui_item",
+      "components_ui_itemcontent",
+      "components_ui_itemdescription",
+      "components_ui_itemtitle",
+      "docs_components_combobox_combobox",
+      "docs_components_combobox_comboboxchip",
+      "docs_components_combobox_comboboxchipsinput",
+      "docs_components_combobox_comboboxcollection",
+      "docs_components_combobox_comboboxcontent",
+      "docs_components_combobox_comboboxempty",
+      "docs_components_combobox_comboboxgroup",
+      "docs_components_combobox_comboboxinput",
+      "docs_components_combobox_comboboxitem",
+      "docs_components_combobox_comboboxlabel",
+      "docs_components_combobox_comboboxlist",
+      "docs_components_combobox_comboboxseparator",
+      "docs_components_combobox_comboboxvalue",
+      "docs_components_combobox_usecomboboxanchor"
+    ],
+    "21": [
+      "docs_components_alert_alert",
+      "docs_components_alert_alertaction",
+      "docs_components_alert_alertactionexample",
+      "docs_components_alert_alertbasic",
+      "docs_components_alert_alertcircleicon",
+      "docs_components_alert_alertcolors",
+      "docs_components_alert_alertdemo",
+      "docs_components_alert_alertdescription",
+      "docs_components_alert_alertdestructive",
+      "docs_components_alert_alertrtl",
+      "docs_components_alert_alerttitle",
+      "docs_components_alert_alerttriangleicon",
+      "docs_components_alert_button",
+      "docs_components_alert_checkcircle2icon",
+      "docs_components_alert_infoicon",
+      "docs_components_aspect_ratio_aspectratio",
+      "docs_components_aspect_ratio_aspectratiodemo",
+      "docs_components_aspect_ratio_aspectratioportrait",
+      "docs_components_language_selector_usetranslation"
+    ],
+    "22": [
+      "docs_components_dialog_dialog",
+      "docs_components_dialog_dialogclose",
+      "docs_components_dialog_dialogclosebutton",
+      "docs_components_dialog_dialogcontent",
+      "docs_components_dialog_dialogdemo",
+      "docs_components_dialog_dialogdescription",
+      "docs_components_dialog_dialogfooter",
+      "docs_components_dialog_dialogheader",
+      "docs_components_dialog_dialogrtl",
+      "docs_components_dialog_dialogscrollablecontent",
+      "docs_components_dialog_dialogstickyfooter",
+      "docs_components_dialog_dialogtitle",
+      "docs_components_dialog_dialogtrigger",
+      "docs_components_dialog_field",
+      "docs_components_dialog_fieldgroup",
+      "docs_components_dialog_input",
+      "docs_components_dialog_label",
+      "docs_components_dialog_radix_ui_dialog",
+      "docs_components_dialog_usetranslation"
+    ],
+    "23": [
+      "docs_components_label_checkbox",
+      "docs_components_label_field",
+      "docs_components_label_fielddescription",
+      "docs_components_label_fielderror",
+      "docs_components_label_fieldgroup",
+      "docs_components_label_fieldlabel",
+      "docs_components_label_fieldlegend",
+      "docs_components_label_fieldseparator",
+      "docs_components_label_fieldset",
+      "docs_components_label_input",
+      "docs_components_label_label",
+      "docs_components_label_select",
+      "docs_components_label_selectcontent",
+      "docs_components_label_selectgroup",
+      "docs_components_label_selectitem",
+      "docs_components_label_selecttrigger",
+      "docs_components_label_selectvalue",
+      "docs_components_label_textarea"
+    ],
+    "24": [
+      "docs_components_alert_dialog_alertdialog",
+      "docs_components_alert_dialog_alertdialogbasic",
+      "docs_components_alert_dialog_alertdialogcancel",
+      "docs_components_alert_dialog_alertdialogcontent",
+      "docs_components_alert_dialog_alertdialogdemo",
+      "docs_components_alert_dialog_alertdialogdescription",
+      "docs_components_alert_dialog_alertdialogdestructive",
+      "docs_components_alert_dialog_alertdialogfooter",
+      "docs_components_alert_dialog_alertdialogmedia",
+      "docs_components_alert_dialog_alertdialogsmallwithmedia",
+      "docs_components_alert_dialog_alertdialogtitle",
+      "docs_components_alert_dialog_alertdialogtrigger",
+      "docs_components_alert_dialog_alertdialogwithmedia",
+      "docs_components_alert_dialog_bluetoothicon",
+      "docs_components_alert_dialog_button",
+      "docs_components_alert_dialog_circlefadingplusicon",
+      "docs_components_alert_dialog_trash2icon"
+    ],
+    "25": [
+      "docs_components_pagination_field",
+      "docs_components_pagination_fieldlabel",
+      "docs_components_pagination_pagination",
+      "docs_components_pagination_paginationcontent",
+      "docs_components_pagination_paginationdemo",
+      "docs_components_pagination_paginationellipsis",
+      "docs_components_pagination_paginationiconsonly",
+      "docs_components_pagination_paginationitem",
+      "docs_components_pagination_paginationprevious",
+      "docs_components_pagination_paginationsimple",
+      "docs_components_pagination_select",
+      "docs_components_pagination_selectcontent",
+      "docs_components_pagination_selectgroup",
+      "docs_components_pagination_selectitem",
+      "docs_components_pagination_selecttrigger",
+      "docs_components_pagination_selectvalue",
+      "docs_components_pagination_usetranslation"
+    ],
+    "26": [
+      "docs_astro",
+      "docs_gatsby",
+      "docs_laravel",
+      "docs_manual",
+      "docs_next_js",
+      "docs_react_19",
+      "docs_react_router",
+      "docs_shadcn_ui",
+      "docs_tailwind_css",
+      "docs_tailwind_v4",
+      "docs_tailwind_v4_compatibility_docs",
+      "docs_tailwind_v4_upgrade_guide",
+      "docs_tailwindcss_upgrade_codemod",
+      "docs_tanstack_start",
+      "docs_vite"
+    ],
+    "27": [
+      "docs_components_spinner_cn",
+      "docs_components_spinner_loadericon",
+      "docs_components_spinner_spinner",
+      "docs_components_switch_radix_switch",
+      "docs_components_switch_switch",
+      "docs_components_table_react_table",
+      "docs_components_table_table",
+      "docs_components_table_tablebody",
+      "docs_components_table_tablecaption",
+      "docs_components_table_tablecell",
+      "docs_components_table_tablefooter",
+      "docs_components_table_tablehead",
+      "docs_components_table_tableheader",
+      "docs_components_table_tablerow",
+      "docs_rtl_rtl_configuration_guide"
+    ],
+    "28": [
+      "docs_components_button_group_button",
+      "docs_components_button_group_buttongrouporientation",
+      "docs_components_button_group_buttongroupselect",
+      "docs_components_button_group_buttongroupseparator",
+      "docs_components_button_group_input",
+      "docs_components_button_group_select",
+      "docs_components_button_group_selectcontent",
+      "docs_components_button_group_selectgroup",
+      "docs_components_button_group_selectitem",
+      "docs_components_button_group_selecttrigger",
+      "docs_components_input_buttongroup",
+      "lucide_react_arrowrighticon",
+      "lucide_react_minusicon",
+      "lucide_react_plusicon"
+    ],
+    "29": [
+      "docs_cli",
+      "docs_cli_add_command",
+      "docs_cli_apply_command",
+      "docs_cli_build_command",
+      "docs_cli_create_command",
+      "docs_cli_docs_command",
+      "docs_cli_eject_command",
+      "docs_cli_info_command",
+      "docs_cli_init_command",
+      "docs_cli_list_command",
+      "docs_cli_search_command",
+      "docs_cli_view_command",
+      "lucide_react_trianglealerticon"
+    ],
+    "30": [
+      "docs_components_accordion",
+      "docs_components_accordion_accordionbasic",
+      "docs_components_accordion_accordionborders",
+      "docs_components_accordion_accordioncontent",
+      "docs_components_accordion_accordiondemo",
+      "docs_components_accordion_accordiondisabled",
+      "docs_components_accordion_accordionitem",
+      "docs_components_accordion_accordionmultiple",
+      "docs_components_accordion_accordionrtl",
+      "docs_components_accordion_accordiontrigger",
+      "docs_components_accordion_component",
+      "docs_components_accordion_languageselector",
+      "radix_ui_accordion"
+    ],
+    "31": [
+      "docs_components_button_group_buttongroupdemo",
+      "docs_components_button_group_buttongrouprtl",
+      "docs_components_button_group_dropdownmenu",
+      "docs_components_button_group_dropdownmenutrigger",
+      "lucide_react_archiveicon",
+      "lucide_react_arrowlefticon",
+      "lucide_react_calendarplusicon",
+      "lucide_react_clockicon",
+      "lucide_react_listfiltericon",
+      "lucide_react_mailcheckicon",
+      "lucide_react_morehorizontalicon",
+      "lucide_react_tagicon",
+      "lucide_react_trash2icon"
+    ],
+    "32": [
+      "docs_registry_namespace_authentication_security",
+      "docs_registry_namespace_central_open_source_registry_index",
+      "docs_registry_namespace_components_json",
+      "docs_registry_namespace_configuration",
+      "docs_registry_namespace_decentralized_namespace_system",
+      "docs_registry_namespace_dependency_resolution",
+      "docs_registry_namespace_namespaces",
+      "docs_registry_namespace_versioning",
+      "docs_registry_registry_index_directory_json",
+      "docs_registry_registry_index_registries_json",
+      "docs_registry_registry_index_registry_directory",
+      "docs_registry_registry_index_registry_schema_specification",
+      "docs_registry_registry_index_shadcn_cli"
+    ],
+    "33": [
+      "docs_components_button_group_buttongroupinput",
+      "docs_components_button_group_buttongroupnested",
+      "docs_components_button_group_inputgroupaddon",
+      "docs_components_button_group_inputgroupbutton",
+      "docs_components_button_group_tooltip",
+      "docs_components_button_group_tooltipcontent",
+      "docs_components_button_group_tooltiptrigger",
+      "docs_components_kbd_inputgroup",
+      "docs_components_kbd_inputgroupaddon",
+      "docs_components_kbd_inputgroupinput",
+      "lucide_react_audiolinesicon",
+      "lucide_react_searchicon"
+    ],
+    "34": [
+      "docs_components_button_group_buttongrouppopover",
+      "docs_components_button_group_field",
+      "docs_components_button_group_fielddescription",
+      "docs_components_button_group_fieldlabel",
+      "docs_components_button_group_popover",
+      "docs_components_button_group_popovercontent",
+      "docs_components_button_group_popoverdescription",
+      "docs_components_button_group_popoverheader",
+      "docs_components_button_group_popovertitle",
+      "docs_components_button_group_popovertrigger",
+      "docs_components_button_group_textarea",
+      "lucide_react_boticon"
+    ],
+    "35": [
+      "docs_components_item_field",
+      "docs_components_item_item",
+      "docs_components_item_itemactions",
+      "docs_components_item_itemcontent",
+      "docs_components_item_itemdescription",
+      "docs_components_item_itemfooter",
+      "docs_components_item_itemgroup",
+      "docs_components_item_itemheader",
+      "docs_components_item_itemmedia",
+      "docs_components_item_itemseparator",
+      "docs_components_item_itemtitle"
+    ],
+    "36": [
+      "docs_directory_cli",
+      "docs_directory_component_list",
+      "docs_directory_registry",
+      "docs_figma_figma",
+      "docs_figma_obra_shadcn_ui_pro",
+      "docs_figma_shadcn_studio_ui_kit",
+      "docs_figma_shadcn_ui_components",
+      "docs_figma_shadcn_ui_design_system",
+      "docs_figma_shadcn_ui_kit",
+      "docs_figma_shadcnblocks",
+      "docs_figma_shadcncraft_design_system"
+    ],
+    "37": [
+      "docs_theming",
+      "docs_theming_chart_theming_docs",
+      "docs_theming_components_json",
+      "docs_theming_css_variables",
+      "docs_theming_dark_mode_docs",
+      "docs_theming_globals_css",
+      "docs_theming_radius_scale",
+      "docs_theming_shadcn_create",
+      "docs_theming_tailwind_config",
+      "docs_theming_theme_tokens",
+      "docs_theming_token_convention"
+    ],
+    "38": [
+      "docs_button",
+      "docs_custom_base",
+      "docs_custom_login",
+      "docs_example_style",
+      "docs_font_inter",
+      "docs_login_01",
+      "docs_my_design_system",
+      "docs_new_style",
+      "docs_sidebar",
+      "docs_utils"
+    ],
+    "39": [
+      "docs_components_slider_label",
+      "docs_components_slider_slider",
+      "docs_components_slider_slidercontrolled",
+      "docs_components_slider_sliderdemo",
+      "docs_components_slider_sliderdisabled",
+      "docs_components_slider_slidermultiple",
+      "docs_components_slider_sliderrange",
+      "docs_components_slider_sliderrtl",
+      "docs_components_slider_slidervertical",
+      "docs_components_slider_usetranslation"
+    ],
+    "40": [
+      "docs_installation_gatsby_button_component",
+      "docs_installation_gatsby_gatsby",
+      "docs_installation_gatsby_gatsby_node",
+      "docs_installation_gatsby_shadcn_cli",
+      "docs_installation_gatsby_tailwindcss",
+      "docs_installation_gatsby_typescript",
+      "docs_javascript_components_json",
+      "docs_javascript_javascript",
+      "docs_javascript_jsconfig",
+      "docs_javascript_typescript"
+    ],
+    "41": [
+      "docs_components_button_group_buttongroupdropdown",
+      "lucide_react_alerttriangleicon",
+      "lucide_react_checkicon",
+      "lucide_react_chevrondownicon",
+      "lucide_react_copyicon",
+      "lucide_react_shareicon",
+      "lucide_react_trashicon",
+      "lucide_react_userroundxicon",
+      "lucide_react_volumeofficon"
+    ],
+    "42": [
+      "docs_components_button_group_dropdownmenucontent",
+      "docs_components_button_group_dropdownmenugroup",
+      "docs_components_button_group_dropdownmenuitem",
+      "docs_components_button_group_dropdownmenuradiogroup",
+      "docs_components_button_group_dropdownmenuradioitem",
+      "docs_components_button_group_dropdownmenuseparator",
+      "docs_components_button_group_dropdownmenusub",
+      "docs_components_button_group_dropdownmenusubcontent",
+      "docs_components_button_group_dropdownmenusubtrigger"
+    ],
+    "43": [
+      "docs_components_field_field",
+      "docs_components_field_fielddescription",
+      "docs_components_field_fielderror",
+      "docs_components_field_fieldgroup",
+      "docs_components_field_fieldlabel",
+      "docs_components_field_fieldlegend",
+      "docs_components_field_fieldseparator",
+      "docs_components_field_fieldset",
+      "docs_components_field_input"
+    ],
+    "44": [
+      "docs_components_select_radix_ui_select",
+      "docs_components_select_select",
+      "docs_components_select_selectcontent",
+      "docs_components_select_selectgroup",
+      "docs_components_select_selectitem",
+      "docs_components_select_selectlabel",
+      "docs_components_select_selectseparator",
+      "docs_components_select_selecttrigger",
+      "docs_components_select_selectvalue"
+    ],
+    "45": [
+      "docs_accordion",
+      "docs_ai_ready",
+      "docs_beautiful_defaults",
+      "docs_composition",
+      "docs_distribution",
+      "docs_introduction",
+      "docs_open_code"
+    ],
+    "46": [
+      "docs_components_carousel_carousel",
+      "docs_components_carousel_carouselapi",
+      "docs_components_carousel_carouselcontent",
+      "docs_components_carousel_carouselitem",
+      "docs_components_carousel_carouselnext",
+      "docs_components_carousel_carouselprevious",
+      "docs_components_carousel_embla_carousel"
+    ],
+    "47": [
+      "docs_components_chart_chartconfig",
+      "docs_components_chart_chartcontainer",
+      "docs_components_chart_chartlegend",
+      "docs_components_chart_chartlegendcontent",
+      "docs_components_chart_charttooltip",
+      "docs_components_chart_charttooltipcontent",
+      "docs_components_chart_recharts"
+    ],
+    "48": [
+      "docs_installation_next_directionprovider",
+      "docs_installation_next_item_component",
+      "docs_installation_next_nextjs",
+      "docs_installation_next_shadcn_create",
+      "index_css",
+      "noto_sans_arabic",
+      "styles_css"
+    ],
+    "49": [
+      "docs_cli_preset_command",
+      "docs_cli_preset_decode_command",
+      "docs_cli_preset_info_command",
+      "docs_cli_preset_open_command",
+      "docs_cli_preset_resolve_command",
+      "docs_cli_preset_url_command"
+    ],
+    "50": [
+      "docs_components_accordion_accordioncard",
+      "docs_components_accordion_card",
+      "docs_components_accordion_cardcontent",
+      "docs_components_accordion_carddescription",
+      "docs_components_accordion_cardheader",
+      "docs_components_accordion_cardtitle"
+    ],
+    "51": [
+      "docs_components_native_select_nativeselect",
+      "docs_components_native_select_nativeselectdemo",
+      "docs_components_native_select_nativeselectdisabled",
+      "docs_components_native_select_nativeselectinvalid",
+      "docs_components_native_select_select",
+      "docs_components_native_select_use_translation"
+    ],
+    "52": [
+      "docs_components_popover_popover",
+      "docs_components_popover_popovercontent",
+      "docs_components_popover_popoverdescription",
+      "docs_components_popover_popoverheader",
+      "docs_components_popover_popovertitle",
+      "docs_components_popover_popovertrigger"
+    ],
+    "53": [
+      "docs_components_sheet_radix_ui_dialog",
+      "docs_components_sheet_sheet",
+      "docs_components_sheet_sheetclose",
+      "docs_components_sheet_sheetcontent",
+      "docs_components_sheet_sheetfooter",
+      "docs_components_sheet_sheettrigger"
+    ],
+    "54": [
+      "docs_components_sonner_button",
+      "docs_components_sonner_sonner",
+      "docs_components_sonner_sonnerdemo",
+      "docs_components_sonner_sonnerdescription",
+      "docs_components_sonner_sonnerposition",
+      "docs_components_sonner_sonnertypes"
+    ],
+    "55": [
+      "docs_dark_mode_astro",
+      "docs_dark_mode_dark_mode",
+      "docs_dark_mode_nextjs",
+      "docs_dark_mode_remix",
+      "docs_dark_mode_tanstack_start",
+      "docs_dark_mode_vite"
+    ],
+    "56": [
+      "direction_directionprovider",
+      "drawer_drawer",
+      "dropdownmenu_dropdownmenu",
+      "radix_ui",
+      "vaul"
+    ],
+    "57": [
+      "docs_installation_laravel_inertia",
+      "docs_installation_laravel_laravel",
+      "docs_installation_laravel_react",
+      "docs_installation_laravel_shadcn_create",
+      "docs_installation_laravel_switch_component"
+    ],
+    "58": [
+      "docs_installation_vite_directionprovider",
+      "docs_installation_vite_item_component",
+      "docs_installation_vite_noto_sans_arabic",
+      "docs_installation_vite_shadcn_create",
+      "docs_installation_vite_vite"
+    ],
+    "59": [
+      "docs_components_collapsible_collapsible",
+      "docs_components_collapsible_collapsiblecontent",
+      "docs_components_collapsible_collapsibletrigger",
+      "docs_components_collapsible_example_collapsible"
+    ],
+    "60": [
+      "docs_components_data_table_columns",
+      "docs_components_data_table_datatable",
+      "docs_components_data_table_table",
+      "tanstack_react_table"
+    ],
+    "61": [
+      "docs_components_kbd_button",
+      "docs_components_kbd_kbd",
+      "docs_components_kbd_kbdgroup",
+      "docs_components_kbd_tooltip"
+    ],
+    "62": [
+      "docs_components_navigation_menu_navigationmenu",
+      "docs_components_navigation_menu_navigationmenucontent",
+      "docs_components_navigation_menu_navigationmenuindicator",
+      "docs_components_navigation_menu_nextjs_link"
+    ],
+    "63": [
+      "docs_components_resizable_resizable",
+      "docs_components_resizable_resizablehandle",
+      "docs_components_resizable_resizablepanel",
+      "docs_components_resizable_v4"
+    ],
+    "64": [
+      "docs_installation_manual_class_variance_authority",
+      "docs_installation_manual_clsx",
+      "docs_installation_manual_cn_helper",
+      "docs_installation_manual_tailwind_merge"
+    ],
+    "65": [
+      "docs_installation_manual_components_json",
+      "docs_installation_manual_package_json_imports",
+      "docs_installation_manual_shadcn",
+      "docs_installation_manual_tsconfig_paths"
+    ],
+    "66": [
+      "docs_cli_migrate_command",
+      "docs_cli_migrate_radix_command",
+      "docs_cli_migrate_rtl_command"
+    ],
+    "67": [
+      "docs_components_hover_card_hovercard",
+      "docs_components_hover_card_hovercardcontent",
+      "docs_components_hover_card_hovercardtrigger"
+    ],
+    "68": [
+      "docs_components_scroll_area_base_ui_scroll_area",
+      "docs_components_scroll_area_scrollarea",
+      "docs_components_scroll_area_scrollbar"
+    ],
+    "69": [
+      "docs_installation_react_router_card_component",
+      "docs_installation_react_router_react_router",
+      "docs_installation_react_router_shadcn_create"
+    ],
+    "70": [
+      "docs_installation_remix_button_component",
+      "docs_installation_remix_remix",
+      "docs_installation_remix_shadcn_cli"
+    ],
+    "71": [
+      "docs_installation_tanstack_card_component",
+      "docs_installation_tanstack_shadcn_create",
+      "docs_installation_tanstack_tanstack"
+    ],
+    "72": [
+      "docs_registry_open_in_v0_open_in_v0",
+      "docs_registry_open_in_v0_openinv0button",
+      "docs_registry_open_in_v0_v0_endpoint"
+    ],
+    "73": [
+      "docs_skills",
+      "shadcn_info",
+      "skills_cli"
+    ],
+    "74": [
+      "components_ui_button",
+      "docs_components_combobox_comboboxtrigger"
+    ],
+    "75": [
+      "docs_alias_child",
+      "docs_alias_parent"
+    ],
+    "76": [
+      "docs_components_separator_base_ui_separator",
+      "docs_components_separator_separator"
+    ],
+    "77": [
+      "docs_components_sidebar_componentpreview",
+      "docs_components_sidebar_sidebar_demo"
+    ],
+    "78": [
+      "docs_components_toast",
+      "sonner"
+    ],
+    "79": [
+      "docs_dark_mode_next_nextthemesprovider",
+      "docs_dark_mode_next_themeprovider"
+    ],
+    "80": [
+      "docs_installation_manual_globals_css",
+      "docs_installation_manual_tailwindcss"
+    ],
+    "81": [
+      "docs_installation_tanstack_router_button_component",
+      "docs_installation_tanstack_router_tanstack_router"
+    ],
+    "82": [
+      "load_registry_item_function",
+      "registry_item_not_found_error"
+    ],
+    "83": [
+      "docs_changelog"
+    ],
+    "84": [
+      "docs_components_badge_badge"
+    ],
+    "85": [
+      "docs_components_button_buttongroup"
+    ],
+    "86": [
+      "docs_components_button_spinner"
+    ],
+    "87": [
+      "docs_components_calendar_card"
+    ],
+    "88": [
+      "docs_components_card_cardaction"
+    ],
+    "89": [
+      "docs_components_card_carddescription"
+    ],
+    "90": [
+      "docs_components_card_cardheader"
+    ],
+    "91": [
+      "docs_components_card_cardtitle"
+    ],
+    "92": [
+      "docs_components_chart_chart"
+    ],
+    "93": [
+      "docs_components_context_menu"
+    ],
+    "94": [
+      "docs_components_data_table"
+    ],
+    "95": [
+      "docs_components_field_checkbox"
+    ],
+    "96": [
+      "docs_components_field_fieldcontent"
+    ],
+    "97": [
+      "docs_components_field_fieldtitle"
+    ],
+    "98": [
+      "docs_components_field_radioitem"
+    ],
+    "99": [
+      "docs_components_field_select"
+    ],
+    "100": [
+      "docs_components_field_slider"
+    ],
+    "101": [
+      "docs_components_field_switch"
+    ],
+    "102": [
+      "docs_components_field_textarea"
+    ],
+    "103": [
+      "docs_components_input_button"
+    ],
+    "104": [
+      "docs_components_language_selector_translations"
+    ],
+    "105": [
+      "docs_components_pagination_button"
+    ],
+    "106": [
+      "docs_components_select_field"
+    ],
+    "107": [
+      "docs_components_select_fieldcontent"
+    ],
+    "108": [
+      "docs_components_select_fielddescription"
+    ],
+    "109": [
+      "docs_components_select_fielderror"
+    ],
+    "110": [
+      "docs_components_select_fieldgroup"
+    ],
+    "111": [
+      "docs_components_select_fieldlabel"
+    ],
+    "112": [
+      "docs_components_select_switch"
+    ],
+    "113": [
+      "docs_components_sheet_button"
+    ],
+    "114": [
+      "docs_components_sheet_input"
+    ],
+    "115": [
+      "docs_components_sheet_label"
+    ],
+    "116": [
+      "docs_components_sheet_sheetdescription"
+    ],
+    "117": [
+      "docs_components_sheet_sheettitle"
+    ],
+    "118": [
+      "docs_components_sidebar_externallinkicon"
+    ],
+    "119": [
+      "docs_components_sidebar_sidebar_menu_dark"
+    ],
+    "120": [
+      "docs_components_sidebar_sidebar_structure"
+    ],
+    "121": [
+      "docs_components_sidebar_sidebarmenuskeleton"
+    ],
+    "122": [
+      "docs_components_skeleton_skeleton"
+    ],
+    "123": [
+      "docs_components_skeleton_skeleton_avatar"
+    ],
+    "124": [
+      "docs_components_skeleton_skeleton_card"
+    ],
+    "125": [
+      "docs_components_skeleton_skeleton_form"
+    ],
+    "126": [
+      "docs_components_skeleton_skeleton_table"
+    ],
+    "127": [
+      "docs_components_skeleton_skeleton_text"
+    ],
+    "128": [
+      "docs_components_sonner_toaster"
+    ],
+    "129": [
+      "docs_components_switch_field"
+    ],
+    "130": [
+      "docs_components_switch_fieldcontent"
+    ],
+    "131": [
+      "docs_components_switch_fielddescription"
+    ],
+    "132": [
+      "docs_components_switch_fieldgroup"
+    ],
+    "133": [
+      "docs_components_switch_fieldlabel"
+    ],
+    "134": [
+      "docs_components_switch_fieldtitle"
+    ],
+    "135": [
+      "docs_components_switch_label"
+    ],
+    "136": [
+      "docs_components_switch_usetranslation"
+    ],
+    "137": [
+      "docs_components_table_button"
+    ],
+    "138": [
+      "docs_components_table_dropdownmenu"
+    ],
+    "139": [
+      "docs_components_table_dropdownmenucontent"
+    ],
+    "140": [
+      "docs_components_table_dropdownmenuitem"
+    ],
+    "141": [
+      "docs_components_table_dropdownmenuseparator"
+    ],
+    "142": [
+      "docs_components_table_dropdownmenutrigger"
+    ],
+    "143": [
+      "docs_components_table_morehorizontalicon"
+    ],
+    "144": [
+      "docs_components_table_usetranslation"
+    ],
+    "145": [
+      "docs_components_typography"
+    ],
+    "146": [
+      "docs_custom_style"
+    ],
+    "147": [
+      "docs_custom_theme"
+    ],
+    "148": [
+      "docs_dark_mode_next"
+    ],
+    "149": [
+      "docs_dark_mode_remix_preventflashonwrongtheme"
+    ],
+    "150": [
+      "docs_dark_mode_remix_themeprovider"
+    ],
+    "151": [
+      "docs_dark_mode_remix_themesessionresolver"
+    ],
+    "152": [
+      "docs_dark_mode_vite_themeprovider"
+    ],
+    "153": [
+      "docs_extracttoken"
+    ],
+    "154": [
+      "docs_font_jetbrains_mono"
+    ],
+    "155": [
+      "docs_font_lora"
+    ],
+    "156": [
+      "docs_font_playfair_display"
+    ],
+    "157": [
+      "docs_installation_manual_lucide_react"
+    ],
+    "158": [
+      "docs_installation_manual_tw_animate_css"
+    ],
+    "159": [
+      "docs_registry_hello_world_hello_world_tsx"
+    ],
+    "160": [
+      "docs_registry_hello_world_use_hello_world_ts"
+    ],
+    "161": [
+      "docs_registry_namespace_built_in_registries"
+    ],
+    "162": [
+      "docs_registry_namespace_cli_commands"
+    ],
+    "163": [
+      "docs_registry_namespace_registry_naming_convention"
+    ],
+    "164": [
+      "docs_rtl_next_directionprovider"
+    ],
+    "165": [
+      "docs_rtl_next_noto_sans_arabic"
+    ],
+    "166": [
+      "docs_type_mismatch"
+    ],
+    "167": [
+      "docs_use_debounce"
+    ],
+    "168": [
+      "docs_use_mobile"
+    ],
+    "169": [
+      "drawer_drawerclose"
+    ],
+    "170": [
+      "drawer_drawercontent"
+    ],
+    "171": [
+      "drawer_drawerdescription"
+    ],
+    "172": [
+      "drawer_drawerfooter"
+    ],
+    "173": [
+      "drawer_drawerheader"
+    ],
+    "174": [
+      "drawer_drawertitle"
+    ],
+    "175": [
+      "drawer_drawertrigger"
+    ],
+    "176": [
+      "dropdownmenu_dropdownmenucheckboxitem"
+    ],
+    "177": [
+      "dropdownmenu_dropdownmenucontent"
+    ],
+    "178": [
+      "dropdownmenu_dropdownmenugroup"
+    ],
+    "179": [
+      "dropdownmenu_dropdownmenuitem"
+    ],
+    "180": [
+      "dropdownmenu_dropdownmenuportal"
+    ],
+    "181": [
+      "dropdownmenu_dropdownmenuradiogroup"
+    ],
+    "182": [
+      "dropdownmenu_dropdownmenuradioitem"
+    ],
+    "183": [
+      "dropdownmenu_dropdownmenuseparator"
+    ],
+    "184": [
+      "dropdownmenu_dropdownmenushortcut"
+    ],
+    "185": [
+      "dropdownmenu_dropdownmenusub"
+    ],
+    "186": [
+      "dropdownmenu_dropdownmenusubcontent"
+    ],
+    "187": [
+      "dropdownmenu_dropdownmenusubtrigger"
+    ],
+    "188": [
+      "lucide_infoicon"
+    ],
+    "189": [
+      "ui_avatar"
+    ],
+    "190": [
+      "ui_avatarfallback"
+    ],
+    "191": [
+      "ui_avatarimage"
+    ]
+  },
+  "cohesion": {
+    "0": 0.05664568678267309,
+    "1": 0.052244897959183675,
+    "2": 0.08787878787878788,
+    "3": 0.06387921022067364,
+    "4": 0.1349527665317139,
+    "5": 0.05555555555555555,
+    "6": 0.07007575757575757,
+    "7": 0.1310483870967742,
+    "8": 0.06896551724137931,
+    "9": 0.07142857142857142,
+    "10": 0.08831908831908832,
+    "11": 0.15076923076923077,
+    "12": 0.22,
+    "13": 0.2608695652173913,
+    "14": 0.10276679841897234,
+    "15": 0.19367588932806323,
+    "16": 0.37549407114624506,
+    "17": 0.11578947368421053,
+    "18": 0.3263157894736842,
+    "19": 0.18947368421052632,
+    "20": 0.1111111111111111,
+    "21": 0.19883040935672514,
+    "22": 0.29239766081871343,
+    "23": 0.1111111111111111,
+    "24": 0.41911764705882354,
+    "25": 0.20588235294117646,
+    "26": 0.1523809523809524,
+    "27": 0.13333333333333333,
+    "28": 0.1978021978021978,
+    "29": 0.15384615384615385,
+    "30": 0.15384615384615385,
+    "31": 0.2692307692307692,
+    "32": 0.1794871794871795,
+    "33": 0.24242424242424243,
+    "34": 0.16666666666666666,
+    "35": 0.18181818181818182,
+    "36": 0.2909090909090909,
+    "37": 0.18181818181818182,
+    "38": 0.2222222222222222,
+    "39": 0.2,
+    "40": 0.2,
+    "41": 0.2222222222222222,
+    "42": 0.2222222222222222,
+    "43": 0.25,
+    "44": 0.2222222222222222,
+    "45": 0.2857142857142857,
+    "46": 0.2857142857142857,
+    "47": 0.2857142857142857,
+    "48": 0.2857142857142857,
+    "49": 0.3333333333333333,
+    "50": 0.3333333333333333,
+    "51": 0.3333333333333333,
+    "52": 0.3333333333333333,
+    "53": 0.3333333333333333,
+    "54": 0.5333333333333333,
+    "55": 0.3333333333333333,
+    "56": 0.4,
+    "57": 0.4,
+    "58": 0.4,
+    "59": 0.5,
+    "60": 0.5,
+    "61": 0.5,
+    "62": 0.5,
+    "63": 1.0,
+    "64": 0.5,
+    "65": 0.5,
+    "66": 0.6666666666666666,
+    "67": 0.6666666666666666,
+    "68": 0.6666666666666666,
+    "69": 0.6666666666666666,
+    "70": 0.6666666666666666,
+    "71": 0.6666666666666666,
+    "72": 0.6666666666666666,
+    "73": 0.6666666666666666,
+    "74": 1.0,
+    "75": 1.0,
+    "76": 1.0,
+    "77": 1.0,
+    "78": 1.0,
+    "79": 1.0,
+    "80": 1.0,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0,
+    "85": 1.0,
+    "86": 1.0,
+    "87": 1.0,
+    "88": 1.0,
+    "89": 1.0,
+    "90": 1.0,
+    "91": 1.0,
+    "92": 1.0,
+    "93": 1.0,
+    "94": 1.0,
+    "95": 1.0,
+    "96": 1.0,
+    "97": 1.0,
+    "98": 1.0,
+    "99": 1.0,
+    "100": 1.0,
+    "101": 1.0,
+    "102": 1.0,
+    "103": 1.0,
+    "104": 1.0,
+    "105": 1.0,
+    "106": 1.0,
+    "107": 1.0,
+    "108": 1.0,
+    "109": 1.0,
+    "110": 1.0,
+    "111": 1.0,
+    "112": 1.0,
+    "113": 1.0,
+    "114": 1.0,
+    "115": 1.0,
+    "116": 1.0,
+    "117": 1.0,
+    "118": 1.0,
+    "119": 1.0,
+    "120": 1.0,
+    "121": 1.0,
+    "122": 1.0,
+    "123": 1.0,
+    "124": 1.0,
+    "125": 1.0,
+    "126": 1.0,
+    "127": 1.0,
+    "128": 1.0,
+    "129": 1.0,
+    "130": 1.0,
+    "131": 1.0,
+    "132": 1.0,
+    "133": 1.0,
+    "134": 1.0,
+    "135": 1.0,
+    "136": 1.0,
+    "137": 1.0,
+    "138": 1.0,
+    "139": 1.0,
+    "140": 1.0,
+    "141": 1.0,
+    "142": 1.0,
+    "143": 1.0,
+    "144": 1.0,
+    "145": 1.0,
+    "146": 1.0,
+    "147": 1.0,
+    "148": 1.0,
+    "149": 1.0,
+    "150": 1.0,
+    "151": 1.0,
+    "152": 1.0,
+    "153": 1.0,
+    "154": 1.0,
+    "155": 1.0,
+    "156": 1.0,
+    "157": 1.0,
+    "158": 1.0,
+    "159": 1.0,
+    "160": 1.0,
+    "161": 1.0,
+    "162": 1.0,
+    "163": 1.0,
+    "164": 1.0,
+    "165": 1.0,
+    "166": 1.0,
+    "167": 1.0,
+    "168": 1.0,
+    "169": 1.0,
+    "170": 1.0,
+    "171": 1.0,
+    "172": 1.0,
+    "173": 1.0,
+    "174": 1.0,
+    "175": 1.0,
+    "176": 1.0,
+    "177": 1.0,
+    "178": 1.0,
+    "179": 1.0,
+    "180": 1.0,
+    "181": 1.0,
+    "182": 1.0,
+    "183": 1.0,
+    "184": 1.0,
+    "185": 1.0,
+    "186": 1.0,
+    "187": 1.0,
+    "188": 1.0,
+    "189": 1.0,
+    "190": 1.0,
+    "191": 1.0
+  },
+  "gods": [
+    {
+      "id": "docs_bugreportform",
+      "label": "BugReportForm Component",
+      "degree": 22
+    },
+    {
+      "id": "docs_registry_item_json",
+      "label": "registry-item.json",
+      "degree": 20
+    },
+    {
+      "id": "manifest_entries",
+      "label": "entries",
+      "degree": 16
+    },
+    {
+      "id": "docs_react_19_next_js_15",
+      "label": "Next.js 15 + React 19",
+      "degree": 16
+    },
+    {
+      "id": "index_rtl",
+      "label": "RTL (Right-to-Left) Support",
+      "degree": 16
+    },
+    {
+      "id": "manifest_https_ui_shadcn_com_path",
+      "label": "path",
+      "degree": 15
+    },
+    {
+      "id": "manifest_https_ui_shadcn_com_sha256",
+      "label": "sha256",
+      "degree": 15
+    },
+    {
+      "id": "manifest_https_ui_shadcn_com_tier",
+      "label": "tier",
+      "degree": 15
+    },
+    {
+      "id": "manifest_https_ui_shadcn_com_fetched_at",
+      "label": "fetched_at",
+      "degree": 15
+    },
+    {
+      "id": "docs_components_alert_dialog_alertdialog",
+      "label": "AlertDialog",
+      "degree": 15
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Button",
+      "target": "Button",
+      "source_files": [
+        "docs-components-tooltip.md",
+        "docs-dark-mode-astro.md"
+      ],
+      "confidence": "AMBIGUOUS",
+      "relation": "semantically_similar_to",
+      "why": "ambiguous connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link; peripheral node `Button` unexpectedly reaches hub `Button`"
+    },
+    {
+      "source": "Button",
+      "target": "Button",
+      "source_files": [
+        "docs-components-tooltip.md",
+        "docs-dark-mode-next.md"
+      ],
+      "confidence": "AMBIGUOUS",
+      "relation": "semantically_similar_to",
+      "why": "ambiguous connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link; peripheral node `Button` unexpectedly reaches hub `Button`"
+    },
+    {
+      "source": "Button",
+      "target": "Button",
+      "source_files": [
+        "docs-components-tooltip.md",
+        "docs-dark-mode-remix.md"
+      ],
+      "confidence": "AMBIGUOUS",
+      "relation": "semantically_similar_to",
+      "why": "ambiguous connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link; peripheral node `Button` unexpectedly reaches hub `Button`"
+    },
+    {
+      "source": "Button",
+      "target": "Button",
+      "source_files": [
+        "docs-components-tooltip.md",
+        "docs-dark-mode-vite.md"
+      ],
+      "confidence": "AMBIGUOUS",
+      "relation": "semantically_similar_to",
+      "why": "ambiguous connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link; peripheral node `Button` unexpectedly reaches hub `Button`"
+    },
+    {
+      "source": "DropdownMenu",
+      "target": "DropdownMenu",
+      "source_files": [
+        "docs-dark-mode-astro.md",
+        "docs-dark-mode-next.md"
+      ],
+      "confidence": "AMBIGUOUS",
+      "relation": "semantically_similar_to",
+      "why": "ambiguous connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    }
+  ],
+  "tokens": {
+    "input": 285204,
+    "output": 246791
+  }
+}
