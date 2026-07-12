@@ -1,0 +1,6 @@
+This week’s deployment includes the following bug fixes:
+
+- In the Developer Dashboard and our [WordPress SDK](blog-wordpress-sdk-250-clone-resolution-deactivation-feedback-ux-enhancement-2.md#user_assets_ownership_mix_up_gone), when changing a user’s email address (transferring assets), we noticed that whitelisted sites were not being transferred. This issue has been resolved.
+- We fixed an issue on the [Analytics page](blog-release-notes-real-time-analytics-and-multi-store-dashboard.md) of the [Developer Dashboard](https://dashboard.freemius.com/) where the filtering UI would not appear in certain cases.
+- The [Customer Portal](help-documentation-users-account-management.md) would incorrectly redirect when [embedded](help-documentation-users-account-management.md#embedding_into_a_wordpress_website) and loaded in Safari. This has now been fixed.
+- We noticed a bug where [team members](help-documentation-getting-started-explore-the-developer-dashboard.md) with the ‘developer’ role could modify coupons but not coupon notes. This issue has now been resolved.

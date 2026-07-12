@@ -1,0 +1,120 @@
+<main class="page">
+  <header class="rb-head">
+    <p class="eyebrow">Knowledge Graph + Quality Score</p>
+    <h1>Freemius Docs — Graph &amp; Score</h1>
+    <p class="lede">A knowledge graph of the scraped Freemius documentation corpus (product docs, API reference, blog, help center) — built with <code>/graphify</code> and graded with <code>/graphify-score</code>.</p>
+    <div class="rb-meta">
+      <span><b>570</b> nodes</span>
+      <span><b>1,974</b> edges</span>
+      <span><b>48</b> communities</span>
+      <span><b>100%</b> EXTRACTED</span>
+    </div>
+  </header>
+
+  <section class="section-head">
+    <h2>GraphScore</h2>
+  </section>
+  <div class="grid grid-3">
+    <div class="card invert">
+      <div class="stat"><span class="badge ok">92.4</span></div>
+      <p class="lede">/ 100 — <b>great</b></p>
+    </div>
+    <div class="card">
+      <div class="stat">100<span class="badge">Truthful · 50%</span></div>
+      <p>Every edge is a real in-corpus link. 40/40 sampled, 0 made up.</p>
+    </div>
+    <div class="card">
+      <div class="stat">79.3<span class="badge">Complete · 30%</span></div>
+      <p>23/29 sampled facts present; 6 missed (thin concept nodes).</p>
+    </div>
+    <div class="card">
+      <div class="stat">93.0<span class="badge">Tidy · 20%</span></div>
+      <p>0.55 modularity, 38 orphan docs, 0 dangling edges.</p>
+    </div>
+  </div>
+
+  <section class="section-head">
+    <h2>God nodes</h2>
+    <p>The densest hubs — your core abstractions.</p>
+  </section>
+  <table>
+    <thead><tr><th>#</th><th>Node</th><th>Edges</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>help-documentation-checkout-integration-freemius-checkout-buy-button</td><td>46</td></tr>
+      <tr><td>2</td><td>merchant-of-record</td><td>32</td></tr>
+      <tr><td>3</td><td>blog-envato-alternatives-wordpress-sellers</td><td>31</td></tr>
+      <tr><td>4</td><td>blog-marketing-plugin-theme-developers</td><td>30</td></tr>
+      <tr><td>5</td><td>help-documentation-checkout-integration-hosted-checkout</td><td>28</td></tr>
+      <tr><td>6</td><td>blog-alternative-saas-acquisition-channels</td><td>26</td></tr>
+      <tr><td>7</td><td>blog-freemium-business-model-wordpress</td><td>26</td></tr>
+      <tr><td>8</td><td>blog-payment-processing-for-saas-guide</td><td>26</td></tr>
+      <tr><td>9</td><td>help-documentation-marketing-automation-cart-abandonment-recovery</td><td>26</td></tr>
+      <tr><td>10</td><td>wordpress-insights</td><td>26</td></tr>
+    </tbody>
+  </table>
+
+  <section class="section-head">
+    <h2>Main communities</h2>
+    <p>10 substantive clusters; the remaining 38 communities are single, unlinked docs.</p>
+  </section>
+  <table>
+    <thead><tr><th>ID</th><th>Label</th><th>Members</th></tr></thead>
+    <tbody>
+      <tr><td>0</td><td>WordPress &amp; Plugin Business Blog</td><td>114</td></tr>
+      <tr><td>1</td><td>API Reference (Endpoints &amp; Release Notes)</td><td>105</td></tr>
+      <tr><td>2</td><td>SaaS Monetization &amp; Merchant of Record</td><td>75</td></tr>
+      <tr><td>3</td><td>Marketing, Growth &amp; Brand Trust</td><td>71</td></tr>
+      <tr><td>4</td><td>SDK Integration &amp; Release Management</td><td>41</td></tr>
+      <tr><td>5</td><td>Affiliate Program &amp; Users API</td><td>38</td></tr>
+      <tr><td>6</td><td>Freemius API Auth &amp; Scopes</td><td>31</td></tr>
+      <tr><td>7</td><td>Marketplaces &amp; Template Sales</td><td>29</td></tr>
+      <tr><td>8</td><td>Migrations &amp; Email Deliverability</td><td>20</td></tr>
+      <tr><td>9</td><td>Plugin-to-SaaS &amp; Privacy</td><td>8</td></tr>
+    </tbody>
+  </table>
+
+  <section class="section-head">
+    <h2>Notable &amp; surprising bridges</h2>
+  </section>
+  <div class="grid grid-2">
+    <div class="card">
+      <p class="eyebrow">Hub</p>
+      <p>The <b>Freemius Checkout Buy Button</b> doc is the single densest node (46 edges) — it sits at the crossroads of API, selling, SaaS, and checkout docs.</p>
+    </div>
+    <div class="card">
+      <p class="eyebrow">Concept gravity</p>
+      <p><b>Merchant of Record</b> is a god node driven by competitor-comparison blog content (paddle/lemon-squeezy/stripe MoR posts), not the official docs — the comparison content carries that concept.</p>
+    </div>
+    <div class="card">
+      <p class="eyebrow">API → docs</p>
+      <p><code>api-trials</code> and <code>api-users</code> both link into the checkout-buy-button selling guide — the API surface funnels into the same selling hub.</p>
+    </div>
+    <div class="card">
+      <p class="eyebrow">Concept layer</p>
+      <p><code>License</code> ↔ <code>Subscription</code> (auto-sync), <code>License</code> → <code>Webhooks</code> (event logs); <code>Freemius API</code> → 15 API-tag nodes + Bearer/Secret-Key auth + Product/Developer/User scopes.</p>
+    </div>
+  </div>
+
+  <section class="section-head">
+    <h2>The grade</h2>
+  </section>
+  <div class="note"><b>Truthful 100.</b> All 1,974 edges are EXTRACTED from real internal markdown links; 0% INFERRED, 0% AMBIGUOUS. There is nothing to hallucinate. Caveat: built and graded by the same host agent, so Truthful skews slightly generous — but with zero inferred edges that risk is moot.</div>
+  <div class="note"><b>Complete 79.3.</b> 23/29 sampled facts present. Missed: affiliate-program payout/coupon structure, customer-portal embed/magic-login, EU-VAT + registration thresholds in the tax cheat-sheet, about.md founding context. These are conceptual depth, not broken links.</div>
+  <div class="note"><b>Tidy 93.0.</b> Modularity 0.55, mean degree 6.93, 2 duplicate-label groups (Affiliate Program / Customer Portal doc+concept pairs). 38 orphan nodes (6.7%); giant component holds 93%. 0 self-loops, 0 dangling edges.</div>
+
+  <section class="section-head">
+    <h2>How to improve</h2>
+    <p>Already strong (Truthful 100). To reach the mid-90s, fix concept-node completeness and orphans.</p>
+  </section>
+  <table>
+    <thead><tr><th>Action</th><th>What</th><th>Impact</th></tr></thead>
+    <tbody>
+      <tr><td><b>1. Wire the duped concepts</b></td><td>Connect <code>affiliate-program.md</code> → <code>concept_affiliate_program</code> and <code>customer-portal.md</code> → <code>concept_customer_portal</code> to their payout/coupon/embed docs.</td><td>Removes both duplicate-label groups; recovers 3 missed facts. <em>Top action.</em></td></tr>
+      <tr><td><b>2. Deepen the tax concept</b></td><td>Add a <code>concept_vat</code> / <code>concept_sales_tax</code> node; link from EU-VAT and US-sales-tax pages.</td><td>Recovers 2 missed facts.</td></tr>
+      <tr><td><b>3. Resolve 38 orphans</b></td><td>Cross-link leaf docs (about, brand-assets, wordpress-resources, lone interviews) or move non-knowledge pages to <code>.graphifyignore</code>.</td><td>orphan_frac 0.067 → ~0; lifts Tidy.</td></tr>
+      <tr><td><b>4. Reachability</b></td><td>Ensure concept-defining pages (merchant of record, freemium model) are linked so they're sampled and reachable.</td><td>Strengthens Complete on marketing/comparison docs.</td></tr>
+    </tbody>
+  </table>
+
+  <p class="note">Raw engine outputs also present: <code>GRAPH_REPORT.md</code> and <code>SCORE_REPORT.md</code> in <code>graphify-out/</code>. This report is the unified deliverable.</p>
+</main>

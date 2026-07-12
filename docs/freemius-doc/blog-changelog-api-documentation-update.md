@@ -1,0 +1,5 @@
+This week, we are rolling out the final batch of our API endpoints that were pending documentation. You can access them directly from our [API documentation website](https://docs.freemius.com/api). This batch primarily focuses on [Reviews](https://docs.freemius.com/api/products/create-review) and [Licensing](https://docs.freemius.com/api/licenses), making app integration significantly easier.
+
+With this, we’re wrapping up our [commitment](blog-changelog-easier-api-authentication-with-bearer-auth-protocol.md) to fully documenting the entire API using the OpenAPI specification. Going forward, any new endpoints or changes will be documented on an ad-hoc basis as part of our regular changelog updates.
+
+If you’re a [software maker](help-documentation-selling-with-freemius-saas-integration.md) looking for a rich, [OpenAPI-compliant](https://docs.freemius.com/api) integration API, be sure to explore our [documentation](https://docs.freemius.com/api) and [developer resources](help-documentation-selling-with-freemius.md).

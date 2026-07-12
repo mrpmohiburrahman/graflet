@@ -1,0 +1,27 @@
+# .graphifyignore — files excluded from the knowledge graph.
+# gitignore syntax. Root = this docs/ folder (run graphify here).
+
+# Scraper metadata (not content) — corrupts the graph.
+manifest.json
+
+# Index / listing / hub pages — no real content, create false hub nodes.
+index.md
+blog.md
+blog-all-posts.md
+fs-site.md
+blog-category-*.md
+blog-author-*.md
+
+# Aggregate duplicate of the individual help-faq-*.md pages.
+help-faq-all.md
+
+# Locale-duplicate careers listing (Spanish "all positions").
+blog-todos-los-puestos*.md
+
+# Micro release-notes (463 files, ~43% of corpus): tiny, repetitive,
+# low semantic value — would dominate the graph with near-identical nodes.
+blog-changelog-*.md
+
+# Hiring posts + meetup event pages — not product/docs knowledge.
+careers*.md
+makers-meetup*.md

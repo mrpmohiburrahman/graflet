@@ -1,0 +1,8 @@
+[Changelog](https://freemius.com/changelog/) / Enhancements to API Documentation, Schema & Webhooks
+
+This week, along with the release of our new JS SDK, we are rolling out several important updates to our API Documentation, OpenAPI Schema, and webhook events.
+
+1. The [`pricing`](https://docs.freemius.com/api/products/retrieve-pricing-table-data) endpoint now includes details about the selling unit. This makes it easier to render accurate information inside custom pricing tables.
+2. The `subscription cancellation` endpoint now properly supports an array of cancellation reasons. This allows you to capture multiple reasons from customers, and Freemius will notify you via email.
+3. The [`subscriptions`](https://docs.freemius.com/api/subscriptions/list) endpoint has a new [`enrich_with_cancellation_discounts`](https://docs.freemius.com/api/subscriptions/list#subscriptions/list/t=request&in=query&path=enrich_with_cancellation_discounts) flag. When used, subscriptions will include a `has_subscription_cancellation_discount` property, helping you determine if a cancellation discount has already been applied. You can use this to show a custom UI during the cancellation flow (see our [React Starter Kit](help-documentation-saas-sdk-react-starter-components.md#cancellation-flow) for examples).
+4. The `license.extended` webhook now includes a `data.is_renewal` property, indicating whether the license extension happened due to a subscription renewal. You can hook to this event to provide some entitlement per billing cycle.

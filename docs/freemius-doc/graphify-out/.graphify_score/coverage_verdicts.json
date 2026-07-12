@@ -1,0 +1,39 @@
+{"files": [
+ {"file":"about.md","facts":[
+   {"fact":"Freemius company overview / mission","present":true},
+   {"fact":"What Freemius is (monetization platform for wp/saas)","present":true},
+   {"fact":"Founding / team context","present":false}]},
+ {"file":"blog-how-wordpress-plugin-developers-make-money.md","facts":[
+   {"fact":"Revenue models: freemium, premium add-ons, subscriptions","present":true},
+   {"fact":"Comparison vs EDD / WooCommerce","present":true},
+   {"fact":"Pricing & licensing strategy","present":true},
+   {"fact":"Lifetime license model","present":true}]},
+ {"file":"blog-taxes-cheat-sheet-wordpress-developers.md","facts":[
+   {"fact":"US sales tax economic nexus","present":true},
+   {"fact":"EU/UK VAT obligations","present":false},
+   {"fact":"Tax registration thresholds","present":false}]},
+ {"file":"help-documentation-saas-integrating-license-key-activation.md","facts":[
+   {"fact":"License key activation flow for SaaS","present":true},
+   {"fact":"SDK / checkout buy-button integration","present":true},
+   {"fact":"Custom download links","present":true},
+   {"fact":"WordPress SDK integration","present":true}]},
+ {"file":"api-overview.md","facts":[
+   {"fact":"140 endpoints across 15 tags","present":true},
+   {"fact":"Bearer token vs secret-key auth","present":true},
+   {"fact":"Product / Developer / User scopes","present":true},
+   {"fact":"SDK links (PHP, NodeJS)","present":true}]},
+ {"file":"software-licensing.md","facts":[
+   {"fact":"Automatic license key generation","present":true},
+   {"fact":"Remote activation/deactivation","present":true},
+   {"fact":"License sync with subscription status","present":true},
+   {"fact":"License migration from other platforms","present":true},
+   {"fact":"License recovery for customers","present":true}]},
+ {"file":"affiliate-program.md","facts":[
+   {"fact":"Turn customers into affiliates","present":true},
+   {"fact":"Commission / payout structure","present":false},
+   {"fact":"Affiliate coupon & referral links","present":false}]},
+ {"file":"customer-portal.md","facts":[
+   {"fact":"Self-serve subscription management","present":true},
+   {"fact":"Update payment / change plan / cancel","present":true},
+   {"fact":"Embed / magic-login","present":false}]}
+]}

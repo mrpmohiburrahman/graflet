@@ -1,0 +1,3 @@
+At Freemius, your success is our north star. We don’t just offer tools; we take a partner role in your growth. From expert guidance on pricing, marketing, and monetization to support with legal and operational hurdles, we’re here to support your business every step of the way.
+
+Building and scaling a software business is no small feat — but you don’t have to do it alone. With Freemius, you get more than a platform; you get a trusted partner, a supportive community, and a robust infrastructure to grow on your terms. Your success is what inspires us, drives us, and fuels everything we do.

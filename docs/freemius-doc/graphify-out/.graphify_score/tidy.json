@@ -1,0 +1,57 @@
+{
+  "subscore": 93.0,
+  "metrics": {
+    "nodes": 570,
+    "edges": 1974,
+    "mean_degree": 6.93,
+    "density": 0.01217,
+    "components": 39,
+    "largest_component_frac": 0.933,
+    "orphan_nodes": 38,
+    "orphan_frac": 0.067,
+    "self_loops": 0,
+    "dangling_edges": 0,
+    "duplicate_label_groups": 2,
+    "extra_duplicate_nodes": 2,
+    "duplicate_frac": 0.004,
+    "top_hub_edge_share": 0.023,
+    "distinct_relations": 2,
+    "relation_cardinality": 0.001,
+    "modularity": 0.55,
+    "communities": 48,
+    "confidence": {
+      "EXTRACTED": 1974
+    }
+  },
+  "checks": {
+    "connected": {
+      "score": 0.933,
+      "detail": "largest cluster holds 93% of dots (39 islands)"
+    },
+    "not_orphaned": {
+      "score": 0.733,
+      "detail": "38 lonely dots (7%)"
+    },
+    "clean_edges": {
+      "score": 1.0,
+      "detail": "0 self-loops, 0 broken lines"
+    },
+    "deduped": {
+      "score": 0.977,
+      "detail": "2 duplicate dots (0%)"
+    },
+    "hub_sane": {
+      "score": 1.0,
+      "detail": "busiest dot touches 2% of lines"
+    },
+    "linked": {
+      "score": 1.0,
+      "detail": "avg 6.9 lines per dot, density 0.012"
+    },
+    "well_clustered": {
+      "score": 1.0,
+      "detail": "community separation (modularity) = 0.55"
+    }
+  },
+  "graph_json": "/Users/mrp/Documents/1-Projects/webscraping/freemius-scraper/docs/graphify-out/graph.json"
+}

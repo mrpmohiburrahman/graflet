@@ -1,0 +1,406 @@
+{
+  "graph_json": "/Users/mrp/Documents/1-Projects/webscraping/freemius-scraper/docs/graphify-out/graph.json",
+  "root": "/Users/mrp/Documents/1-Projects/webscraping/freemius-scraper/docs",
+  "edges": [
+    {
+      "idx": 0,
+      "source": "affiliate platform",
+      "relation": "references",
+      "target": "customer portal",
+      "confidence": "EXTRACTED",
+      "source_file": "affiliate-platform.md",
+      "source_location": null,
+      "evidence": "## Turn customers into affiliates\n\nManaging your software’s affiliate program is now effortless with the powerful Freemius Affiliate Platform.\n\nFree users, paid customers, and affiliate marketers can sign up and promote your products with just a few easy clicks.\n\nCreate brand champions for your software products\n\nThe Affiliate Platform lets you **manage affiliates, visits, referrals, and payouts** from a single dashboard.\n\nIf you’re selling a freemium product, **affiliates can promote your free version** and still earn a commission when users upgrade to a paid plan.\n\nConvert your users and customers into promoters by onboarding affiliates through the [Customer Portal](customer-portal.md).\n\nKoen Reus  \nPost to Google My Business​\n\n![](https://v3.freemius.com/wp-content/uploads/2025/01/logo-digital-distortion.png)\n\n“Setting up the Freemius Affiliate Platform is as easy as a flick of a switch. I was able to reach a broader audience and increase revenue much faster than other affiliate platforms would have allowed.”\n\n## Features and benefits\n\n![Affiliate management](https://v3.freemius.com/wp-content/uploads/2025/01/Affiliate-management-1.png)\n\n### Affiliate management\n\nHandle affiliat"
+    },
+    {
+      "idx": 1,
+      "source": "blog 136 plus expert wordpress business tips selling plugins themes",
+      "relation": "references",
+      "target": "blog bfcm 2020 wordpress plugins themes",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-136-plus-expert-wordpress-business-tips-selling-plugins-themes.md",
+      "source_location": null,
+      "evidence": "About a year ago we started the Experts Corner video series. We reached out to influential, experienced product business owners in the WordPress space, asking them to share their thoughts and learnings on various burning topics related to running a product business. In this article, I’ll share the insights we uncovered throughout our [Experts Corner video series](https://www.youtube.com/watch?v=8WQkuIwnJWM&list=PLFo6V0kfAw9MKkX3KOAFRZohgyPz9sNf1).\n\nWith the pandemic putting a halt to WordPress events globally, our community has lost (for now) a vital part of what makes it special. These events are where the real magic happens — collaboration, brainstorming, camaraderie — and I like to think that the Experts Corner video series helped to fill that gap in some way. I mean, you just have to look at the wealth of knowledge our experts have been kind enough to share. Right now, we have over 20 videos packed with insightful WordPress business tips to help business owners navigate and flourish in the ecosystem.\n\nTo put it into perspective — that’s more than **2.5 hours of professionals’ advice**! And it’s all available, for free, on our YouTube channel.\n\n## Meet the Experts 👨🏻‍🚀\n\nBefore w"
+    },
+    {
+      "idx": 2,
+      "source": "blog alternative saas acquisition channels",
+      "relation": "references",
+      "target": "blog seo for software makers does it still work",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-alternative-saas-acquisition-channels.md",
+      "source_location": null,
+      "evidence": "How are you supposed to keep the lights on when just [1.74% of new pages](https://ahrefs.com/blog/how-long-does-it-take-to-rank-in-google-and-how-old-are-top-ranking-pages/) break into Google’s Top 10 within a year?\n\nWorse still, the few that do are typically 3+ years old.\n\nWhen you’re bootstrapping a SaaS, the clock is always ticking. Rent’s due, bills pile up, and you’re thinking: *How do I get this in front of buyers and will they actually pay?*\n\nThough [SEO still has its place](blog-seo-for-software-makers-does-it-still-work.md), you need traction long before Google notices you, and that starts with your first 10 customers. They are proof that your idea can stand on its own and they rarely come from search traffic.\n\nIn this guide, we’ll break down the **five alternative SaaS acquisition channels** you can start testing this week — plus how Freemius helps you double down on what works without the setup stress or compliance headaches.\n\n## You Can’t SEO Your Way to Survival\n\nSEO is a long-term bet.\n\nGoogle rewards age, authority, and citations (the 2025 version of backlinks) — things you earn slowly, not while you’re still figuring out pricing or fixing bugs at 2 a.m.\n\nInstead of "
+    },
+    {
+      "idx": 3,
+      "source": "blog ben sibley independent analytics success story",
+      "relation": "references",
+      "target": "blog themeforest good place sell premium wordpress theme",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-ben-sibley-independent-analytics-success-story.md",
+      "source_location": null,
+      "evidence": "Ben Sibley has always had an entrepreneurial spirit, as illustrated by the fact that he’s only had one ‘normal’ job — cashiering at a grocery store during high school. While still in college, he learned about internet marketing and SEO, which led to him dipping his toes into WordPress website creation. He was able to abandon his post at the cash register because he made just as much selling SEO services over the summers.\n\nIn this article, Ben recounts how he went from building a web app to theme creation to co-founding [Independent Analytics](https://independentwp.com/), the first and only GDPR-compliant WordPress page-based analytics tool.\n\n**![Ben Sibley of Independent Analytics sitting on a couch.](https://freemius.com/blog/wp-content/uploads/2024/02/ben-sibley-of-independent-analytics-sitting-on-a-couch-.jpeg)**\n\n## Hi Ben — welcome and thanks for joining us! Please tell our readers about yourself.\n\nHey Robert! Thanks for inviting me to share my journey with your readers.\n\nA bit about me: I live in Philadelphia with my girlfriend, Izat, and my cat, Andre. I’m a bit of a health nut these days and I spend a lot of time cooking and working out when I’m not at the computer. I’m als"
+    },
+    {
+      "idx": 4,
+      "source": "blog best merchant of record software developers",
+      "relation": "references",
+      "target": "cart abandonment recovery",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-best-merchant-of-record-software-developers.md",
+      "source_location": null,
+      "evidence": "Choosing the wrong merchant of record [can cost you far more than a higher transaction fee](blog-payment-processor-traps-to-avoid.md) — fund freezes, account limits, surprise compliance issues in your target markets, contracts designed to keep you trapped.\n\nFor indie SaaS founders, early-stage software businesses, or plugin/extension developers, every MoR makes tradeoffs across three areas:\n\n1. Control over customer data and billing\n2. Operational burden the platform handles\n3. Total cost for your sales volume\n\nThese tradeoffs guided our search for the best merchant of record for each type of software business, comparing seven platforms on business model fit, global tax coverage, subscription tools, fraud management, and contract terms.\n\n## At a glance: Best merchant of record platforms for software makers\n\n- [**Freemius**](blog-best-merchant-of-record-software-developers.md#freemius_best_for_software_businesses_that_want_a_complete_system_for_selling_and_managing_revenue) — best for SaaS, AI apps, desktop software, plugins, themes, and extensions that need billing + licensing + retention in one system\n- [**Paddle**](blog-best-merchant-of-record-software-developers.md#paddle_best_f"
+    },
+    {
+      "idx": 5,
+      "source": "blog build monetize saas webinar recap",
+      "relation": "references",
+      "target": "help documentation saas sdk framework nextjs",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-build-monetize-saas-webinar-recap.md",
+      "source_location": null,
+      "evidence": "What if you could fully monetize your SaaS in just half an hour?\n\nThat’s exactly what [Swashata Ghosh](https://www.linkedin.com/in/swashata/?originalSubdomain=in), VP of Engineering at Freemius, set out to prove in this live coding webinar.\n\nUsing a lean Next.js stack, powered with the Freemius [JavaScript SDK](help-documentation-saas-sdk-js-sdk.md) and [React Starter Kit](help-documentation-saas-sdk-react-starter.md), Swas took an AI chat app and turned it into a fully monetized SaaS. The result? End-to-end billing, a paywall, checkout, and credit top-ups, all wired up in real-time.\n\nThis recap walks you through the tech choices, major milestones, and core architecture decisions while showing how Freemius handles the operational heavy lifting so you can focus on building fast and shipping faster.\n\n[![AI chat app](https://freemius.com/blog/wp-content/uploads/2025/10/ai-chat-app.png)](https://freemius.com/blog/wp-content/uploads/2025/10/ai-chat-app.png)\n\n*The insights in this recap are just scratching the surface. For the full coding experience:*\n\n[**Watch the webinar**](https://v3.freemius.com/build-and-monetize-your-saas-webinar/)\n\n[**Read integration guide**](help-documentation-s"
+    },
+    {
+      "idx": 6,
+      "source": "blog conference networking guide",
+      "relation": "references",
+      "target": "blog youtube marketing business growth",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-conference-networking-guide.md",
+      "source_location": null,
+      "evidence": "Behind the swag bags and keynotes lies the real value of WordPress conferences: actionable intelligence and relationship-building that directly impact your bottom line. From conducting market research to organizing side events, a well-thought-out approach to conference networking has helped Freemius turn casual conversations into profitable business relationships.\n\nTo ensure you get unique networking insights from someone who understands your business, we talked to our conference veterans: Freemius founder and CEO, [Vova Feldman](https://x.com/vovafeldman), and our Head of Brand, [Hadas Golzaker](https://x.com/HadasGolzaker).\n\nLet’s break down all the ways we leverage moments of connection when software makers come together to learn, build relationships, and unveil new business opportunities.\n\n[*![](https://freemius.com/blog/wp-content/uploads/2025/02/giphy.gif)*](https://freemius.com/blog/wp-content/uploads/2025/02/giphy.gif)\n\n*What’s networking to you?*\n\n## Use Conferences as Market Research Labs\n\nWordCamps (and other industry conferences) offer invaluable opportunities for real-world market research that you can’t get from online surveys or analytics. The key is to create natura"
+    },
+    {
+      "idx": 7,
+      "source": "blog envato alternatives wordpress sellers",
+      "relation": "references",
+      "target": "help documentation migration migrating from themeforest to freemius",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-envato-alternatives-wordpress-sellers.md",
+      "source_location": null,
+      "evidence": "Envato built the default marketplaces for WordPress plugin and theme sellers. Then Shutterstock acquired it, and “default” started feeling a lot less comfortable.\n\nThe commissions were already steep. The exclusivity terms already frustrating. But when an acquisition reshapes a platform’s incentives, makers who built their business there start doing the math on what they’re actually giving up (and whether a better model exists).\n\nThis guide explores top Envato alternatives for WordPress sellers: competing marketplaces or a direct model where you sell from your site and let a merchant of record (MoR) handle payments, taxes, and compliance.\n\n- Since Shutterstock acquired Envato in 2024, WordPress support has been cut — integrations dropped, free themes ended, Elements restructured around AI assets.\n- From July 2026, Envato removed the exclusivity tier entirely and moved all authors to a flat 50% fee, eliminating the main incentive that kept serious sellers on the platform.\n- When evaluating any alternative, the questions that matter most: do you own the buyer email list, can you control pricing and subscriptions, and who handles tax compliance across jurisdictions.\n- Marketplace alter"
+    },
+    {
+      "idx": 8,
+      "source": "blog finding strategic partnerships",
+      "relation": "references",
+      "target": "blog social media for developers marketing cheat sheet",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-finding-strategic-partnerships.md",
+      "source_location": null,
+      "evidence": "Growing a software business is becoming increasingly challenging. While traditional channels like social media and SEO remain important, rising costs and crowded markets make it harder for independent makers and small teams to gain traction.\n\nAmong these challenges, one growth strategy stands out: **strategic partnerships.** With [over 90% of tech industry leaders](https://hbr.org/2022/07/what-makes-innovation-partnerships-succeed) viewing partnerships as crucial for innovation, this approach offers independent software makers a path to growth without massive marketing budgets.\n\nWe’ve tapped into the insights from successful software creators, business owners, and tech professionals to show how co-marketing, product integrations, and distribution deals can help you reach new customers and build credibility — all while maintaining your independence and controlling costs.\n\n![Two guys shaking hands](https://freemius.com/blog/wp-content/uploads/2025/01/two-guys-shaking-hands.gif)\n\nWe have a deal!\n\n## Why Strategic Partnerships in Software Are Almost Non-Negotiable Today\n\nStrategic partnerships have been on leaders’ minds for a while now — they expect these alliances to increase their r"
+    },
+    {
+      "idx": 9,
+      "source": "blog freemius checkout sell wordpress products",
+      "relation": "references",
+      "target": "wordpress insights",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-freemius-checkout-sell-wordpress-products.md",
+      "source_location": null,
+      "evidence": "I’m excited to announce the all new Freemius Checkout we’ve been hard at work on in the past few months. It is now finally out.\n\nWhat is [Freemius Checkout](wordpress-checkout.md)? You couldn’t have asked this question at a better timing!\n\nFreemius Checkout is the simplest way to start selling your WordPress plugins and themes online. Anywhere online.\n\nThere’s very little initial setup you need to do to get started selling:\n\n1. Set your pricing, obviously\n2. Integrate the Freemius SDK code into your plugin/theme\n3. Paste the generated ‘buy button’ code snippet into any webpage and start selling!\n\nThat was easy. Almost too easy.. but seriously – that’s it.\n\n## How It Works\n\nWhen you sell using Freemius Checkout you get:\n\n **Secure Checkout** – purchases are secure and PCI compliant. Freemius Checkout uses the Stripe.js & PayPal Express Checkout, so we do not “touch” credit cards.\n\n**Software Licensing** – to control the number of sites your plugin/theme will be valid for. On license expiration you can choose what happens (block paid features or just cease updates & support).\n\n**Automatic Updates**  – you deploy your releases to Freemius and the GPL SDK will automatically update all "
+    },
+    {
+      "idx": 10,
+      "source": "blog freemius release notes november 2025",
+      "relation": "references",
+      "target": "help documentation marketing automation email settings",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-freemius-release-notes-november-2025.md",
+      "source_location": null,
+      "evidence": "This month brings meaningful refinements across the customer buying journey and the internal tools you rely on. Upgrades are simpler, checkout flows are more flexible, billing details are clearer, and several long-standing edge cases around attribution, testing, and recovery finally got the attention they needed.\n\nLet’s dive into what has improved.\n\n## Upgrade from Single Products to Bundles Seamlessly\n\nFor makers running multiple products, this upgrade path has been a real pressure point. Customers who wanted to move into a [bundle](help-documentation-wordpress-selling-bundles-and-memberships.md) often hit friction and the workarounds weren’t always intuitive.\n\nThis new flow removes upgrade friction, reduces support back-and-forth, and creates a much clearer path for customers who start with one product and later discover the value of a full bundle.\n\nIf a customer owns any product included in a bundle, they can upgrade directly through [checkout](help-documentation-checkout.md) without juggling keys, emailing support, or re-activating anything.\n\n[![Creating a bundle product in Developer dashboard](https://freemius.com/blog/wp-content/uploads/2025/12/Creating-a-bundle-product-in-De"
+    },
+    {
+      "idx": 11,
+      "source": "blog gdpr wordpress plugin theme",
+      "relation": "references",
+      "target": "help documentation marketing automation cart abandonment recovery",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-gdpr-wordpress-plugin-theme.md",
+      "source_location": null,
+      "evidence": "As you all know, the [EU *General Data Protection Regulation* (GDPR)](https://www.eugdpr.org/) takes effect today! (May 25th, 2018). It aims to protect fundamental privacy rights and the personal data of European Union residents.\n\nWhile they were 4 long and tiring weeks of full-time work towards GDPR compliance, in which almost all of our team took part in the efforts, we’re now ready to meet the new standards for the data privacy.\n\nOn a personal note, I’m super excited about the results and the tools that we’ve added to help you get ready as well!\n\n**Disclaimer:** Before we get to it, please note that I’m not a lawyer and this is not legal advice. This article covers the best-practice we used and recommend for others to use in order to comply with the GDPR. That said, we can’t cover everything here, and you should definitely get some professional counseling on the subject.\n\n## What does GDPR mean for the Freemius team?\n\nIn addition to tidying up our policies and preparing our products line, based on the GDPR requirements, we invested many efforts in providing you, our sellers and users, with as seamless as possible tools, product adjustments, and processes to help you get ready fo"
+    },
+    {
+      "idx": 12,
+      "source": "blog how to improve checkout conversion rates",
+      "relation": "references",
+      "target": "blog refund policy wordpress plugins themes",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-how-to-improve-checkout-conversion-rates.md",
+      "source_location": null,
+      "evidence": "Optimizing your checkout is a critical yet challenging task. You need to make it seamless, secure, and efficient, as it’s the last hurdle between a potential sale and a paying user, but it’s easier said than done.\n\nBalancing between integrating payment gateways and processing systems, implementing compliance and fraud prevention features, supporting multiple currencies, and improving load times and user interfaces sounds… overwhelming.\n\nBut this is exactly where your opportunity to increase checkout conversions lies.\n\nOur guide will help you uncover the key reasons for lost sales at checkout and offer insights to boost your conversion rates, courtesy of our in-house experts:\n\n- [Swashata Ghosh](https://www.linkedin.com/in/swashata/), Freemius VP of Engineering\n- [Atakan Oz](https://www.linkedin.com/in/atakanoz/), Freemius Senior WordPress Developer\n\n![Scrolling through a website on a laptop](https://freemius.com/blog/wp-content/uploads/2024/10/scrolling-through-a-website-on-a-laptop.gif)\n\nThe factors affecting checkout conversions that you can control fall into three main categories:\n\n- Technical\n- UX Design\n- Messaging\n\nLet’s take a closer look at each of these factors — and learn"
+    },
+    {
+      "idx": 13,
+      "source": "blog inbound sales strategy encourage people to buy",
+      "relation": "references",
+      "target": "blog seo for software makers does it still work",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-inbound-sales-strategy-encourage-people-to-buy.md",
+      "source_location": null,
+      "evidence": "Mastering the art of inbound sales can help bootstrapped software makers and SMBs increase revenue by attracting, engaging, and converting more customers — without breaking the bank.\n\nInbound sales focus on creating helpful, organic content to guide potential customers through the sales funnel. As a byproduct of this process, software makers and SMBs also get a chance to establish themselves as authorities in their niches and build trust and credibility for their brands.\n\n![Paul Atreides lifting his fist to a crowd in Dune 2](https://freemius.com/blog/wp-content/uploads/2024/07/paul-atreides-lifting-his-fist-to-a-crowd-in-dune-2.gif)\n\nFor expert tips on creating an inbound sales strategy that attracts prospects and converts leads, we sat down with [Meg Scarborough](https://www.linkedin.com/in/meganscarborough?original_referer=https%3A%2F%2Fwww.google.com%2F), the founder and CEO of Megawatt, where she leads a team of content and SEO experts who help B2B tech companies grow their organic traffic and revenue.\n\nBut first, a brief breakdown of some core concepts before we get into building a kick-ass inbound sales strategy for your software business.\n\n## What Are Inbound Sales?\n\nAs dis"
+    },
+    {
+      "idx": 14,
+      "source": "blog ivory search wordpress success story",
+      "relation": "references",
+      "target": "wordpress software licensing",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-ivory-search-wordpress-success-story.md",
+      "source_location": null,
+      "evidence": "Success Stories are back with a 💥 In July, I had the pleasure of interviewing Vinod Dalvi, the creator of one of WordPress’s leading search plugins, Ivory Search. Previously known as ‘Add Search To Menu’, Ivory Search has since notched up 100,000+ active installs and an impressive 1165 five-star reviews on WP.org.\n\nFor this showcase, Vinod and I explore his indie-developer roots, what it’s taken to achieve such impressive growth, and how user feedback has factored into his product’s success.\n\n## Hi Vinod — welcome! Let’s start things off with a bit about you: where are you from and what are your interests/hobbies?\n\nHi! My name is Vinod Dalvi and I’m from India. I like coding, reading, investing, playing games, doing workouts, etc. I have a small daughter and nowadays I spend a lot of time playing with her.\n\n![Vinod Dalvi and family Ivory Search Success Story ](https://freemius.com/blog/wp-content/uploads/2023/07/vinod-dalvi-and-family-ivory-search-success-story.jpeg)\n\n## What got you interested in WordPress plugin development?\n\nI studied computer engineering and worked for various WordPress agencies once I was done with my studies. After two years, I moved on from agency life and b"
+    },
+    {
+      "idx": 15,
+      "source": "blog micro saas ideas ai",
+      "relation": "references",
+      "target": "help documentation getting started explore the developer dashboard",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-micro-saas-ideas-ai.md",
+      "source_location": null,
+      "evidence": "It was called five years ago: [85% of business apps would be SaaS by 2025.](https://www.bettercloud.com/monitor/a-brief-history-of-saasops-and-why-it-matters/)\n\nAnd here we are. The tools are faster, AI’s smarter, and micro-SaaS projects are spinning up over a single weekend.\n\nBut building fast isn’t the same as building well, and that’s where most AI idea lists fall flat: vague, overblown, and clearly written by someone who’s never shipped solo.\n\n![Wait, what? GIF](https://freemius.com/blog/wp-content/uploads/2025/08/wait-what-gif-1.gif)\n\nYou don’t need another white-knuckle weekend hack that looks good in a demo but fails in the real world. You need something you can ship fast and sell from day one — with a clear value prop, a lean stack, and real revenue potential.\n\nThat’s what this piece is for.\n\nWe’re sharing five tactical micro-SaaS ideas you can actually execute. Each solves a real problem, includes a day-one monetization path, and is backed by demand signals from community threads, founder quotes, and user pain points.\n\nYou’ll also hear from software makers who’ve shipped successfully:\n\n1. [Luca Dal Zotto](https://www.linkedin.com/in/dal-zotto-luca/), co-founder of [Rent a "
+    },
+    {
+      "idx": 16,
+      "source": "blog miriam schwab strattic",
+      "relation": "references",
+      "target": "blog wordpress security interview",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-miriam-schwab-strattic.md",
+      "source_location": null,
+      "evidence": "I’m super stoked to finally be interviewing Miriam Schwab, who is the CEO & Founder of [Strattic](https://www.strattic.com/), a serverless security solution for WordPress & Open Source CMSs. She’s also(!) the CEO of illuminea, a top WordPress development agency, and an inspiring woman in general.\n\n#### Miriam, thanks for agreeing to answer my questions! I know you’re a very busy woman, so let’s get started right away by getting to know you a bit – where are you based and how did you get acquainted with WordPress in the first place?\n\nHi! I’m based out of Jerusalem, Israel. I first encountered WordPress when I decided to leave my job in the field of intellectual property and go freelance. I started out providing copywriting and translation services, but my love for technology got me interested in the field of website building. In those days, the websites were generally either plain old HTML and CSS, or built on very expensive proprietary CMSs that only enterprise companies could afford. I started building websites for clients since there was a need, but I quickly realized my clients needed their own CMS so I didn’t have to be on call for content editing (please just add a comma, no n"
+    },
+    {
+      "idx": 17,
+      "source": "blog payment platform restrictions ai apps",
+      "relation": "references",
+      "target": "merchant of record",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-payment-platform-restrictions-ai-apps.md",
+      "source_location": null,
+      "evidence": "You pick a payment platform, integrate it, and ship. Then you find out your product violates their acceptable use policy.\n\nPayment platform restrictions for AI apps are one of the most overlooked risks when choosing a billing provider. Switching mid-integration can cost weeks of dev time and a portion of your active subscribers.\n\nTo understand why these restrictions vary so much between platforms, it helps to understand who carries the legal risk.\n\n[Merchant of record platforms](merchant-of-record.md) — like Freemius, Paddle, and Lemon Squeezy — are the legal sellers of your product. They carry the tax and compliance burden, which means they also control what gets sold through their checkout. For AI products, where the output itself can carry legal risk, that liability translates directly into category restrictions.\n\nPaddle, for example, explicitly prohibits AI image generators, deepfake tools, and voice cloning products.\n\nPayment processors like Stripe carry less liability because you remain the legal seller, which means fewer category restrictions, but **full tax and compliance responsibility shifts to you**.\n\nWe reviewed the actual acceptable use policies so you don’t have to gu"
+    },
+    {
+      "idx": 18,
+      "source": "blog pricing page best practices wordpress plugins themes",
+      "relation": "references",
+      "target": "blog price wordpress plugin",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-pricing-page-best-practices-wordpress-plugins-themes.md",
+      "source_location": null,
+      "evidence": "We’ve analyzed hundreds of pricing pages and spotted the same issues over and over — from both Freemius makers and other WordPress developers. Most are making simple mistakes that kill their sales without realizing it.\n\nWant to stop leaving money on the table?\n\nCheck out our selection of top-converting pricing pages (plus a blueprint and Elementor template) to show you exactly what works. Think of it as your go-to checklist for building or tweaking pricing pages that actually convert.\n\n## Pricing Page Best Practices for WordPress Products\n\nBuilding a killer pricing page isn’t just about making it look pretty — optimizing for conversions goes way beyond this. From the moment someone lands on it, you need to:\n\n- Prove your worth\n- Build trust\n- Guide them to the right plan\n- Get them to buy (without overwhelming them)\n\nWe’ve built a blueprint that shows you exactly how to do this.\n\n[![Anatomy of High Converting Pricing Page](https://freemius.com/blog/wp-content/uploads/2021/07/anatomy-of-high-converting-pricing-page.png)](https://bit.ly/freemius-pricing-blueprint)\n\n**[Download Pricing Page Blueprint](https://bit.ly/freemius-pricing-blueprint)**\n\nTired of running your WordPress busine"
+    },
+    {
+      "idx": 19,
+      "source": "blog recommending bundling plugins themes",
+      "relation": "references",
+      "target": "blog multi currency beta program selling bundles",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-recommending-bundling-plugins-themes.md",
+      "source_location": null,
+      "evidence": "There are a wide range of marketing opportunities that open up when plugin and theme developers ensure compatibility or integrate with 3rd party products. When new functionality becomes available to your users from compatibility or integrations, it might be worth “recommending” the other product or even “bundling” your product and selling them together. But how can you maximize your Return on Investment (ROI) when recommending or bundling 3rd party products?\n\nNo matter the stage of your WordPress plugin or theme business – whether you’re making $1k, $50k, or $250k per month – you can spend all day building compatibility and new integrations with 3rd party products. While the possibilities are endless, it’s important to start by focusing on just a few options and analyze how the other product supplements your business goals and the existing functionality of your plugin or theme.\n\nYou might have asked yourself some of these questions at one point or another:\n\n- What compatibility or integrations should my product offer for 3rd party products?\n- Should I recommend 3rd party products to be used with my product?\n- Should I allow 3rd party products to bundle my plugin as part of their of"
+    },
+    {
+      "idx": 20,
+      "source": "blog renewals discount for wordpress plugins and themes",
+      "relation": "references",
+      "target": "blog how wordpress plugin developers make money",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-renewals-discount-for-wordpress-plugins-and-themes.md",
+      "source_location": null,
+      "evidence": "In 2017, [WooCommerce dropped its 50% Renewals Discount](https://wptavern.com/woocommerce-drops-50-renewal-discount-on-subscriptions) and got some backfire from the community due to how it was rolled out. This inspired me to shed some light on the topic of discounting renewals.\n\nRenewals Discount is an important topic that hasn’t been covered in depth. I personally have had conversations about whether WordPress plugin and theme developers should be discounting renewals in just about every WordPress event I’ve attended in recent years (PressNomics, [PrestigeConf](https://freemius.com/blog/wordpress-plugin-developers-attend-business-conferences/), LoopConf, and [WordCamps](https://freemius.com/blog/wordcamp-europe-2017/)).\n\nWhen I try to understand the reasoning behind the discount, the common and not surprising answer is: “Others do it, so we decided to follow the trend”. In most cases, I encourage developers to ditch the Renewals Discount for various reasons I’ll cover in this article.\n\n## Was The WooCommerce Renewals Discount Removal Justified?\n\nLet’s start by addressing the elephant in the room.\n\nI *do* think that removing the Renewals Discount was a smart business decision for t"
+    },
+    {
+      "idx": 21,
+      "source": "blog saas retention strategies",
+      "relation": "references",
+      "target": "blog marketing automation strategy",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-saas-retention-strategies.md",
+      "source_location": null,
+      "evidence": "We all want to grow. New users, new launches, new signups… But when churn creeps past 8% a month, that growth starts slipping through your fingers.\n\nAt that rate, you cycle through your entire customer base every year. You keep shipping, promoting, and acquiring, but you’re mostly replacing what you’ve already lost. It looks like progress, yet numbers stay flat.\n\nThat’s the real drag of SaaS growth — not lack of demand, but users leaving before they see lasting value. Fix that, and every new customer you win keeps adding to the total.\n\nAnd you don’t need a full customer success team to pull it off. Just a simple, repeatable system: guide users to value early, keep them engaged, and make it easy to stay.\n\nBecause growth counts only when customers stick around.\n\n## Why Growth Without Retention Is an Illusion\n\nStill not convinced our math checks out? Let’s run the numbers.\n\nAt 8% monthly churn, you’re keeping 92% of customers, which sounds fine until you see how it compounds.\n\n[![The Hidden Cost of 8%+ Churn formula ](https://freemius.com/blog/wp-content/uploads/2025/12/the-hidden-cost-of-8-churn-formula.png)](https://freemius.com/blog/wp-content/uploads/2025/12/the-hidden-cost-of-8-c"
+    },
+    {
+      "idx": 22,
+      "source": "blog selling plugins themes enterprises",
+      "relation": "references",
+      "target": "blog success story james kemp iconicwp",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-selling-plugins-themes-enterprises.md",
+      "source_location": null,
+      "evidence": "According to a study commissioned by [WP Engine](http://wpengine.com), 57% of enterprises use WordPress. Is your WordPress plugin or theme business ready for enterprise clients?\n\nI’m not pretending to be an enterprise sales expert, but, during my 10-year journey as an entrepreneur, I had my fair share of experiences selling software to Fortune 500 companies and learning from some of the top salespeople in the world, like [Kris Duggan](https://en.wikipedia.org/wiki/Kris_Duggan). Those experiences taught me fundamental principles that are kind of trivial but are unfortunately not yet adopted in the WordPress plugins and themes business economy.\n\nIn this blog post, I’ll expose you to several practical tricks that help sell [RatingWidget](https://rating-widget.com) licenses (a plugin business that I’ve built that was the catalyst to creating Freemius) to large organizations for thousands of dollars a year. That’s 20x, 30x, and sometimes even 50x the price an average customer pays. And the beauty is that it requires almost zero operational changes, and can be accomplished even by a one-man-show operation.\n\nSo, if you’re running a premium plugins business or a theme shop and would like t"
+    },
+    {
+      "idx": 23,
+      "source": "blog staged rollouts wordpress plugins themes",
+      "relation": "references",
+      "target": "blog codecanyon sell premium plugin",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-staged-rollouts-wordpress-plugins-themes.md",
+      "source_location": null,
+      "evidence": "Do you recall the last time you released a new version of your WordPress plugin or theme to quickly discover that you mistakenly added a new major bug that slipped through your testing sequence cracks?\n\n[Yoast SEO 3.0](https://yoast.com/yoast-seo-3-0-release-a-recap/) broke many websites back in 2015. [Elementor 3.0](https://elementor.com/blog/elementor-3-0-lessons-learned/) did the same this year. And those are just two examples off the top of my head of fantastic companies in our space with 100+ employees and dedicated QA personnel (and no, it’s not related to version 3.0, but maybe it’s a sign to skip that version in your software ;)).\n\nWhether you are a self-taught coder or software engineer, indie-developer, or part of a large plugin/theme shop, we all have to deal with bugs. It is an inevitable part of software development.\n\nNo matter what fancy CI/CD/testing automations you put in place – you will never be able to test it all. The number of server configurations (PHP, MySql, caching, web server), WP versions, combinations of plugins and themes… is all endless.\n\nAnd it’s counterintuitive. The more popular & stable your products get, the higher the chances for a dreaded “Clust"
+    },
+    {
+      "idx": 24,
+      "source": "blog stripe merchant of record",
+      "relation": "references",
+      "target": "help documentation marketing automation dunning failed payments",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-stripe-merchant-of-record.md",
+      "source_location": null,
+      "evidence": "With the launch of Managed Payments, Stripe began acting as a [merchant of record](merchant-of-record.md) in April 2025, but only for a narrow subset of transactions. Its eligibility rules exclude more software businesses than they include.\n\nThat distinction is important because “Stripe merchant of record” gets thrown around loosely. Some founders are referring to Stripe Tax. Others mean the new Managed Payments in beta. Very few have mapped exactly where Stripe’s liability ends and their own begins. Yet that line determines how much compliance work ultimately lands on their desk.\n\nSo let’s draw the line clearly.\n\nThis article explains what each Stripe product covers, where Managed Payments’ eligibility requirements leave many software businesses exposed, and what changes operationally when you move to a full merchant of record.\n\n## TL;DR — Is Stripe Managed Payments enough, or do you need a full merchant of record?\n\n**Stripe Managed Payments may be enough if you:**\n\n- Sell through Stripe Checkout or Payment Links\n- Don’t use Stripe Connect or run a marketplace\n- Operate within Managed Payments’ supported countries\n- Only need Stripe to handle payments, tax remittance, fraud, and c"
+    },
+    {
+      "idx": 25,
+      "source": "blog tablepress wordpress table plugin success story",
+      "relation": "references",
+      "target": "blog best gumroad alternatives free paid",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-tablepress-wordpress-table-plugin-success-story.md",
+      "source_location": null,
+      "evidence": "Don’t discount your hobbies because there’s always a chance they could lead to greater things. For Tobias Bäthge, the success of TablePress — the top WordPress table plugin — is proof that recreational pursuits can often serve as platforms to launch fulfilling full-time careers. Let’s dive into the success story of TablePress:\n\n## Hi Tobias — welcome and thanks for joining us! Tell us about yourself, where you’re from, and what you do on your days off.\n\nThanks for having me! I’m Tobias, a WordPress plugin developer from Magdeburg, Germany, and the creator of TablePress, the most popular and highest-rated WordPress table plugin.\n\nWhen I’m not coding, I enjoy playing with my kids, doing some gardening with my wife, or playing baseball with my hobby team.\n\n[![tablepress founder playing baseball wordpress table plugin](https://freemius.com/blog/wp-content/uploads/2023/09/tablepress-founder-playing-baseball-wordpress-table-plugin.jpg)](https://freemius.com/blog/wp-content/uploads/2023/09/tablepress-founder-playing-baseball-wordpress-table-plugin.jpg)\n\n## Why WordPress? Tell us about your journey up until now and where you see it progressing.\n\nI started with WordPress in the summer of 20"
+    },
+    {
+      "idx": 26,
+      "source": "blog what is lovable payments",
+      "relation": "references",
+      "target": "blog reduce saas failed payments",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-what-is-lovable-payments.md",
+      "source_location": null,
+      "evidence": "**Lovable Payments is Lovable’s built-in monetization feature. It lets you add subscriptions and one-time payments to any Lovable app using Stripe or Paddle without setting up a separate payment account or writing any code.**\n\nIf you’ve just shipped your first Lovable app and someone wants to pay you, Lovable Payments is probably the right next step.\n\nBut there’s a version of this story where you’re six months in, you want to run a pricing experiment, your AI product got flagged by Paddle, and you realise the checkout setup you chose on day one is now limiting your business.\n\nThis guide is about understanding which version of that story you’re in before you choose.\n\nLovable Payments is a native monetization layer for AI apps created in Lovable. It allows builders to accept subscriptions and one-time payments without setting up a custom payments backend.\n\n[![Lovable Payments for vibe coders and AI apps](https://freemius.com/blog/wp-content/uploads/2026/04/lovable-payments-for-vibe-coders-and-ai-apps.jpeg)](https://freemius.com/blog/wp-content/uploads/2026/04/lovable-payments-for-vibe-coders-and-ai-apps.jpeg)\n\nSource: Lovable Product Hunt page\n\n**What Lovable Payments supports:**\n\n- "
+    },
+    {
+      "idx": 27,
+      "source": "blog wordpress plugin seopress",
+      "relation": "references",
+      "target": "blog free premium plugin features",
+      "confidence": "EXTRACTED",
+      "source_file": "blog-wordpress-plugin-seopress.md",
+      "source_location": null,
+      "evidence": "This time we are interviewing an exciting entrepreneur from France. Benjamin Denis is the creator and owner of several WordPress plugins, who focuses (when he’s not working full-time at a web agency) on building and growing [SEOPress](https://www.seopress.org/) – a WordPress plugin (freemium) that helps website owners optimize their SEO.\n\n#### Benjamin, thanks for agreeing to provide an inside look at your WordPress product operation. Why don’t we dive right in – how did you get into the business of ‘SEOPress’?\n\nEverything started back in August 2016, when I was looking for a plugin idea to develop. I had already had two freemium plugins (WP Cloudy and WP Admin UI), and with the experience gained from them, I wanted to go further. So, I hopped on the official WordPress repository and grabbed the most downloaded plugins, noticing that the SEO topic was very frequent on the list.\n\nMy main (future) competitor is Yoast SEO (an ‘All in One’ to a lesser extent) who was, and still is, dominating the rankings. So, why attack these two behemoths? After having used this plugin on more than 50 WordPress sites, the more the updates came together the less I and my customers were satisfied: a co"
+    },
+    {
+      "idx": 28,
+      "source": "eu vat uk vat europe",
+      "relation": "references",
+      "target": "blog sales tax on software",
+      "confidence": "EXTRACTED",
+      "source_file": "eu-vat-uk-vat-europe.md",
+      "source_location": null,
+      "evidence": "---\ntitle: \"EU &amp; UK VAT Collection for Software Businesses\"\nurl: \"https://freemius.com/eu-vat-uk-vat-europe/\"\nsource: \"main-site\"\nscraped_at: \"2026-04-09T19:58:35+06:00\"\nword_count: 1815\n---\n\n# Collecting EU VAT and UK VAT in Europe\n\nWhat software product makers need to know\n\nEuropean Union Value-Added Tax regulations stipulate that if your business sells digital goods to European consumers, you must charge local VAT based on their locations. Additionally, businesses selling digital goods to UK consumers must adhere to similar regulations following Brexit, which introduced UK VAT requirements for non-UK businesses.\n\n## Are there EU VAT exemptions for selling SaaS?\n\nThere are no direct VAT exemptions for selling SaaS to EU consumers. However, certain small business exemptions may apply depending on your location.\n\nFor example, some EU countries offer VAT exemptions for small businesses with annual turnover below a certain threshold — such as [€22,000 in Germany](https://www.firma.de/en/accountancy/kleinunternehmerregelung-what-you-need-to-know-about-the-small-business-regulation/) — which means they’re not required to charge VAT. These exemptions are based on national laws, so i"
+    },
+    {
+      "idx": 29,
+      "source": "help documentation checkout features automatic discounts in checkout",
+      "relation": "references",
+      "target": "help documentation checkout integration freemius checkout buy button",
+      "confidence": "EXTRACTED",
+      "source_file": "help-documentation-checkout-features-automatic-discounts-in-checkout.md",
+      "source_location": null,
+      "evidence": "---\ntitle: \"How Automatic Discounts Work in the Checkout\"\nurl: \"https://freemius.com/help/documentation/checkout/features/automatic-discounts-in-checkout/\"\nsource: \"docs\"\nsection: \"Docs\"\ncategory: \"Checkout\"\nscraped_at: \"2026-04-09T19:58:37+06:00\"\nword_count: 916\n---\n\nFreemius Checkout is highly optimized for upsells. For example, if you're selling both monthly and annual subscriptions, our Checkout will automatically upsell the annual pricing to your customers.\n\nThe checkout performs the upsell by automatically calculating the discounts when upgrading from a single unit monthly pricing and displaying the discount in the UI. Below is an example of how the checkout will display both annual discount and multi-site discount.\n\nThese discounts are calculated automatically; no additional setup is required from your side. Understanding how these discounts are calculated can help you better price your products and explain value to users.\n\nThere are three main types of automatic discounts:\n\n- Annual Discount\n- Multi-unit Discount\n- Bundle Discount\n\nnote\n\nA unit is the measure of primary entitlement of licenses you sell through Freemius. For SaaS, it could be credits; for Apps, it could be a"
+    },
+    {
+      "idx": 30,
+      "source": "help documentation checkout integration hosted checkout",
+      "relation": "references",
+      "target": "help documentation checkout customization applying css customization",
+      "confidence": "EXTRACTED",
+      "source_file": "help-documentation-checkout-integration-hosted-checkout.md",
+      "source_location": null,
+      "evidence": "---\ntitle: \"Hosted Checkout\"\nurl: \"https://freemius.com/help/documentation/checkout/integration/hosted-checkout/\"\nsource: \"docs\"\nsection: \"Docs\"\ncategory: \"Checkout\"\nscraped_at: \"2026-04-09T19:58:38+06:00\"\nword_count: 1240\n---\n\nThe **Hosted Checkout** is a secure, hosted checkout page that allows you to redirect your customers to a specific URL to complete their purchase.\n\nIn addition to the [Overlay Checkout](help-documentation-checkout-integration-overlay-checkout.md), this features makes your Checkout more robust with simple links that you can share anywhere, including:\n\n- Your own website\n- Social media platforms\n- Emails and in-app notifications\n\nHere is an [example](https://checkout.freemius.com/product/16423/plan/27409/?hide_licenses=true&billing_cycle=monthly&title=My%20Software&show_reviews=true&show_refund_badge=true&s_ctx_ts=1736411534&sandbox=ffb191fd7ac2dd20bf29a717ffc13d06&cancel_url=https%3A%2F%2Ffreemius.com%2Fcheckout%2F).\n\n## Setting Up Hosted Checkout[​](#setting-up-hosted-checkout \"Direct link to Setting Up Hosted Checkout\")\n\nYou can generate hosted checkout links directly from the Freemius Developer Dashboard. No code is required.\n\n### Generating Checkout Links"
+    },
+    {
+      "idx": 31,
+      "source": "help documentation getting started making your first sale",
+      "relation": "references",
+      "target": "freemius vs woocommerce",
+      "confidence": "EXTRACTED",
+      "source_file": "help-documentation-getting-started-making-your-first-sale.md",
+      "source_location": null,
+      "evidence": "---\ntitle: \"Making Your First Sale\"\nurl: \"https://freemius.com/help/documentation/getting-started/making-your-first-sale/\"\nsource: \"docs\"\nsection: \"Docs\"\ncategory: \"Getting Started\"\nscraped_at: \"2026-04-09T19:58:38+06:00\"\nword_count: 685\n---\n\nWelcome to your first steps selling through Freemius! This guide will help you set up and test your checkout/buy button to ensure everything is working perfectly before going live.\n\nFreemius offers multiple ways for users to purchase your product:\n\n- Hosted Checkout\n- Checkout Overlay\n- In-Dashboard Upgrading in WP Admin\n\n## Hosted Checkout[​](#hosted-checkout \"Direct link to Hosted Checkout\")\n\nFreemius provides direct checkout links to our hosted checkout, offering a no-code integration method.\n\n### Access Checkout Links[​](#access-checkout-links \"Direct link to Access Checkout Links\")\n\n1. In the **Plans** section of your Developer Dashboard.\n2. Click the **Get Checkout** button next to each configured plan.\n3. Select the **Production Link** option.\n\n### Choose the Appropriate Link[​](#choose-the-appropriate-link \"Direct link to Choose the Appropriate Link\")\n\nYou'll see options for testing and live payments.\n\n- **Sandbox Link:** Ideal for sim"
+    },
+    {
+      "idx": 32,
+      "source": "help documentation marketing automation transactional emails",
+      "relation": "references",
+      "target": "help documentation selling with freemius license renewals mechanism",
+      "confidence": "EXTRACTED",
+      "source_file": "help-documentation-marketing-automation-transactional-emails.md",
+      "source_location": null,
+      "evidence": "This guide provides an overview of all the automated transactional and marketing emails that Freemius sends on behalf of your product to your customers.\n\nThis guide covers:\n\n- The [types of transactional emails](#types-of-transactional-emails).\n- How to [view email history and content](#view-email-history).\n- How to [customize the notifications](#email-notification-customization).\n\n## Types of Transactional Emails[​](#types-of-transactional-emails \"Direct link to Types of Transactional Emails\")\n\n### Purchase, Payment, and Subscription Emails[​](#purchase-payment-and-subscription-emails \"Direct link to Purchase, Payment, and Subscription Emails\")\n\n- After subscription / purchase confirmation\n- Payment\n- Refund\n- Subscription cancellation\n- Annual subscription renewal reminder (30 days before an upcoming renewal)\n\n### Trial Emails[​](#trial-emails \"Direct link to Trial Emails\")\n\n- Trial started\n- Trial about to expire (sent 2 days before expiration)\n- Trial expired\n- Trial canceled\n\n## Marketing Automation Emails[​](#marketing-automation-emails \"Direct link to Marketing Automation Emails\")\n\n- [Cart abandonment recovery - 3 emails](help-documentation-marketing-automation-cart-abandonm"
+    },
+    {
+      "idx": 33,
+      "source": "help documentation saas ios in app purchase integration",
+      "relation": "references",
+      "target": "help documentation saas app integration",
+      "confidence": "EXTRACTED",
+      "source_file": "help-documentation-saas-ios-in-app-purchase-integration.md",
+      "source_location": null,
+      "evidence": "---\ntitle: \"iOS In-App Purchase Integration\"\nurl: \"https://freemius.com/help/documentation/saas/ios-in-app-purchase-integration/\"\nsource: \"docs\"\nsection: \"Docs\"\ncategory: \"Setup for SaaS & Apps\"\nscraped_at: \"2026-04-09T19:58:42+06:00\"\nword_count: 1399\n---\n\nIn this guide, you will learn how to use the Freemius Hosted Checkout to provide an in-app purchase experience from your iOS apps without using Apple Checkout.\n\n## Getting Started[​](#getting-started \"Direct link to Getting Started\")\n\nTo get started with Freemius Checkout integration, you need to do the following:\n\n- [Register to Freemius](https://dashboard.freemius.com/register/) as a maker.\n- Created an [App product](help-documentation-getting-started-integrating-your-first-product.md).\n- Configure your [plans and pricing](help-documentation-wordpress-setup-product-pricing-plans-refunds.md) from the Dashboard.\n\n## Integration with No-Code Checkout Links[​](#integration-with-no-code-checkout-links \"Direct link to Integration with No-Code Checkout Links\")\n\nThe easiest way to integrate Freemius Checkout with your app is by using the links generated from the Freemius Developer Dashboard.\n\n1. Navigate to the **Plans** tab of your pr"
+    },
+    {
+      "idx": 34,
+      "source": "help documentation saas sdk framework nextjs",
+      "relation": "references",
+      "target": "help documentation saas sdk react starter",
+      "confidence": "EXTRACTED",
+      "source_file": "help-documentation-saas-sdk-framework-nextjs.md",
+      "source_location": null,
+      "evidence": "---\ntitle: \"Next.js Integration Guide with JavaScript SDK & Starter Kit\"\nurl: \"https://freemius.com/help/documentation/saas-sdk/framework/nextjs/\"\nsource: \"docs\"\nsection: \"Docs\"\ncategory: \"SDKs & Starter Kits\"\nscraped_at: \"2026-04-09T19:58:40+06:00\"\nword_count: 3170\n---\n\nIn this guide, we will walk you through the steps to build and monetize an application (or SaaS) using [Next.js](https://nextjs.org/), the [Freemius JavaScript SDK](help-documentation-saas-sdk-js-sdk.md), and our [React Starter Kit](help-documentation-saas-sdk-react-starter.md).\n\nBy the end of this guide, your application will include the following features:\n\n1. **Paywall and Pricing Tables**: To protect features and display pricing options to users.\n2. **Purchase Processing**: To handle purchases securely through Freemius.\n3. **Customer Portal**: To allow users to manage their subscriptions and account details.\n4. **Webhook Handling**: To process events from Freemius such as license updates and cancellations.\n\n## Video Tutorial and Advanced Example[​](#video-tutorial-and-advanced-example \"Direct link to Video Tutorial and Advanced Example\")\n\nYou can view the complete sample application built in this guide in our ["
+    },
+    {
+      "idx": 35,
+      "source": "help documentation saas sdk react starter installation",
+      "relation": "references",
+      "target": "help documentation saas sdk js sdk installation",
+      "confidence": "EXTRACTED",
+      "source_file": "help-documentation-saas-sdk-react-starter-installation.md",
+      "source_location": null,
+      "evidence": "---\ntitle: \"Installing the Starter Kit and Integrating with JS SDK\"\nurl: \"https://freemius.com/help/documentation/saas-sdk/react-starter/installation/\"\nsource: \"docs\"\nsection: \"Docs\"\ncategory: \"SDKs & Starter Kits\"\nscraped_at: \"2026-04-09T19:58:41+06:00\"\nword_count: 477\n---\n\nThe Freemius React Starter Kit is built with [shadcn/ui](https://ui.shadcn.com/) and [Tailwind CSS](https://tailwindcss.com/). It provides a variety of components to help you quickly set up billing, subscriptions, and customer portal features in your SaaS application.\n\n## Installing the React Starter Kit Components[​](#installing-the-react-starter-kit-components \"Direct link to Installing the React Starter Kit Components\")\n\nTo get started, make sure you have already installed and configured shadcn/ui in your application. Detailed instructions are available [here](https://ui.shadcn.com/docs/installation).\n\nOnce you have shadcn/ui set up, you can install the React Starter Kit components using the package manager of your choice.\n\n- npm\n- Yarn\n- pnpm\n- Bun\n\n```bash\nnpx shadcn@latest add https://shadcn.freemius.com/all.json\n```\n\n```bash\nyarn dlx shadcn@latest add https://shadcn.freemius.com/all.json\n```\n\n```bash\npnp"
+    },
+    {
+      "idx": 36,
+      "source": "help documentation selling with freemius hosted checkout",
+      "relation": "references",
+      "target": "help documentation checkout integration overlay checkout",
+      "confidence": "EXTRACTED",
+      "source_file": "help-documentation-selling-with-freemius-hosted-checkout.md",
+      "source_location": null,
+      "evidence": "The **Hosted Checkout** is a secure, hosted checkout page that allows you to redirect your customers to a specific URL to complete their purchase.\n\nIn addition to the [Overlay Checkout](help-documentation-checkout-integration-overlay-checkout.md), this features makes your Checkout more robust with simple links that you can share anywhere, including:\n\n- Your own website\n- Social media platforms\n- Emails and in-app notifications\n\nHere is an [example](https://checkout.freemius.com/product/16423/plan/27409/?hide_licenses=true&billing_cycle=monthly&title=My%20Software&show_reviews=true&show_refund_badge=true&s_ctx_ts=1736411534&sandbox=ffb191fd7ac2dd20bf29a717ffc13d06&cancel_url=https%3A%2F%2Ffreemius.com%2Fcheckout%2F).\n\n## Setting Up Hosted Checkout[​](#setting-up-hosted-checkout \"Direct link to Setting Up Hosted Checkout\")\n\nYou can generate hosted checkout links directly from the Freemius Developer Dashboard. No code is required.\n\n### Generating Checkout Links for Plans[​](#generating-checkout-links-for-plans \"Direct link to Generating Checkout Links for Plans\")\n\n1. Start by going to the ***Plans*** page.\n2. Click the **Get Checkout** button.\n3. Click the **Overlay Code** button.\n4. "
+    },
+    {
+      "idx": 37,
+      "source": "help documentation selling with freemius",
+      "relation": "references",
+      "target": "help documentation selling with freemius your earnings",
+      "confidence": "EXTRACTED",
+      "source_file": "help-documentation-selling-with-freemius.md",
+      "source_location": null,
+      "evidence": "---\ntitle: \"Selling with Freemius\"\nurl: \"https://freemius.com/help/documentation/selling-with-freemius/\"\nsource: \"docs\"\nsection: \"Docs\"\ncategory: \"Selling with Freemius\"\nscraped_at: \"2026-04-09T19:58:42+06:00\"\nword_count: 159\n---\n\nWelcome to Freemius!\n\nIf we have to guess - you’re probably here because you’re looking for a comprehensive, secure and easy solution that will enable you to sell your digital product.\n\nIf that’s the case - then you’re in the right place, because that’s exactly what Freemius does best. If that’s not the case - you’re welcome to keep on reading this documentation but it might not be very useful for you.\n\nIn case you’re still not sure if Freemius is right for your needs, let’s quickly walk through some of the major features & solutions that Freemius offers for plugin & theme authors.\n\nFind more information about:\n\n- [Trial Activations](help-documentation-selling-with-freemius-set-up-trials.md),\n- [Coupon Discounts](help-documentation-selling-with-freemius-coupon-discount.md),\n- [Refund Policy](help-documentation-selling-with-freemius-refund-policy.md) and [Refund Payments](help-documentation-selling-with-freemius-refund-payment.md),\n- [Multi-currency Suppor"
+    },
+    {
+      "idx": 38,
+      "source": "help documentation wordpress selling add ons extensions",
+      "relation": "references",
+      "target": "blog lifetime license for wordpress plugins the right way",
+      "confidence": "EXTRACTED",
+      "source_file": "help-documentation-wordpress-selling-add-ons-extensions.md",
+      "source_location": null,
+      "evidence": "---\ntitle: \"Selling Add-Ons / Extensions\"\nurl: \"https://freemius.com/help/documentation/wordpress/selling-add-ons-extensions/\"\nsource: \"docs\"\nsection: \"Docs\"\ncategory: \"Setup for WordPress\"\nscraped_at: \"2026-04-09T19:58:45+06:00\"\nword_count: 926\n---\n\nHistorically, many WordPress developers chose to monetize with the add-ons/extensions freemium business model, trying to replicate the success of popular products like WooCommerce.\n\nIn most cases, the add-ons model is actually not a good fit and we are seeing a market shift towards plans and add-on bundles (similar to plans). Therefore, if you are just starting out, don’t rush into add-ons only because you see others doing it. Be certain it makes sense for your product first.\n\ntip\n\nWe wrote an in-depth article \"[Premium vs. Add-ons - Which is the best monetization model for your plugin?](blog-premium-vs-add-ons-which-is-the-best-monetization-model-for-your-wordpress-plugin.md)\" that will give you a solid insight before you make your decision. If you’d like to see an example of a plugin that sells add-ons, check out [RatingWidget](https://wordpress.org/plugins/rating-widget/).\n\n## How to Sell Add-Ons with Freemius?[​](#how-to-sell-add-o"
+    },
+    {
+      "idx": 39,
+      "source": "License",
+      "relation": "references",
+      "target": "License Migration",
+      "confidence": "EXTRACTED",
+      "source_file": "software-licensing.md",
+      "source_location": null,
+      "evidence": "![Unique license key generation](https://v3.freemius.com/wp-content/uploads/2025/01/Unique-license-key-generation-1.png)\n\n### Unique license key generation\n\nWhen a customer makes a purchase, Freemius takes care of the rest by automatically generating and securely sending them a unique software license key. This simplifies the entire process, making things hassle-free for your customers and letting you focus more on building your product.\n\n![Full control with remote activation and deactivation](https://v3.freemius.com/wp-content/uploads/2025/01/Full-control-with-remote-activation-and-deactivation.png)\n\n### Full control with remote activation and deactivation\n\nTake charge of your software licenses with the ability to manage activations and deactivations from any location with an internet connection. Customers can activate their licenses smoothly upon installation, and you have the power to revoke access when necessary, ensuring your product stays secure from illegal use.\n\n![Real-time software license validation for peace of mind](https://v3.freemius.com/wp-content/uploads/2025/01/Real-time-software-license-validation-for-peace-of-mind.png)\n\n### Real-time software license validation f"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[Changelog](https://freemius.com/changelog/) / Release Override Protection
+
+Added protection from mistakenly overriding existing releases by prompting the developer with a confirmation dialogue box after uploading a version that already exists.
+
+[![Freemius Release override protection](https://freemius.com/blog/wp-content/uploads/2022/09/freemius-release-override-protection.png)](https://freemius.com/blog/wp-content/uploads/2022/09/freemius-release-override-protection.png)If you’ve been using Freemius API for automated deployments, and if you want to override a release, you’ll need to send a `PUT` request mentioning the `version` number explicitly. Also, please note that we validate the version number accordingly to [semver v2](https://semver.org/spec/v2.0.0.html) when `version` is expressly mentioned.
