@@ -1,0 +1,60 @@
+{
+  "graphscore": 96.4,
+  "band": "great",
+  "axes": {
+    "truthful": 100.0,
+    "complete": 100.0,
+    "tidy": 81.9
+  },
+  "weights": {
+    "truthful": 0.5,
+    "complete": 0.3,
+    "tidy": 0.2
+  },
+  "detail": {
+    "truthful": {
+      "supported": 40,
+      "unsupported": 0,
+      "unclear": 0,
+      "graded": 40,
+      "made_up": []
+    },
+    "complete": {
+      "total_facts": 14,
+      "present": 14,
+      "missed": []
+    },
+    "tidy": {
+      "nodes": 3136,
+      "edges": 6019,
+      "mean_degree": 3.84,
+      "density": 0.00122,
+      "components": 3,
+      "largest_component_frac": 0.846,
+      "orphan_nodes": 0,
+      "orphan_frac": 0.0,
+      "self_loops": 0,
+      "dangling_edges": 0,
+      "duplicate_label_groups": 145,
+      "extra_duplicate_nodes": 869,
+      "duplicate_frac": 0.277,
+      "top_hub_edge_share": 0.033,
+      "distinct_relations": 2,
+      "relation_cardinality": 0.0,
+      "modularity": 0.947,
+      "communities": 81,
+      "confidence": {
+        "EXTRACTED": 3333,
+        "INFERRED": 2686
+      }
+    }
+  },
+  "improve": {
+    "worst_files": [],
+    "structural": [
+      "869 duplicate dots (28%) — the same thing named slightly differently. Use consistent naming/casing so entity-resolution merges them."
+    ]
+  },
+  "judge_model": "tencent/hy3",
+  "graph_json": "/Users/mrp/Documents/1-Projects/webscraping/react-doc-scraper/docs/react-19/graphify-out/graph.json"
+}

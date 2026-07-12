@@ -1,0 +1,1691 @@
+{
+  "entries": {
+    "https://react.dev/": {
+      "path": "index.md",
+      "sha256": "3c9dd65cfb2612a87836ef7783e8f2d6d08259089fcda51980ab1f8ee3be3be1",
+      "bytes": 18319,
+      "tier": "jina-reader",
+      "fetched_at": "2026-07-12T06:21:03.986868+06:00"
+    },
+    "https://react.dev/blog": {
+      "path": "blog.md",
+      "etag": "W/\"8fac2fzl687l5\"",
+      "sha256": "79db95537680b83824dc0974abeb28577c4cf3c97130fead24ec0883acd0463f",
+      "bytes": 9867,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:54.50728+06:00"
+    },
+    "https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components": {
+      "path": "blog-2020-12-21-data-fetching-with-react-server-components.md",
+      "etag": "W/\"7p5c1c4cni1ha\"",
+      "sha256": "e6bd2cbcfbf3397113e2bebc4e823e8ff6c526e70032733d3a1f54bc68d98d52",
+      "bytes": 1919,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:54.488652+06:00"
+    },
+    "https://react.dev/blog/2021/06/08/the-plan-for-react-18": {
+      "path": "blog-2021-06-08-the-plan-for-react-18.md",
+      "etag": "W/\"h93jsqi3rk5d3\"",
+      "sha256": "dde410b12fbdf9b75efd4458760e9616775002c78db5056991138d6631551dca",
+      "bytes": 6994,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:54.564067+06:00"
+    },
+    "https://react.dev/blog/2021/12/17/react-conf-2021-recap": {
+      "path": "blog-2021-12-17-react-conf-2021-recap.md",
+      "etag": "W/\"9jps5wa5mx95l\"",
+      "sha256": "b64dbbfa391249e1745c5dbffa0f4ebd3ff74fa782614c155d39eecce1930181",
+      "bytes": 11887,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:54.564151+06:00"
+    },
+    "https://react.dev/blog/2022/03/08/react-18-upgrade-guide": {
+      "path": "blog-2022-03-08-react-18-upgrade-guide.md",
+      "etag": "W/\"137pezutz5qeq7\"",
+      "sha256": "04601bc6a436eba585950fc3d6aae77f30a55027e002592ca3fc515844e9232a",
+      "bytes": 19117,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:54.517251+06:00"
+    },
+    "https://react.dev/blog/2022/03/29/react-v18": {
+      "path": "blog-2022-03-29-react-v18.md",
+      "etag": "W/\"ze90plzcsiqbf\"",
+      "sha256": "c032f9c21264556859f62a1f53bae28966f7bff6ab6e77f03ac46b8ff7ea856d",
+      "bytes": 34153,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:54.564183+06:00"
+    },
+    "https://react.dev/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022": {
+      "path": "blog-2022-06-15-react-labs-what-we-have-been-working-on-june-2022.md",
+      "etag": "W/\"1ahbfqva3z8q1\"",
+      "sha256": "b1e37582c21079cba9b4701d121d1b9f36fda1a7771517a14a045efe4c52a614",
+      "bytes": 11382,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:54.47271+06:00"
+    },
+    "https://react.dev/blog/2023/03/16/introducing-react-dev": {
+      "path": "blog-2023-03-16-introducing-react-dev.md",
+      "etag": "W/\"17iplu98k7wiax\"",
+      "sha256": "49e6a21c0bc9a6b56044bfe55a7d06b068cc9e3030e7fb9d862ee2a40237a56c",
+      "bytes": 2313,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:02.53647+06:00"
+    },
+    "https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023": {
+      "path": "blog-2023-03-22-react-labs-what-we-have-been-working-on-march-2023.md",
+      "etag": "W/\"ohphvs738wcm9\"",
+      "sha256": "f1b8f282ef6eda05abd78f3cf40f589d5ce307f026751887a740642ed000bf65",
+      "bytes": 16370,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:54.985762+06:00"
+    },
+    "https://react.dev/blog/2023/05/03/react-canaries": {
+      "path": "blog-2023-05-03-react-canaries.md",
+      "etag": "W/\"7kfa0z734s98y\"",
+      "sha256": "f221685f09109200a1cef89b5b3d6bb68b09411c95a33cc3a01e8eb98c94b7e7",
+      "bytes": 11987,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:55.207305+06:00"
+    },
+    "https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024": {
+      "path": "blog-2024-02-15-react-labs-what-we-have-been-working-on-february-2024.md",
+      "etag": "W/\"fseuwevs91b4w\"",
+      "sha256": "7fe32293f5b237205858226bb92693def360428522dcced86190928d7bcdf5c5",
+      "bytes": 14538,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:55.38033+06:00"
+    },
+    "https://react.dev/blog/2024/04/25/react-19-upgrade-guide": {
+      "path": "blog-2024-04-25-react-19-upgrade-guide.md",
+      "etag": "W/\"ims5auw2ojnjp\"",
+      "sha256": "516886342f3e1d3d282f21c0d48e91fdb5cb1237b9c2b014e6031216dcb4b459",
+      "bytes": 645,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:03.138198+06:00"
+    },
+    "https://react.dev/blog/2024/05/22/react-conf-2024-recap": {
+      "path": "blog-2024-05-22-react-conf-2024-recap.md",
+      "etag": "W/\"hhv6yat3m28wu\"",
+      "sha256": "9cedf0487f6c53ec4377f43d14c16c883d0075107beb671cabea5c6534716a52",
+      "bytes": 11552,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:55.790254+06:00"
+    },
+    "https://react.dev/blog/2024/10/21/react-compiler-beta-release": {
+      "path": "blog-2024-10-21-react-compiler-beta-release.md",
+      "etag": "W/\"8cch2vd9r38hx\"",
+      "sha256": "e0ba6fd0b827587cb8e01fdd52fbfadd3e6e8ff381d16257ae5a14c19c864c44",
+      "bytes": 11023,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:55.988843+06:00"
+    },
+    "https://react.dev/blog/2024/12/05/react-19": {
+      "path": "blog-2024-12-05-react-19.md",
+      "etag": "W/\"ohdxr7o57tq41\"",
+      "sha256": "5dca1ec6e8605b8efb79c28276dfdf901f32a07c08dd6d069bac3b3f1705692c",
+      "bytes": 13865,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:04.735445+06:00"
+    },
+    "https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more": {
+      "path": "blog-2025-04-23-react-labs-view-transitions-activity-and-more.md",
+      "etag": "W/\"jdgoqmj45777pd\"",
+      "sha256": "7aaf117be6e62890c3e577c98bd3c4de3e0da5fa2bacb9a207f0e9105773bda4",
+      "bytes": 189828,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:06.400507+06:00"
+    },
+    "https://react.dev/blog/2025/10/01/react-19-2": {
+      "path": "blog-2025-10-01-react-19-2.md",
+      "etag": "W/\"dwha0x0vgmclg\"",
+      "sha256": "e4c3cb01d989c982e3ea60bc099fe351c5deb2ba9c8d7a019aa50cd1987a1018",
+      "bytes": 16336,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:57.508937+06:00"
+    },
+    "https://react.dev/blog/2025/10/07/introducing-the-react-foundation": {
+      "path": "blog-2025-10-07-introducing-the-react-foundation.md",
+      "etag": "W/\"7ey6rm8ex03ne\"",
+      "sha256": "429a096969b3cc706023c3d1569163132d549214aaf6c9ce63887656c8bd9a74",
+      "bytes": 4744,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:57.588455+06:00"
+    },
+    "https://react.dev/blog/2025/10/07/react-compiler-1": {
+      "path": "blog-2025-10-07-react-compiler-1.md",
+      "etag": "W/\"movbjife6hbew\"",
+      "sha256": "91d968a773a4be610641826d3b0a1a16d54ee5428707f4cdec58bacfe7f185bc",
+      "bytes": 14795,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:58.793383+06:00"
+    },
+    "https://react.dev/blog/2025/10/16/react-conf-2025-recap": {
+      "path": "blog-2025-10-16-react-conf-2025-recap.md",
+      "etag": "W/\"rjaz97cl1s969\"",
+      "sha256": "eabff67cce2d2335728254bc76b83f84a3adf553c080bbcd0ac3a55bfd330b9a",
+      "bytes": 11905,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:20:59.006204+06:00"
+    },
+    "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components": {
+      "path": "blog-2025-12-03-critical-security-vulnerability-in-react-server-components.md",
+      "etag": "W/\"p85sdkzmea711\"",
+      "sha256": "0ba0c90107a266c55cd641717c9de42d16bbf6fd7d56d3fccbbd77ce0828acc9",
+      "bytes": 9111,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:00.38162+06:00"
+    },
+    "https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components": {
+      "path": "blog-2025-12-11-denial-of-service-and-source-code-exposure-in-react-server-components.md",
+      "etag": "W/\"16llkpwt50t8ko\"",
+      "sha256": "5bb6266d7caaf899f310841af00d54c76c9b37ba574c9037a2f61415ce2ccc61",
+      "bytes": 11122,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:00.590084+06:00"
+    },
+    "https://react.dev/blog/2026/02/24/the-react-foundation": {
+      "path": "blog-2026-02-24-the-react-foundation.md",
+      "etag": "W/\"yisbvrgkj931p\"",
+      "sha256": "d65b33c0fe76440ea3283693c2f9ee0291f0f2179b9f5d881a7f60a8698057fe",
+      "bytes": 3953,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:01.988183+06:00"
+    },
+    "https://react.dev/community": {
+      "path": "community.md",
+      "etag": "W/\"ckh2hovfy71f1\"",
+      "sha256": "e4fdc743a39986c2aa293d1a2eee471d710ee70731e5eb79cb4b60580cba2c4b",
+      "bytes": 1837,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:02.392648+06:00"
+    },
+    "https://react.dev/community/acknowledgements": {
+      "path": "community-acknowledgements.md",
+      "etag": "W/\"p0h9p88kp2u8\"",
+      "sha256": "3453b9624a03e7043c8a1e70a6627e4e3dcc4b9d5ce28c557da81256c118aacd",
+      "bytes": 3680,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:03.789886+06:00"
+    },
+    "https://react.dev/community/conferences": {
+      "path": "community-conferences.md",
+      "etag": "W/\"yooq5b33zpzy7\"",
+      "sha256": "107f9c0ddadc9e154bf447f4e5ba3b629530b7423223d1491c4aed527da9b9eb",
+      "bytes": 46618,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:03.996018+06:00"
+    },
+    "https://react.dev/community/docs-contributors": {
+      "path": "community-docs-contributors.md",
+      "etag": "W/\"11z3aqttb9p1sx\"",
+      "sha256": "30d88ed408968606c846995df14bdfd845911c1b826010b7c0e2c2ce5a4abf91",
+      "bytes": 2338,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:04.195945+06:00"
+    },
+    "https://react.dev/community/meetups": {
+      "path": "community-meetups.md",
+      "etag": "W/\"16g8u0a54r06ck\"",
+      "sha256": "4841f01a9b3a42625eb65d7506e83420edba5fec06cfef3bbba4a268b50ac7de",
+      "bytes": 8232,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:04.583603+06:00"
+    },
+    "https://react.dev/community/team": {
+      "path": "community-team.md",
+      "etag": "W/\"pdkp9u6nlican\"",
+      "sha256": "b60775cea9075caafc1acec12db9f5480a5a884c6bee6ab558be407d58b0f153",
+      "bytes": 15957,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:05.190082+06:00"
+    },
+    "https://react.dev/community/translations": {
+      "path": "community-translations.md",
+      "etag": "W/\"3yqvzpd5oe13m\"",
+      "sha256": "aaaf1507aaac1bbb9798a227cc5c362b0f9ebf2353a2fe306133b317df86293d",
+      "bytes": 1426,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:05.44193+06:00"
+    },
+    "https://react.dev/community/versioning-policy": {
+      "path": "community-versioning-policy.md",
+      "etag": "W/\"136j3gs140tbx7\"",
+      "sha256": "45574e858d6cea215b92bc1e9a2142e9ffa536e33d388fd80724e89d3fa3fc71",
+      "bytes": 15459,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:05.590962+06:00"
+    },
+    "https://react.dev/community/videos": {
+      "path": "community-videos.md",
+      "etag": "W/\"17lknmxfb1q8dy\"",
+      "sha256": "018a0df3d97bf7d00a8c12e8c1abb00828c019d6e47d601fadfb3e80acafafd7",
+      "bytes": 10885,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:05.791532+06:00"
+    },
+    "https://react.dev/learn": {
+      "path": "learn.md",
+      "etag": "W/\"17fisjsk8s5c7v\"",
+      "sha256": "59c675016b3912abfc4e355457a6a68bcd5a340efe0a6d0a9fcd352bc2df33d8",
+      "bytes": 11922,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:12.952629+06:00"
+    },
+    "https://react.dev/learn/add-react-to-an-existing-project": {
+      "path": "learn-add-react-to-an-existing-project.md",
+      "etag": "W/\"12mom8biqn06l2\"",
+      "sha256": "010d38a5ebff90d73db2b5f20018c2685236b92b6eeedab05497af00a0a074e7",
+      "bytes": 8534,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:06.138266+06:00"
+    },
+    "https://react.dev/learn/adding-interactivity": {
+      "path": "learn-adding-interactivity.md",
+      "etag": "W/\"iuzbyp6tv4ioq\"",
+      "sha256": "ec789934f9fa935a3b5ac5a9010b5796c4e8f6aa469d04fc70f7b9ed7e167cdf",
+      "bytes": 24222,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:06.542304+06:00"
+    },
+    "https://react.dev/learn/build-a-react-app-from-scratch": {
+      "path": "learn-build-a-react-app-from-scratch.md",
+      "etag": "W/\"yxrwlzcbv392y\"",
+      "sha256": "e3b6b297c6ce0acd7b899cceb40bf56ba9ae9d67a57bd5d1e13ac622124d7329",
+      "bytes": 11772,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:06.730798+06:00"
+    },
+    "https://react.dev/learn/choosing-the-state-structure": {
+      "path": "learn-choosing-the-state-structure.md",
+      "etag": "W/\"tic40lt6lm1bq0\"",
+      "sha256": "d389858cdb8dda28f87488b01c50caf08d8a6be364bc2be8e66d96cbd860128f",
+      "bytes": 61852,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:06.948164+06:00"
+    },
+    "https://react.dev/learn/conditional-rendering": {
+      "path": "learn-conditional-rendering.md",
+      "etag": "W/\"rw0scv5wseeu6\"",
+      "sha256": "9abf6cc038bfde692802e417c34c6d017e13a3ff6e960107756698fc9f465e1a",
+      "bytes": 19284,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:07.131803+06:00"
+    },
+    "https://react.dev/learn/creating-a-react-app": {
+      "path": "learn-creating-a-react-app.md",
+      "etag": "W/\"h0j8en7lkb5mt\"",
+      "sha256": "56e35c685560b0e042fbd02f10e868b2eb19c13f75316ef84dd23ec7a5e9ad86",
+      "bytes": 7307,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:07.528995+06:00"
+    },
+    "https://react.dev/learn/describing-the-ui": {
+      "path": "learn-describing-the-ui.md",
+      "etag": "W/\"5pnuqhks78buk\"",
+      "sha256": "e3737a2763e9c5d30d3c7ebf2c961c945e54a605b3a7dc9198ffb6983900a5ac",
+      "bytes": 15360,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:07.732374+06:00"
+    },
+    "https://react.dev/learn/editor-setup": {
+      "path": "learn-editor-setup.md",
+      "etag": "W/\"msxpu41dx436v\"",
+      "sha256": "4c343d9dedbc3039c29737a62adba2da5b825804794ac29ace59b5773a64edf2",
+      "bytes": 4137,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:07.930141+06:00"
+    },
+    "https://react.dev/learn/escape-hatches": {
+      "path": "learn-escape-hatches.md",
+      "etag": "W/\"puuc9d2ltojlw\"",
+      "sha256": "8a014a916c67e6962951ced0d81a32fdbc6a6328bbe25840b73903b07e5b8aba",
+      "bytes": 25438,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:08.146305+06:00"
+    },
+    "https://react.dev/learn/extracting-state-logic-into-a-reducer": {
+      "path": "learn-extracting-state-logic-into-a-reducer.md",
+      "etag": "W/\"djfi41e2gb1c0z\"",
+      "sha256": "47d6fa4ab9ba5ad9f7d1fdc63a22daa108770d0e4ccc342ce2f69affea413b4e",
+      "bytes": 1295,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:15.133424+06:00"
+    },
+    "https://react.dev/learn/importing-and-exporting-components": {
+      "path": "learn-importing-and-exporting-components.md",
+      "etag": "W/\"r44zuygpj397w\"",
+      "sha256": "204431a9ab813486a249f2477de18a4b9c25ef5c2d8933f4cf97ff6646a11f23",
+      "bytes": 11950,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:08.530849+06:00"
+    },
+    "https://react.dev/learn/installation": {
+      "path": "learn-installation.md",
+      "etag": "W/\"wg0wxdj30z1vb\"",
+      "sha256": "1de1854448416484f4ccdbdc16aeddb9de26a89689321494fe2914eb27f50834",
+      "bytes": 2423,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:08.728451+06:00"
+    },
+    "https://react.dev/learn/javascript-in-jsx-with-curly-braces": {
+      "path": "learn-javascript-in-jsx-with-curly-braces.md",
+      "etag": "W/\"ifuxztojccb1z\"",
+      "sha256": "1aa2ece10a37009f094f04b08ae95463f917cacd0201155a92626a3d2891c621",
+      "bytes": 6418,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:16.142044+06:00"
+    },
+    "https://react.dev/learn/keeping-components-pure": {
+      "path": "learn-keeping-components-pure.md",
+      "etag": "W/\"87wi1qvkbsjlf\"",
+      "sha256": "3f97283b03742fb9df89f465d2621eae456799ba2b5a9422ec1c5e3cec0c5343",
+      "bytes": 25413,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:09.345977+06:00"
+    },
+    "https://react.dev/learn/lifecycle-of-reactive-effects": {
+      "path": "learn-lifecycle-of-reactive-effects.md",
+      "etag": "W/\"87onqul19i1jk7\"",
+      "sha256": "b4e98dbc30300caae14eebc641606ca25bceafe18c9490890f3c4e168af3b301",
+      "bytes": 18147,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:16.945163+06:00"
+    },
+    "https://react.dev/learn/managing-state": {
+      "path": "learn-managing-state.md",
+      "etag": "W/\"15zze44ie9hjkg\"",
+      "sha256": "7ab588fc33b05a8db22b050e8996bcfe0b51dcf009c63c173ca1a9020e9c457c",
+      "bytes": 25376,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:09.932597+06:00"
+    },
+    "https://react.dev/learn/manipulating-the-dom-with-refs": {
+      "path": "learn-manipulating-the-dom-with-refs.md",
+      "etag": "W/\"ail3jyshi9o5i\"",
+      "sha256": "f549bf3f4c2e1d8dcd10d83225829999cec4a7b641c07dbff7c1984a31191465",
+      "bytes": 21444,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:17.146543+06:00"
+    },
+    "https://react.dev/learn/passing-data-deeply-with-context": {
+      "path": "learn-passing-data-deeply-with-context.md",
+      "etag": "W/\"e4vky97yzfqtk\"",
+      "sha256": "5fee7f0be7df87056aafd0593829f80c2a00ac2766958478ca9e5a529583ebe8",
+      "bytes": 34769,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:10.732427+06:00"
+    },
+    "https://react.dev/learn/passing-props-to-a-component": {
+      "path": "learn-passing-props-to-a-component.md",
+      "etag": "W/\"bsdf1j8aa7ksz\"",
+      "sha256": "ba12c442782fb9a598a024476ddfdf9018429969d53184974c276e5f65231a89",
+      "bytes": 557,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:18.130963+06:00"
+    },
+    "https://react.dev/learn/preserving-and-resetting-state": {
+      "path": "learn-preserving-and-resetting-state.md",
+      "etag": "W/\"cjmum0w83u16ja\"",
+      "sha256": "25d5566c8cad76f49374946f80884fd0e5c336178449befb7366b27205ee26cc",
+      "bytes": 783,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:19.343493+06:00"
+    },
+    "https://react.dev/learn/queueing-a-series-of-state-updates": {
+      "path": "learn-queueing-a-series-of-state-updates.md",
+      "etag": "W/\"15k4z0w34ajdd3\"",
+      "sha256": "1bc7d2a73bb475e4e23371fd439bf614071b5ce91a05b75451f138006f42ad76",
+      "bytes": 17319,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:14.591387+06:00"
+    },
+    "https://react.dev/learn/react-compiler": {
+      "path": "learn-react-compiler.md",
+      "etag": "W/\"166ttvhi8d71di\"",
+      "sha256": "0f6af37e96e8286e68723029bce3faa0d7c2c6cf96dde66767cf9dbd3f070e37",
+      "bytes": 1782,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:15.93181+06:00"
+    },
+    "https://react.dev/learn/react-compiler/debugging": {
+      "path": "learn-react-compiler-debugging.md",
+      "etag": "W/\"2i2h42qfxx3ll\"",
+      "sha256": "1ceef7278b21e66a1269e3b4ca2994bcad5b1c3d0959a396ec92f98fc34368a6",
+      "bytes": 4667,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:16.329597+06:00"
+    },
+    "https://react.dev/learn/react-compiler/incremental-adoption": {
+      "path": "learn-react-compiler-incremental-adoption.md",
+      "etag": "W/\"mzz656ekgj5im\"",
+      "sha256": "230ceffda3ad8fcdf33c263b6b7c3ebba05d1e986f4e46096f6cbef0a6b2e5c4",
+      "bytes": 7150,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:17.328681+06:00"
+    },
+    "https://react.dev/learn/react-compiler/installation": {
+      "path": "learn-react-compiler-installation.md",
+      "etag": "W/\"6eho7oo6cw699\"",
+      "sha256": "eb75503abd1a30f92a158080e1b1dc43485502292c11d3297451f7e6c51f382b",
+      "bytes": 8115,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:17.530326+06:00"
+    },
+    "https://react.dev/learn/react-compiler/introduction": {
+      "path": "learn-react-compiler-introduction.md",
+      "etag": "W/\"vi9dydzb9y8m8\"",
+      "sha256": "c35cb68cfaef6e7eeea3718f979f162f805949ff6fea06d60ec45d999aa6c08b",
+      "bytes": 11170,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:17.730649+06:00"
+    },
+    "https://react.dev/learn/react-developer-tools": {
+      "path": "learn-react-developer-tools.md",
+      "etag": "W/\"c13xhcgqqc1xt\"",
+      "sha256": "4c28e71fc2cccc96bc05f0105ac9b0ad8b44c55eb485961209965475c3f68111",
+      "bytes": 2513,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:18.328373+06:00"
+    },
+    "https://react.dev/learn/reacting-to-input-with-state": {
+      "path": "learn-reacting-to-input-with-state.md",
+      "etag": "W/\"8yvjpmipz0s82\"",
+      "sha256": "b3970ae3228cca8fe7c2a6efea106f8af2fcbf6b76e13b02e48fadb527e045b6",
+      "bytes": 1885,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:25.97918+06:00"
+    },
+    "https://react.dev/learn/referencing-values-with-refs": {
+      "path": "learn-referencing-values-with-refs.md",
+      "etag": "W/\"jt0d1ptzq8gyd\"",
+      "sha256": "fb9f10d38e4d3dcebb251442e5a805b850460abdf0215c4158a646420718b325",
+      "bytes": 21981,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:18.732631+06:00"
+    },
+    "https://react.dev/learn/removing-effect-dependencies": {
+      "path": "learn-removing-effect-dependencies.md",
+      "etag": "W/\"xj8h8zycmw1mfi\"",
+      "sha256": "c16ac2edcad76727efd55b8efebbcb23245b6e540b2fe5a4630a91cdb1ec1a99",
+      "bytes": 75856,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:18.942669+06:00"
+    },
+    "https://react.dev/learn/render-and-commit": {
+      "path": "learn-render-and-commit.md",
+      "etag": "W/\"16lwvqysfx774i\"",
+      "sha256": "54acdc3884f367d4dacc2381616569507437e32863701558cd7abbb11bb637f2",
+      "bytes": 9238,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:19.139713+06:00"
+    },
+    "https://react.dev/learn/rendering-lists": {
+      "path": "learn-rendering-lists.md",
+      "etag": "W/\"qq2n7rb56hp4z\"",
+      "sha256": "387863455b5586a0f232a89960eb7d624f741149ada7f5f15d19b120067c0e70",
+      "bytes": 11471,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:26.772972+06:00"
+    },
+    "https://react.dev/learn/responding-to-events": {
+      "path": "learn-responding-to-events.md",
+      "etag": "W/\"rmxg6drw2whfr\"",
+      "sha256": "5e3b94ff79489b60db8643812cdaf47ba605a3aee54fe6fcfedc04c005cd44d1",
+      "bytes": 5894,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:26.990165+06:00"
+    },
+    "https://react.dev/learn/reusing-logic-with-custom-hooks": {
+      "path": "learn-reusing-logic-with-custom-hooks.md",
+      "etag": "W/\"oj0kyqm24h1imv\"",
+      "sha256": "4affd8845e45da7b73b73bb24f23ad3945205af747f0dbdd155ff182ea6fe47c",
+      "bytes": 70897,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:20.205758+06:00"
+    },
+    "https://react.dev/learn/scaling-up-with-reducer-and-context": {
+      "path": "learn-scaling-up-with-reducer-and-context.md",
+      "etag": "W/\"51g35g7p3rnx4\"",
+      "sha256": "fa64acef7cc2ab658a0c21225bf4a2ff1faf97b12513b67d2cdf1906c1d4dc50",
+      "bytes": 31012,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:20.405897+06:00"
+    },
+    "https://react.dev/learn/separating-events-from-effects": {
+      "path": "learn-separating-events-from-effects.md",
+      "etag": "W/\"nrfcgh6em814y2\"",
+      "sha256": "a95ff76747fbc704ea45682d4e41f7b8b0331402ab70ea80b7de65e2dd61b1c7",
+      "bytes": 53106,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:20.572156+06:00"
+    },
+    "https://react.dev/learn/setup": {
+      "path": "learn-setup.md",
+      "etag": "W/\"peq7ky8oczvj\"",
+      "sha256": "3a3dcb4158467ac660bfbd2409c9d12c8df7f7193ad50fae1738861a260912a8",
+      "bytes": 1135,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:20.805823+06:00"
+    },
+    "https://react.dev/learn/sharing-state-between-components": {
+      "path": "learn-sharing-state-between-components.md",
+      "etag": "W/\"10k7rj6cgyxf83\"",
+      "sha256": "563ea0346c160792af5ce54e019ccdaffa3178f353a9090a4cea44a5aa8cf2c8",
+      "bytes": 19743,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:21.359632+06:00"
+    },
+    "https://react.dev/learn/state-a-components-memory": {
+      "path": "learn-state-a-components-memory.md",
+      "etag": "W/\"lbh9asiy7p1flc\"",
+      "sha256": "914c0c6dee85f81993768a3537b58355b414ca124c88fe3e9b37022c9ec5c75e",
+      "bytes": 66900,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:21.772025+06:00"
+    },
+    "https://react.dev/learn/state-as-a-snapshot": {
+      "path": "learn-state-as-a-snapshot.md",
+      "etag": "W/\"159nvlf2qejamh\"",
+      "sha256": "52a35b236a7e56432c2193fb6c3f872fe1b452b08075c5fc765d70936cceb293",
+      "bytes": 13769,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:21.965281+06:00"
+    },
+    "https://react.dev/learn/synchronizing-with-effects": {
+      "path": "learn-synchronizing-with-effects.md",
+      "etag": "W/\"hwcp8h3nvp1buo\"",
+      "sha256": "dd27c7743c62757cdb923f7c41bb9f747e992b83263a16920791a65cf44b3e84",
+      "bytes": 62066,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:22.168747+06:00"
+    },
+    "https://react.dev/learn/thinking-in-react": {
+      "path": "learn-thinking-in-react.md",
+      "etag": "W/\"idvfyi2w8yhrj\"",
+      "sha256": "016338867340ccba0775df533c24cc563bcae650c9974111f3d2cf2b2cf0f34d",
+      "bytes": 23037,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:22.576159+06:00"
+    },
+    "https://react.dev/learn/tutorial-tic-tac-toe": {
+      "path": "learn-tutorial-tic-tac-toe.md",
+      "etag": "W/\"150x69bzm0v1vyn\"",
+      "sha256": "556b57e2d1f32686abc921e14f85686b76496e4619b2aea69341226589d0c70b",
+      "bytes": 25426,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:29.940641+06:00"
+    },
+    "https://react.dev/learn/typescript": {
+      "path": "learn-typescript.md",
+      "etag": "W/\"g7s4vfmywjepn\"",
+      "sha256": "9a5966e647dda5755fdbe90d6bb0150666b2f8f23b78a8b4a5752cd466a88845",
+      "bytes": 19067,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:23.365515+06:00"
+    },
+    "https://react.dev/learn/understanding-your-ui-as-a-tree": {
+      "path": "learn-understanding-your-ui-as-a-tree.md",
+      "etag": "W/\"m702tzzp03avp\"",
+      "sha256": "e0b8fa1d5a498f1d37e9fb8c5dc623088ce687927ae2c3e1502f607c87a40144",
+      "bytes": 14119,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:23.564804+06:00"
+    },
+    "https://react.dev/learn/updating-arrays-in-state": {
+      "path": "learn-updating-arrays-in-state.md",
+      "etag": "W/\"g8o8i69fbhzip\"",
+      "sha256": "a344f9e11414c12fff8f80cc6fb3f865dc99d429f8b9265c96ff276b77ebfe9c",
+      "bytes": 46041,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:23.76824+06:00"
+    },
+    "https://react.dev/learn/updating-objects-in-state": {
+      "path": "learn-updating-objects-in-state.md",
+      "etag": "W/\"17wb72duj5uu14\"",
+      "sha256": "25f2ebdfb9467a695aa8f28c37074a9cb1369bebbb7fa0623207850f449a7929",
+      "bytes": 25640,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:31.973987+06:00"
+    },
+    "https://react.dev/learn/writing-markup-with-jsx": {
+      "path": "learn-writing-markup-with-jsx.md",
+      "etag": "W/\"9ai6y8f40857\"",
+      "sha256": "243c350762127b2e40dcd8813dc44f5cf803b5b25c9bf771105aec3c9c5d2b8c",
+      "bytes": 4784,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:32.374965+06:00"
+    },
+    "https://react.dev/learn/you-might-not-need-an-effect": {
+      "path": "learn-you-might-not-need-an-effect.md",
+      "etag": "W/\"c1m69nes6h1bdc\"",
+      "sha256": "b32370f3f29b26c0dcdea24475c88a807898585e69913f3b027fa2b8dccf41f5",
+      "bytes": 61466,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:25.164024+06:00"
+    },
+    "https://react.dev/learn/your-first-component": {
+      "path": "learn-your-first-component.md",
+      "etag": "W/\"9kkhyztnfya9j\"",
+      "sha256": "1a833829489fa62055fb6d84ee465ab2684b78c3044a618554b6e242b3971d4b",
+      "bytes": 13317,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:26.563391+06:00"
+    },
+    "https://react.dev/reference/dev-tools/react-performance-tracks": {
+      "path": "reference-dev-tools-react-performance-tracks.md",
+      "etag": "W/\"8bivtizew48dc\"",
+      "sha256": "452958d2e20d3cbf9084a6d40f09c5cdb0a636f7d293cd4045e4ba5b06716b77",
+      "bytes": 9204,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:34.380562+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks": {
+      "path": "reference-eslint-plugin-react-hooks.md",
+      "etag": "W/\"d3oho815jk2yc\"",
+      "sha256": "20bb07d63796582bdcfca0fb0e5c9467386acd00985d565edefb0f7faea6d0ce",
+      "bytes": 3830,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:27.764637+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/component-hook-factories": {
+      "path": "reference-eslint-plugin-react-hooks-lints-component-hook-factories.md",
+      "etag": "W/\"zvhk6mej9k1ng\"",
+      "sha256": "54045378f5ff6099449986dc3e8785e99826d16acce227f0c9d313255b6ad5f6",
+      "bytes": 2154,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:28.164183+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/config": {
+      "path": "reference-eslint-plugin-react-hooks-lints-config.md",
+      "etag": "W/\"icxlzcx32t1ky\"",
+      "sha256": "f2c827bcfcaf3397ec00708f9dc6b731e138e6482b540dc3296a79fc31d6f92e",
+      "bytes": 2060,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:28.362445+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/error-boundaries": {
+      "path": "reference-eslint-plugin-react-hooks-lints-error-boundaries.md",
+      "etag": "W/\"t6fcolj8uw1od\"",
+      "sha256": "d354fd49532d76ff6b1503ecce536fb3dfc1716461008608fbc66bd3d7cc5c4f",
+      "bytes": 2181,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:28.967241+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/exhaustive-deps": {
+      "path": "reference-eslint-plugin-react-hooks-lints-exhaustive-deps.md",
+      "etag": "W/\"ce334nghtg3ai\"",
+      "sha256": "30a30688020df2f625c82a5ed80d7fad670ac6e582f502ed0af1a36275379473",
+      "bytes": 4292,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:29.364457+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/gating": {
+      "path": "reference-eslint-plugin-react-hooks-lints-gating.md",
+      "etag": "W/\"etvlonbt8i156\"",
+      "sha256": "860ce3d72558e1644906daa3348949aad9683d55c12579c6008c73231f64175a",
+      "bytes": 1490,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:29.730372+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/globals": {
+      "path": "reference-eslint-plugin-react-hooks-lints-globals.md",
+      "etag": "W/\"j37qzpcyr01lv\"",
+      "sha256": "8540118022f2424afb3097964ec51af8c36bad6b743cf69fda300ca30983ac18",
+      "bytes": 1911,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:37.531535+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/immutability": {
+      "path": "reference-eslint-plugin-react-hooks-lints-immutability.md",
+      "etag": "W/\"ad451llg8r2j8\"",
+      "sha256": "a04654c6647602b9e6c153e56040b510f485be6eb52e0b039c79fb43aef19872",
+      "bytes": 3304,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:30.836652+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/incompatible-library": {
+      "path": "reference-eslint-plugin-react-hooks-lints-incompatible-library.md",
+      "etag": "W/\"hmymnefe7i3vl\"",
+      "sha256": "23b2d5c84a0027e5bc15d275a830fdc12c82344751188adbc374cae0faa3ebaf",
+      "bytes": 5037,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:31.235319+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/preserve-manual-memoization": {
+      "path": "reference-eslint-plugin-react-hooks-lints-preserve-manual-memoization.md",
+      "etag": "W/\"hks22qgshw1xe\"",
+      "sha256": "1e6f4bcc519fb420526fed42fe563e336d4554ac4659f4f1253c37eae4c47e2a",
+      "bytes": 2508,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:31.430554+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/purity": {
+      "path": "reference-eslint-plugin-react-hooks-lints-purity.md",
+      "etag": "W/\"1k9trhplv51qr\"",
+      "sha256": "fd1662821b220ad45a2ff6afba8e069ce2694af66bc1eea57eacdf1d13856e8e",
+      "bytes": 2267,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:32.157946+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/refs": {
+      "path": "reference-eslint-plugin-react-hooks-lints-refs.md",
+      "etag": "W/\"cer6a4g7u72ic\"",
+      "sha256": "e237c79c20b1d7308df9cdab6882fef944f276ffebb291dace42d022b53b284b",
+      "bytes": 3262,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:32.562351+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/rules-of-hooks": {
+      "path": "reference-eslint-plugin-react-hooks-lints-rules-of-hooks.md",
+      "etag": "W/\"shitcnam813go\"",
+      "sha256": "6fd396ccc7915f5e6642d57b9e09e2042511008e7a1da03e86d9f393b6b44c24",
+      "bytes": 4514,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:32.777598+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect": {
+      "path": "reference-eslint-plugin-react-hooks-lints-set-state-in-effect.md",
+      "etag": "W/\"5w3wxa0fyx2kz\"",
+      "sha256": "40852b2b5ddaf403c4cc5c6403669724d2054eaa79e780494b861c9b4eaa9fd6",
+      "bytes": 3359,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:33.35921+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-render": {
+      "path": "reference-eslint-plugin-react-hooks-lints-set-state-in-render.md",
+      "etag": "W/\"15operff0jc2cq\"",
+      "sha256": "503b6c5717b9dfef87aaedd3e4b07116ca6459bf531176860fb7ba5182df5aaf",
+      "bytes": 3064,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:33.57201+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/static-components": {
+      "path": "reference-eslint-plugin-react-hooks-lints-static-components.md",
+      "etag": "W/\"ttpkc8amm51yi\"",
+      "sha256": "9699fccd2ff14fb421a21e35ba0435faf918924769b4ef03285c3f8012b8a77c",
+      "bytes": 2548,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:33.763365+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/unsupported-syntax": {
+      "path": "reference-eslint-plugin-react-hooks-lints-unsupported-syntax.md",
+      "etag": "W/\"iw7c8lva5a1yb\"",
+      "sha256": "85134f91b51266f24a8a4e4e7123881e5264387882b54d6fb593433df281557f",
+      "bytes": 2333,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:41.127829+06:00"
+    },
+    "https://react.dev/reference/eslint-plugin-react-hooks/lints/use-memo": {
+      "path": "reference-eslint-plugin-react-hooks-lints-use-memo.md",
+      "etag": "W/\"r6o4zi6bx51w5\"",
+      "sha256": "ae3330a180a28eeb4705693bda0bb4faebc6a9fbb5cb55f19f229e833ab6e52d",
+      "bytes": 2463,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:34.162577+06:00"
+    },
+    "https://react.dev/reference/react": {
+      "path": "reference-react.md",
+      "etag": "W/\"yoj865d5p82n2\"",
+      "sha256": "639721864701c688f7bb2ab740ab16d1d4cc18896db74a37f9c4fc59535813ec",
+      "bytes": 3432,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:34.564836+06:00"
+    },
+    "https://react.dev/reference/react-compiler/compilationMode": {
+      "path": "reference-react-compiler-compilationMode.md",
+      "etag": "W/\"nadp65e6cj3l9\"",
+      "sha256": "d1dbbf4b3593fe5e5e338df7376ac5c22fdac71feb22b13fdf27c4481d999ea1",
+      "bytes": 4669,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:34.972641+06:00"
+    },
+    "https://react.dev/reference/react-compiler/compiling-libraries": {
+      "path": "reference-react-compiler-compiling-libraries.md",
+      "etag": "W/\"t0acg340n42rw\"",
+      "sha256": "1498aa78adfd71002f03ba354f252708ff43f87a26d5972335f10d6ec34c4f9a",
+      "bytes": 3596,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:35.174141+06:00"
+    },
+    "https://react.dev/reference/react-compiler/configuration": {
+      "path": "reference-react-compiler-configuration.md",
+      "etag": "W/\"xht5cdrqfn2em\"",
+      "sha256": "6b5304daf1e9af5b9deae55e0364180f26df4c5e8154c066450e56da782b9a16",
+      "bytes": 3118,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:35.569157+06:00"
+    },
+    "https://react.dev/reference/react-compiler/directives": {
+      "path": "reference-react-compiler-directives.md",
+      "etag": "W/\"wzrvj9usm93ze\"",
+      "sha256": "6f0b3d326891bedd17f966db8c178f8ff61a6b663c9980fcee19693a9b55f8cb",
+      "bytes": 5099,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:42.931065+06:00"
+    },
+    "https://react.dev/reference/react-compiler/directives/use-memo": {
+      "path": "reference-react-compiler-directives-use-memo.md",
+      "etag": "W/\"rvu6o1jbs93up\"",
+      "sha256": "031fb8f8da4897660207aed5ee67918aad9312a60c0df044974ec495425e26c5",
+      "bytes": 5003,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:35.964038+06:00"
+    },
+    "https://react.dev/reference/react-compiler/directives/use-no-memo": {
+      "path": "reference-react-compiler-directives-use-no-memo.md",
+      "etag": "W/\"9rlcogahyh33r\"",
+      "sha256": "b42699fbe76d5944aa8915056831de3548c851a9756c56804c1988afbd0ddd43",
+      "bytes": 4031,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:36.377196+06:00"
+    },
+    "https://react.dev/reference/react-compiler/gating": {
+      "path": "reference-react-compiler-gating.md",
+      "etag": "W/\"okwcd6moxe23d\"",
+      "sha256": "c98d985e7ac9c84009c13f63391c787a0d6b0306889508d7354e475c23c631c8",
+      "bytes": 2723,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:36.580262+06:00"
+    },
+    "https://react.dev/reference/react-compiler/logger": {
+      "path": "reference-react-compiler-logger.md",
+      "etag": "W/\"kvvi0opeip1v9\"",
+      "sha256": "6ba526a6d2ba5d4de0dd0b68faae1e237d39ec9a5064e7e2d7a14f4ff8f29d1e",
+      "bytes": 2425,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:36.794319+06:00"
+    },
+    "https://react.dev/reference/react-compiler/panicThreshold": {
+      "path": "reference-react-compiler-panicThreshold.md",
+      "etag": "W/\"9j3sibojyx1ga\"",
+      "sha256": "e58f13f6d9b1b4095695552e4a84b94f9b9931544b6ea5fe8d170608d0b4eac5",
+      "bytes": 1882,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:37.372681+06:00"
+    },
+    "https://react.dev/reference/react-compiler/target": {
+      "path": "reference-react-compiler-target.md",
+      "etag": "W/\"erpfng54dn2cy\"",
+      "sha256": "2dabf3b2db52e14f298dc539adaec69078dc2c01acc29d500c5bb4258811b3e0",
+      "bytes": 3058,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:37.736325+06:00"
+    },
+    "https://react.dev/reference/react-dom": {
+      "path": "reference-react-dom.md",
+      "etag": "W/\"bipa0bm7hu2hq\"",
+      "sha256": "90c27c934c5e4478df9837db19780b2795ef7a9f87bc5b1afe041116a91654b3",
+      "bytes": 3230,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:37.930004+06:00"
+    },
+    "https://react.dev/reference/react-dom/client": {
+      "path": "reference-react-dom-client.md",
+      "etag": "W/\"cf6jrnz1ussn\"",
+      "sha256": "79859ed0fd00f77b8445d7a794b90740e2f8fc7c9dfb2f83f3a6c6e2baddc982",
+      "bytes": 1031,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:38.133523+06:00"
+    },
+    "https://react.dev/reference/react-dom/client/createRoot": {
+      "path": "reference-react-dom-client-createRoot.md",
+      "etag": "W/\"tqnicdu75sfvb\"",
+      "sha256": "e9a8a79974746250012af79d7cd80a533e7cbc1447bb5d17af37c7e92b7e88ec",
+      "bytes": 20583,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:38.542421+06:00"
+    },
+    "https://react.dev/reference/react-dom/client/hydrateRoot": {
+      "path": "reference-react-dom-client-hydrateRoot.md",
+      "etag": "W/\"x3s9najsp4ede\"",
+      "sha256": "7d9a299d973a3024e1dd0b149e31b9f7618ba149e9d3c81ff035b27d955a0ad2",
+      "bytes": 124,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:45.932128+06:00"
+    },
+    "https://react.dev/reference/react-dom/components": {
+      "path": "reference-react-dom-components.md",
+      "etag": "W/\"18bxf1dpmnofg0\"",
+      "sha256": "bdd641a96ed9625faa5aba6855f70283217bcadbe5b519e0da213ca9a485f594",
+      "bytes": 661,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:46.330242+06:00"
+    },
+    "https://react.dev/reference/react-dom/components/common": {
+      "path": "reference-react-dom-components-common.md",
+      "etag": "W/\"l4nt7ggpfq1n6p\"",
+      "sha256": "fb766b8bdb69f5964b94ca361a1e2987bb2d35ed661c7b926a01c5166c53f4d6",
+      "bytes": 29504,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:46.739721+06:00"
+    },
+    "https://react.dev/reference/react-dom/components/form": {
+      "path": "reference-react-dom-components-form.md",
+      "etag": "W/\"10xf6ezfru9c47\"",
+      "sha256": "2e90db74c7abc398d14c0ce353732c5aa49b6d061a45d99e39a63133af2b40db",
+      "bytes": 15703,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:39.561757+06:00"
+    },
+    "https://react.dev/reference/react-dom/components/input": {
+      "path": "reference-react-dom-components-input.md",
+      "etag": "W/\"qsaf6v2xm7k9h\"",
+      "sha256": "22be7c626317b08ca8ad5bf3609d6431ff98df38d0f4e78f0754f0ebdf256af1",
+      "bytes": 26283,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:39.938566+06:00"
+    },
+    "https://react.dev/reference/react-dom/components/link": {
+      "path": "reference-react-dom-components-link.md",
+      "etag": "W/\"17m6x0vsta18yn\"",
+      "sha256": "3904bc5c3f1d5d3e5a9c85513de7df986472579f847291a0b3cac01d8ef6c138",
+      "bytes": 11623,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:40.930582+06:00"
+    },
+    "https://react.dev/reference/react-dom/components/meta": {
+      "path": "reference-react-dom-components-meta.md",
+      "etag": "W/\"181urixdofq371\"",
+      "sha256": "4f9aea3dba35ca663b4e7d8b40395bbae073af027709af3cdb4eb6af13495a40",
+      "bytes": 4149,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:41.329034+06:00"
+    },
+    "https://react.dev/reference/react-dom/components/option": {
+      "path": "reference-react-dom-components-option.md",
+      "etag": "W/\"17iknfbf69i287\"",
+      "sha256": "66027749115df9f7f7922a29d74fbbe9cd88a528128d6152fa3f33c512220288",
+      "bytes": 2887,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:42.129386+06:00"
+    },
+    "https://react.dev/reference/react-dom/components/progress": {
+      "path": "reference-react-dom-components-progress.md",
+      "etag": "W/\"lv5xxlhh441g3\"",
+      "sha256": "bf017a37274e3b5fa9ca924049333e1c62ed9678df835a32db1c69fb677823aa",
+      "bytes": 1875,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:42.530761+06:00"
+    },
+    "https://react.dev/reference/react-dom/components/script": {
+      "path": "reference-react-dom-components-script.md",
+      "etag": "W/\"ft0ou2joc4mc\"",
+      "sha256": "63bc8b58e938a7e7f8974cef7eeb49d40545c4d3153e1ad5766958d5c511ddf3",
+      "bytes": 202,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:50.140108+06:00"
+    },
+    "https://react.dev/reference/react-dom/components/select": {
+      "path": "reference-react-dom-components-select.md",
+      "etag": "W/\"142jpu5e238cd6\"",
+      "sha256": "408cbaacf1549f725219bf67104eec0a408152d63a14252bfb130beebdee7108",
+      "bytes": 16026,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:43.330138+06:00"
+    },
+    "https://react.dev/reference/react-dom/components/style": {
+      "path": "reference-react-dom-components-style.md",
+      "etag": "W/\"xe930p7uhw3n5\"",
+      "sha256": "b6df61040a937e89f288bc04960cd134d9876522dc1c84cbf8b8d34a51f3171a",
+      "bytes": 4723,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:43.73003+06:00"
+    },
+    "https://react.dev/reference/react-dom/components/textarea": {
+      "path": "reference-react-dom-components-textarea.md",
+      "etag": "W/\"118qfctslfadh6\"",
+      "sha256": "66e571c1a5ed001aac8fb960f069da6a01c65a66556a4a5560eb09c3df8d7a4c",
+      "bytes": 17480,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:44.340454+06:00"
+    },
+    "https://react.dev/reference/react-dom/components/title": {
+      "path": "reference-react-dom-components-title.md",
+      "etag": "W/\"vpnsabnyd62qm\"",
+      "sha256": "83ac6573842462151a86c4e1aa4ee7d92d2e38c00be9933987531070918df6f1",
+      "bytes": 3564,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:44.747789+06:00"
+    },
+    "https://react.dev/reference/react-dom/createPortal": {
+      "path": "reference-react-dom-createPortal.md",
+      "etag": "W/\"18a3mp5unej9zz\"",
+      "sha256": "d9354daf70d3eac61a2350e25626c0bce851faa9591a053c15d5017545354c3f",
+      "bytes": 9841,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:52.737475+06:00"
+    },
+    "https://react.dev/reference/react-dom/flushSync": {
+      "path": "reference-react-dom-flushSync.md",
+      "etag": "W/\"c7fe31ko5d4zn\"",
+      "sha256": "f5c985808d6e54c0eca380b33fd1370ef793c4796436d0febc792aa316ae09b1",
+      "bytes": 6473,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:45.533049+06:00"
+    },
+    "https://react.dev/reference/react-dom/hooks": {
+      "path": "reference-react-dom-hooks.md",
+      "etag": "W/\"5d4eozcszq10d\"",
+      "sha256": "259d4fe2140f21412defdaa72ec26a52e3cfb8ccb8ce11bd6329175c49758e56",
+      "bytes": 1309,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:46.128409+06:00"
+    },
+    "https://react.dev/reference/react-dom/hooks/useFormStatus": {
+      "path": "reference-react-dom-hooks-useFormStatus.md",
+      "etag": "W/\"blph51icmb5d4\"",
+      "sha256": "a42ea424cf485070db86157055f2f1390740f6c5d526fa541db9ea5181e918a3",
+      "bytes": 6956,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:46.936889+06:00"
+    },
+    "https://react.dev/reference/react-dom/preconnect": {
+      "path": "reference-react-dom-preconnect.md",
+      "etag": "W/\"8a234xn9mc220\"",
+      "sha256": "182da09e43dbff62dbc3d95be2140d1dbb1b6aa32de62e5b3915de2f2671e078",
+      "bytes": 2664,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:47.128688+06:00"
+    },
+    "https://react.dev/reference/react-dom/prefetchDNS": {
+      "path": "reference-react-dom-prefetchDNS.md",
+      "etag": "W/\"uf4efl38kh290\"",
+      "sha256": "3f7f57354564a3a938e503c578b24943c67f5ca9a69322e2fa507a3f255a7a7f",
+      "bytes": 2916,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:47.531198+06:00"
+    },
+    "https://react.dev/reference/react-dom/preinit": {
+      "path": "reference-react-dom-preinit.md",
+      "etag": "W/\"odqmijzpkr3r7\"",
+      "sha256": "861752bc5c9605d0f9e723d55923f707c8b81e35048dc352825a3389cc7e0179",
+      "bytes": 4867,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:47.729005+06:00"
+    },
+    "https://react.dev/reference/react-dom/preinitModule": {
+      "path": "reference-react-dom-preinitModule.md",
+      "etag": "W/\"3yy9yvzod2u9\"",
+      "sha256": "80c67e4b37efacc97ebf74b92b0a7705d898c9f328fe9f33ecb3a653b0f2151a",
+      "bytes": 3681,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:47.929926+06:00"
+    },
+    "https://react.dev/reference/react-dom/preload": {
+      "path": "reference-react-dom-preload.md",
+      "etag": "W/\"8ead1bv62f4z7\"",
+      "sha256": "eef2ec95c5b061d82fe4e5a6cd1fa8a4b33f30fb5bc0cf2730c45bc030e55043",
+      "bytes": 6451,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:48.335839+06:00"
+    },
+    "https://react.dev/reference/react-dom/preloadModule": {
+      "path": "reference-react-dom-preloadModule.md",
+      "etag": "W/\"17wlsrsahzp2pf\"",
+      "sha256": "64e35a7dced24e3c4f9d6504ea911a564eb82102e078fe0966db2b275f883c84",
+      "bytes": 3507,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:48.530701+06:00"
+    },
+    "https://react.dev/reference/react-dom/server": {
+      "path": "reference-react-dom-server.md",
+      "etag": "W/\"uxo529ip9t1uu\"",
+      "sha256": "72c06a44d4728b01830eebe603377a07b8204152f8aae8cc5671d8052e27b5b6",
+      "bytes": 2406,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:48.948259+06:00"
+    },
+    "https://react.dev/reference/react-dom/server/renderToPipeableStream": {
+      "path": "reference-react-dom-server-renderToPipeableStream.md",
+      "etag": "W/\"17az5o9ui1jj3k\"",
+      "sha256": "0892cd5492855d0daec97426eb85d16f0881b7d14732401c77232869841d9d5e",
+      "bytes": 4254,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:56.747601+06:00"
+    },
+    "https://react.dev/reference/react-dom/server/renderToReadableStream": {
+      "path": "reference-react-dom-server-renderToReadableStream.md",
+      "etag": "W/\"7je3hpsqlpj5s\"",
+      "sha256": "ae977ede67a4baef63039d4e4ba04a2167d35bd48e3cd054e4a05f806c4269a2",
+      "bytes": 4237,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:57.331662+06:00"
+    },
+    "https://react.dev/reference/react-dom/server/renderToStaticMarkup": {
+      "path": "reference-react-dom-server-renderToStaticMarkup.md",
+      "etag": "W/\"qg6tipkidd218\"",
+      "sha256": "9e22e9299eac862ba75e2314145e2d11b25239e008d59ce373aa5b33a2377480",
+      "bytes": 2636,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:49.52944+06:00"
+    },
+    "https://react.dev/reference/react-dom/server/renderToString": {
+      "path": "reference-react-dom-server-renderToString.md",
+      "etag": "W/\"pvnsizkncf4pp\"",
+      "sha256": "e0aa89646bcac46afe8c3bbc3d797f6846d7d867cba1c48820d4148046599de9",
+      "bytes": 6111,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:49.928924+06:00"
+    },
+    "https://react.dev/reference/react-dom/server/resume": {
+      "path": "reference-react-dom-server-resume.md",
+      "etag": "W/\"zrbwye8696kp\"",
+      "sha256": "5564a0a7efc008683c760960b46fbaddc0c7625c3580792cc91fdc54bc3c556c",
+      "bytes": 8521,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:50.330583+06:00"
+    },
+    "https://react.dev/reference/react-dom/server/resumeToPipeableStream": {
+      "path": "reference-react-dom-server-resumeToPipeableStream.md",
+      "etag": "W/\"vbvji6hf9q3yb\"",
+      "sha256": "835c5bf9905db9c23495b7e79f86e67c182fe93f4b4e2032eef6a1fefdfd4df4",
+      "bytes": 5123,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:50.931073+06:00"
+    },
+    "https://react.dev/reference/react-dom/static": {
+      "path": "reference-react-dom-static.md",
+      "etag": "W/\"l9zl4qe47n1ge\"",
+      "sha256": "d25398e34aba1895c98eb2e4fa21bbc0d5819538696f9fbc33c6d6cb229d51ba",
+      "bytes": 1886,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:51.332382+06:00"
+    },
+    "https://react.dev/reference/react-dom/static/prerender": {
+      "path": "reference-react-dom-static-prerender.md",
+      "etag": "W/\"yfiehtlsdxamq\"",
+      "sha256": "3fafceda8b611abcf900281983488c885ea8e693d5adfa97f2d4d116fbbc1cf2",
+      "bytes": 4070,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:59.335452+06:00"
+    },
+    "https://react.dev/reference/react-dom/static/prerenderToNodeStream": {
+      "path": "reference-react-dom-static-prerenderToNodeStream.md",
+      "etag": "W/\"10a6zrk3fg3ay4\"",
+      "sha256": "ab1982210146bb29ec8349c27d60d3cc9a64c123bf167124b065b468d4ccf95e",
+      "bytes": 4285,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:21:59.731563+06:00"
+    },
+    "https://react.dev/reference/react-dom/static/resumeAndPrerender": {
+      "path": "reference-react-dom-static-resumeAndPrerender.md",
+      "etag": "W/\"f8ywd1ycmc3mj\"",
+      "sha256": "0ab368eb4fc04d53a4bd0fb9fd40ae466dacf4cb663020a3c96904f74c4e00da",
+      "bytes": 4699,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:52.139091+06:00"
+    },
+    "https://react.dev/reference/react-dom/static/resumeAndPrerenderToNodeStream": {
+      "path": "reference-react-dom-static-resumeAndPrerenderToNodeStream.md",
+      "etag": "W/\"1sg5qpzn4w3ra\"",
+      "sha256": "573b69ca265f77eacb1fb56db285a70bb53f955abb4be4b88c096c2f4b7894d3",
+      "bytes": 4870,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:52.534617+06:00"
+    },
+    "https://react.dev/reference/react/Activity": {
+      "path": "reference-react-Activity.md",
+      "etag": "W/\"kqsxxi03hwo8e\"",
+      "sha256": "61c5c666d1b5447f954f84785c2358f9ef89c7f3417119aeedfd1cfff96cc957",
+      "bytes": 31414,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:52.932567+06:00"
+    },
+    "https://react.dev/reference/react/Children": {
+      "path": "reference-react-Children.md",
+      "etag": "W/\"leeepkgj7nk2m\"",
+      "sha256": "5361bb58f160a96e30eea5a7c314ab1a16b74eeceaaf8da22a59f1abaa327f7b",
+      "bytes": 14476,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:01.537414+06:00"
+    },
+    "https://react.dev/reference/react/Component": {
+      "path": "reference-react-Component.md",
+      "etag": "W/\"7u2nv9tk8o1k37\"",
+      "sha256": "2b9ff4703db7f841966fe2f0358d8241a475f8bfc7d1ee58b11c9149b9b25b8c",
+      "bytes": 72703,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:53.941504+06:00"
+    },
+    "https://react.dev/reference/react/Fragment": {
+      "path": "reference-react-Fragment.md",
+      "etag": "W/\"mqh0v6sx1ymc3\"",
+      "sha256": "2b395c3a8886d70f1615e2795b49b8cbb1b34c282ec52e4e9285f945902f05e1",
+      "bytes": 3785,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:02.740817+06:00"
+    },
+    "https://react.dev/reference/react/Profiler": {
+      "path": "reference-react-Profiler.md",
+      "etag": "W/\"97r1vmeno5400\"",
+      "sha256": "586fca1a53ae749344c498725817adcc68b1abd76514595238dd462b508da845",
+      "bytes": 5184,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:54.530485+06:00"
+    },
+    "https://react.dev/reference/react/PureComponent": {
+      "path": "reference-react-PureComponent.md",
+      "etag": "W/\"jkrtprnj64lk\"",
+      "sha256": "aa169615e25b35b115b3713056d07b16b48cac0a450fcf6dafe873dfc7f437a2",
+      "bytes": 5960,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:55.529234+06:00"
+    },
+    "https://react.dev/reference/react/StrictMode": {
+      "path": "reference-react-StrictMode.md",
+      "etag": "W/\"nvegoxaxflqs1\"",
+      "sha256": "2138d6e639bbc3ddf4616f3d774f2c07c4d4d347513d86a045e75615334df7b9",
+      "bytes": 3583,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:04.136059+06:00"
+    },
+    "https://react.dev/reference/react/Suspense": {
+      "path": "reference-react-Suspense.md",
+      "etag": "W/\"ohqtiuv5vl1obf\"",
+      "sha256": "cb4ee11310de04106029435e0bac96f019b605abce870a8077f14a26e7b3b2d8",
+      "bytes": 28924,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:05.350484+06:00"
+    },
+    "https://react.dev/reference/react/ViewTransition": {
+      "path": "reference-react-ViewTransition.md",
+      "etag": "W/\"igq7w6nffq1hrl\"",
+      "sha256": "2882a77997132f89996ba860d2259dd31ff4780e1ecfe021057cb9f967f582e8",
+      "bytes": 11692,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:06.736862+06:00"
+    },
+    "https://react.dev/reference/react/act": {
+      "path": "reference-react-act.md",
+      "etag": "W/\"nztlf9bun24lq\"",
+      "sha256": "8a45913623568869a622973acdee0217172bb81cf345d2f36f911247b6eae807",
+      "bytes": 5982,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:21:58.930519+06:00"
+    },
+    "https://react.dev/reference/react/addTransitionType": {
+      "path": "reference-react-addTransitionType.md",
+      "etag": "W/\"o7bixdwyx43s1\"",
+      "sha256": "e72126a111794f71a58f6d10a5a67ad4386d113a81db070fc173661c75d22e64",
+      "bytes": 4901,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:00.529049+06:00"
+    },
+    "https://react.dev/reference/react/apis": {
+      "path": "reference-react-apis.md",
+      "etag": "W/\"amno7jv0yl1dj\"",
+      "sha256": "62a5be2df769bf6d7a9952258c6bb2b3be3af0fd1311297219d7979f12e99a90",
+      "bytes": 1783,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:00.757058+06:00"
+    },
+    "https://react.dev/reference/react/cache": {
+      "path": "reference-react-cache.md",
+      "etag": "W/\"140sd03w5h0etx\"",
+      "sha256": "c56f563b6ae741681817ab9d48013cecb8df789a78d5fcb87710084bc4bb53bd",
+      "bytes": 19237,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:01.332588+06:00"
+    },
+    "https://react.dev/reference/react/cacheSignal": {
+      "path": "reference-react-cacheSignal.md",
+      "etag": "W/\"15u90mjm9902mv\"",
+      "sha256": "5e8b9f3fff9ffb17e7a8c5930463e58271d8be16cf3b629d2a44cedf86e15fb2",
+      "bytes": 3417,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:01.931784+06:00"
+    },
+    "https://react.dev/reference/react/captureOwnerStack": {
+      "path": "reference-react-captureOwnerStack.md",
+      "etag": "W/\"lvexwt0yxz7oc\"",
+      "sha256": "3c2b7d4dcc785418fe9997d4ec01e34d97f4347348ec78c753a1a4cba022efbf",
+      "bytes": 9948,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:02.331634+06:00"
+    },
+    "https://react.dev/reference/react/cloneElement": {
+      "path": "reference-react-cloneElement.md",
+      "etag": "W/\"b2ufce0905cla\"",
+      "sha256": "9a048b5396679a0af0b27019a33a1989629ad1cc86a2de680734e4f7ce9539a5",
+      "bytes": 9088,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:11.337648+06:00"
+    },
+    "https://react.dev/reference/react/components": {
+      "path": "reference-react-components.md",
+      "etag": "\"494d43kea2rc\"",
+      "sha256": "ae0f941a3b41f5da5c4a1117e98b35eea249350f6395ffec7ee71594b4be19cb",
+      "bytes": 984,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:03.127672+06:00"
+    },
+    "https://react.dev/reference/react/createContext": {
+      "path": "reference-react-createContext.md",
+      "etag": "W/\"kkw4jpxp6e5h4\"",
+      "sha256": "a98375a2460ce86eed1e7e3bd587dfe87a606a5c9daf132e060f9b2815c3ef76",
+      "bytes": 7100,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:03.329867+06:00"
+    },
+    "https://react.dev/reference/react/createElement": {
+      "path": "reference-react-createElement.md",
+      "etag": "W/\"gtqiwb6vco5gq\"",
+      "sha256": "abf3247ea1f8bb3af139afb348d8c593464013346b49e38e0167a50e24819246",
+      "bytes": 7082,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:03.928815+06:00"
+    },
+    "https://react.dev/reference/react/createRef": {
+      "path": "reference-react-createRef.md",
+      "etag": "W/\"10olsov58q1367\"",
+      "sha256": "57b06328c677b2320cb1712769c837ab7f3f7514704fbf7bd12ea2a2adb6d88c",
+      "bytes": 4111,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:04.333067+06:00"
+    },
+    "https://react.dev/reference/react/experimental_taintObjectReference": {
+      "path": "reference-react-experimental_taintObjectReference.md",
+      "etag": "W/\"d40oadvm5x49t\"",
+      "sha256": "2a177fb1a496c65dd5a0024fc29b62a3f1327a11fa88a1edb27c5562db15ab9a",
+      "bytes": 5537,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:04.730796+06:00"
+    },
+    "https://react.dev/reference/react/experimental_taintUniqueValue": {
+      "path": "reference-react-experimental_taintUniqueValue.md",
+      "etag": "W/\"hj0393i17j6bv\"",
+      "sha256": "8965dc692f066a3d0d2db680c37cc640929c28af2b98f9646cbb1c61785e5cf6",
+      "bytes": 8203,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:04.930257+06:00"
+    },
+    "https://react.dev/reference/react/forwardRef": {
+      "path": "reference-react-forwardRef.md",
+      "etag": "W/\"12nseviefssawf\"",
+      "sha256": "af25bccc871cc1ce0b4b702133a951132e34d2fd0b75a9294c13059e8ab03750",
+      "bytes": 14127,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:05.535721+06:00"
+    },
+    "https://react.dev/reference/react/hooks": {
+      "path": "reference-react-hooks.md",
+      "etag": "W/\"koolv90j64ez\"",
+      "sha256": "f36b4e796a51bfdb91c2a5c52fed69032acf641adf46c2fbb92f2bed8fc9bd1e",
+      "bytes": 5723,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:05.728891+06:00"
+    },
+    "https://react.dev/reference/react/isValidElement": {
+      "path": "reference-react-isValidElement.md",
+      "etag": "W/\"p6l39assn2358\"",
+      "sha256": "34253057fd44946712352314117b26a97c95f30e820a35930568e05830e819d4",
+      "bytes": 4086,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:05.929106+06:00"
+    },
+    "https://react.dev/reference/react/lazy": {
+      "path": "reference-react-lazy.md",
+      "etag": "W/\"i0y38zlfgv4vx\"",
+      "sha256": "a26e58d516ea943dc49a2679db7f52d84aca8855c6fe607f7294af46a4d88526",
+      "bytes": 6337,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:06.131271+06:00"
+    },
+    "https://react.dev/reference/react/legacy": {
+      "path": "reference-react-legacy.md",
+      "etag": "W/\"123hx8ojcfl238\"",
+      "sha256": "3e8d679f20cc00ceb7a069184d4ee3e31ecf83578d431b94969a2a3b761d146c",
+      "bytes": 2708,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:06.531607+06:00"
+    },
+    "https://react.dev/reference/react/memo": {
+      "path": "reference-react-memo.md",
+      "etag": "W/\"10yxv7i4jp7e9e\"",
+      "sha256": "a024ca8b8bf53789cf5e7a566e18331ccc4592654f72357178fc96216babc264",
+      "bytes": 18482,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:06.968878+06:00"
+    },
+    "https://react.dev/reference/react/startTransition": {
+      "path": "reference-react-startTransition.md",
+      "etag": "W/\"pj5tsogx4c3f1\"",
+      "sha256": "b8453e670448c3ec1bcfbf097bad2e1e5899e9dfa3911353a937db7651ff7479",
+      "bytes": 4429,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:07.130112+06:00"
+    },
+    "https://react.dev/reference/react/use": {
+      "path": "reference-react-use.md",
+      "etag": "W/\"18b7i4b703ut4g\"",
+      "sha256": "dfc8e93a3b7aa6970064b743e0ecea030bb92e4102ce602c901f48de3de660c7",
+      "bytes": 37786,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:07.379848+06:00"
+    },
+    "https://react.dev/reference/react/useActionState": {
+      "path": "reference-react-useActionState.md",
+      "etag": "W/\"nxjmqoackbw2c\"",
+      "sha256": "1a806a8c71d4d9e5213d9e3a8d1074dbb27b09b31b4ecb3ab1b670556323a410",
+      "bytes": 29816,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:15.337193+06:00"
+    },
+    "https://react.dev/reference/react/useCallback": {
+      "path": "reference-react-useCallback.md",
+      "etag": "W/\"15cf0h8zg5gppm\"",
+      "sha256": "67cd6c0a22079bf85e9e963db7f27544792c4cc21bab37a61c5230b6dcf68feb",
+      "bytes": 93,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:15.93509+06:00"
+    },
+    "https://react.dev/reference/react/useContext": {
+      "path": "reference-react-useContext.md",
+      "etag": "W/\"18773f14tnxq0l\"",
+      "sha256": "00b688405df14ce7df152c199a54a375254f98677d0767ddee7e17a2d34abf2f",
+      "bytes": 33725,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:07.941198+06:00"
+    },
+    "https://react.dev/reference/react/useDebugValue": {
+      "path": "reference-react-useDebugValue.md",
+      "etag": "W/\"vg7k5yj35v2ze\"",
+      "sha256": "5eaf3362c3f2ba68a8882f499640e697f84af4727fc2565e6f9119c77cc1d0d2",
+      "bytes": 3870,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:08.329922+06:00"
+    },
+    "https://react.dev/reference/react/useDeferredValue": {
+      "path": "reference-react-useDeferredValue.md",
+      "etag": "W/\"yqp05odfphj3l\"",
+      "sha256": "94d03ef4c3101c47b0b1184e843220054b6fc021fa0cf0323f67793c88bb23e1",
+      "bytes": 24753,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:08.538093+06:00"
+    },
+    "https://react.dev/reference/react/useEffect": {
+      "path": "reference-react-useEffect.md",
+      "etag": "W/\"g70s38blru1eej\"",
+      "sha256": "25b0b6a879cca4fd55a0efff36897d3ae23cda96b928baad76d4e8f37c3359aa",
+      "bytes": 65400,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:08.732364+06:00"
+    },
+    "https://react.dev/reference/react/useEffectEvent": {
+      "path": "reference-react-useEffectEvent.md",
+      "etag": "W/\"11czje7b33tcr8\"",
+      "sha256": "39572b57f7a698e9b5643da140340798b95d60fdbb72dca736732cf6a7b9538c",
+      "bytes": 16562,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:08.930833+06:00"
+    },
+    "https://react.dev/reference/react/useId": {
+      "path": "reference-react-useId.md",
+      "etag": "W/\"yyxu1a64vb7bc\"",
+      "sha256": "72bbb6fd9212f2a525729a43764c88669734f76f83b7210b1f19bd0f3c848303",
+      "bytes": 9480,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:09.531314+06:00"
+    },
+    "https://react.dev/reference/react/useImperativeHandle": {
+      "path": "reference-react-useImperativeHandle.md",
+      "etag": "W/\"kha7f5i1k763i\"",
+      "sha256": "c4e1cf076093c233ccdd57b8cdfc4dd842f4aa5247202fed14f3c1699cadc298",
+      "bytes": 7902,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:09.931527+06:00"
+    },
+    "https://react.dev/reference/react/useInsertionEffect": {
+      "path": "reference-react-useInsertionEffect.md",
+      "etag": "W/\"hkcp6mju454sc\"",
+      "sha256": "7f4b9ed281eab84bb97ccac55e9fb19b5166cbc1acb2322a1e64b9b368ae57ed",
+      "bytes": 6204,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:10.131332+06:00"
+    },
+    "https://react.dev/reference/react/useLayoutEffect": {
+      "path": "reference-react-useLayoutEffect.md",
+      "etag": "W/\"rf4gio9hqfijq\"",
+      "sha256": "a02996c22f5e291760cd6e9197f4af806e19c0aa0dcb26ec066ac14edac42707",
+      "bytes": 6682,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:17.936023+06:00"
+    },
+    "https://react.dev/reference/react/useMemo": {
+      "path": "reference-react-useMemo.md",
+      "etag": "W/\"2vsyo3n1ha11nq\"",
+      "sha256": "efe41d5b831b5c707bfad518745c6773df7351620b0d2481135dd33a8944f6b5",
+      "bytes": 24073,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:18.735905+06:00"
+    },
+    "https://react.dev/reference/react/useOptimistic": {
+      "path": "reference-react-useOptimistic.md",
+      "etag": "W/\"zj2lovcjk2qbo\"",
+      "sha256": "88a7c81494290915da4a3a443b2bd6a92420704c8232f5328f968f69fa399a25",
+      "bytes": 2946,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:19.334535+06:00"
+    },
+    "https://react.dev/reference/react/useReducer": {
+      "path": "reference-react-useReducer.md",
+      "etag": "W/\"yvdkij1gwtnls\"",
+      "sha256": "66e948f095d1c120b4bc1a99f285b41dc785d2556cd338f15992fedc9d2bed66",
+      "bytes": 30616,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:11.539454+06:00"
+    },
+    "https://react.dev/reference/react/useRef": {
+      "path": "reference-react-useRef.md",
+      "etag": "W/\"m0ycmo7x4nd8s\"",
+      "sha256": "13fb641aecc464fc6fde68a28c10b432996558bb5b6c71e1cc31100f2ce24669",
+      "bytes": 17172,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:11.731163+06:00"
+    },
+    "https://react.dev/reference/react/useState": {
+      "path": "reference-react-useState.md",
+      "etag": "W/\"hfk8ggnrfnu76\"",
+      "sha256": "40c918bbb5f0e73f7033249d546530f415582a86a80c71ff8065fbbe24be8a0a",
+      "bytes": 39162,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:12.735132+06:00"
+    },
+    "https://react.dev/reference/react/useSyncExternalStore": {
+      "path": "reference-react-useSyncExternalStore.md",
+      "etag": "W/\"nf93d8kqsfcsz\"",
+      "sha256": "1a758e3022677ee529b197102236bac157466a24ad68b8e3e205ca440f59771b",
+      "bytes": 16619,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:13.130034+06:00"
+    },
+    "https://react.dev/reference/react/useTransition": {
+      "path": "reference-react-useTransition.md",
+      "etag": "W/\"a9tii271s2149w\"",
+      "sha256": "258cf0f77b85a42d166ebb8d7e2369db8ddea2c0ea7f56f73f60ce650b8f9e3b",
+      "bytes": 15232,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:20.543407+06:00"
+    },
+    "https://react.dev/reference/rsc/directives": {
+      "path": "reference-rsc-directives.md",
+      "etag": "\"98jbhvdmmsh1\"",
+      "sha256": "51de2414b6b35b9d34d4d35a491ff08f1e3d702d6f115c6564345b112eb8905c",
+      "bytes": 613,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:14.328553+06:00"
+    },
+    "https://react.dev/reference/rsc/server-components": {
+      "path": "reference-rsc-server-components.md",
+      "etag": "W/\"ucnnj9ma117le\"",
+      "sha256": "0aeeaf78ca75bd427f318f6f3385c91791346665167624fadf287a42bfc18ae1",
+      "bytes": 6845,
+      "tier": "html-to-md",
+      "fetched_at": "2026-07-12T06:22:21.136553+06:00"
+    },
+    "https://react.dev/reference/rsc/server-functions": {
+      "path": "reference-rsc-server-functions.md",
+      "etag": "W/\"h0koz680ix63y\"",
+      "sha256": "3a3f29715d06f91d19f7d1fd5b9290c2198eea8eb9e367b5346242bdf8d98d2f",
+      "bytes": 7918,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:15.730546+06:00"
+    },
+    "https://react.dev/reference/rsc/use-client": {
+      "path": "reference-rsc-use-client.md",
+      "etag": "W/\"gt72amc1xwfvy\"",
+      "sha256": "5a7cc0af976ac7574737117062b23c42393cff385579be9b53ba2b5f5ad99311",
+      "bytes": 20599,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:16.930508+06:00"
+    },
+    "https://react.dev/reference/rsc/use-server": {
+      "path": "reference-rsc-use-server.md",
+      "etag": "W/\"6plinwduzo810\"",
+      "sha256": "a826f5e39199273c5b1fd74c100ab20d3f00319eac882e9e3ee30dc3a3865deb",
+      "bytes": 10404,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:17.331173+06:00"
+    },
+    "https://react.dev/reference/rules": {
+      "path": "reference-rules.md",
+      "etag": "W/\"10m058z6fjc3gf\"",
+      "sha256": "cdb36a3ba2895836865c67d6b5bc378ce0f6f81f228eb5fb3434d2ce4b028df3",
+      "bytes": 4521,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:17.528722+06:00"
+    },
+    "https://react.dev/reference/rules/components-and-hooks-must-be-pure": {
+      "path": "reference-rules-components-and-hooks-must-be-pure.md",
+      "etag": "W/\"z6edoz7uu8diu\"",
+      "sha256": "d12d79ee9b08e3259060ac6f26369523b723e8161cc7323c0253256cbacc843d",
+      "bytes": 17594,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:18.329615+06:00"
+    },
+    "https://react.dev/reference/rules/react-calls-components-and-hooks": {
+      "path": "reference-rules-react-calls-components-and-hooks.md",
+      "etag": "W/\"e75da4nkf73w2\"",
+      "sha256": "1c46a339ad62cb6e2879aadaeec12eadbb49c687371a4c635a459e389fe87430",
+      "bytes": 5060,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:18.929957+06:00"
+    },
+    "https://react.dev/reference/rules/rules-of-hooks": {
+      "path": "reference-rules-rules-of-hooks.md",
+      "etag": "W/\"109pglasnkl341\"",
+      "sha256": "af26ae15111987b0aa6edc55d7bfd953c057809564f5feda3b45b57b44bebac8",
+      "bytes": 4081,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:19.129606+06:00"
+    },
+    "https://react.dev/versions": {
+      "path": "versions.md",
+      "etag": "W/\"9vvs7yy3wxi24\"",
+      "sha256": "e856fc5a596f690c8a0f022efb7f768b5bb084fa62398d1b09ceabe8ff5b3ef3",
+      "bytes": 23404,
+      "tier": "md-companion",
+      "fetched_at": "2026-07-12T06:22:19.997312+06:00"
+    }
+  }
+}

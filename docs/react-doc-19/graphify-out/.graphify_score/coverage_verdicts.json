@@ -1,0 +1,26 @@
+{
+  "files": [
+    {"file": "community-conferences.md", "facts": [
+      {"fact": "Chronological list of React community conferences (React Conf, React Amsterdam, Chain React, CityJS, React Alicante, App.js, etc.)", "present": true},
+      {"fact": "Split into Upcoming vs Past Conferences", "present": true},
+      {"fact": "Specific named conferences with dates and locations are enumerated", "present": true}
+    ]},
+    {"file": "blog-2025-02-14-sunsetting-create-react-app.md", "facts": [
+      {"fact": "Create React App deprecated for new apps (Feb 14 2025)", "present": true},
+      {"fact": "Migrate to a framework OR a build tool (Vite, Parcel, RSBuild)", "present": true},
+      {"fact": "Docs for building a React app from scratch when a framework isn't a fit", "present": true},
+      {"fact": "Rationale: released 2016, boilerplate fragmentation", "present": true}
+    ]},
+    {"file": "reference-eslint-plugin-react-hooks-lints-rules-of-hooks.md", "facts": [
+      {"fact": "Validates that hooks follow the Rules of Hooks (consistent call order)", "present": true},
+      {"fact": "Common violations: conditionals, loops, early returns, callbacks, async, class methods, module level", "present": true},
+      {"fact": "The `use` hook is an exception (can be conditional / in loops)", "present": true},
+      {"fact": "Invalid vs Valid code examples for the rule", "present": true}
+    ]},
+    {"file": "reference-react-dom-components-style.md", "facts": [
+      {"fact": "<style> renders inline CSS stylesheets into the document head", "present": true},
+      {"fact": "precedence prop ranks sheets; href/media/nonce props; de-duplication behavior", "present": true},
+      {"fact": "Can be rendered from any component", "present": true}
+    ]}
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "graph_json": "/Users/mrp/Documents/1-Projects/webscraping/react-doc-scraper/docs/react-19/graphify-out/graph.json",
+  "root": "/Users/mrp/Documents/1-Projects/webscraping/react-doc-scraper/docs/react-19",
+  "edges": [
+    {
+      "idx": 0,
+      "source": "Blog",
+      "relation": "references",
+      "target": "All release notes {/all-release-notes/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 1,
+      "source": "A gradual adoption strategy {/a-gradual-adoption-strategy/}",
+      "relation": "conceptually_related_to",
+      "target": "Working with the community {/working-with-the-community/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 2,
+      "source": "Blog 2024 04 25 React 19 Upgrade Guide",
+      "relation": "references",
+      "target": "Removed: react-dom/test-utils {/removed-react-dom-test-utils/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 3,
+      "source": "Using React Compiler in libraries {/using-react-compiler-in-libraries/}",
+      "relation": "conceptually_related_to",
+      "target": "Opening up React Compiler Working Group to everyone {/opening-up-react-compiler-working-group-to-everyone/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 4,
+      "source": "Blog 2025 12 03 Critical Security Vulnerability In React Server Components",
+      "relation": "references",
+      "target": "React Native {/react-native/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 5,
+      "source": "Community Conferences",
+      "relation": "references",
+      "target": "React New York 2019 {/react-new-york-2019/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 6,
+      "source": "AgentConf 2022 {/agentconf-2022/}",
+      "relation": "conceptually_related_to",
+      "target": "React Conf 2021 {/react-conf-2021/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 7,
+      "source": "ReactEurope 2015 {/reacteurope-2015/}",
+      "relation": "conceptually_related_to",
+      "target": "React.js Conf 2015 {/reactjs-conf-2015/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 8,
+      "source": "Community Versioning Policy",
+      "relation": "references",
+      "target": "Stable releases {/stable-releases/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 9,
+      "source": "Queueing a series of state updates {/queueing-a-series-of-state-updates/}",
+      "relation": "conceptually_related_to",
+      "target": "Updating objects in state {/updating-objects-in-state/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 10,
+      "source": "Learn Extracting State Logic Into A Reducer",
+      "relation": "references",
+      "target": "Implement useReducer from scratch {/implement-usereducer-from-scratch/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 11,
+      "source": "Focus the search field {/focus-the-search-field/}",
+      "relation": "conceptually_related_to",
+      "target": "Scrolling an image carousel {/scrolling-an-image-carousel/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 12,
+      "source": "Learn React Compiler Debugging",
+      "relation": "references",
+      "target": "Reporting Compiler Bugs {/reporting-compiler-bugs/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 13,
+      "source": "Move dynamic objects and functions inside your Effect {/move-dynamic-objects-and-functions-inside-your-effect/}",
+      "relation": "conceptually_related_to",
+      "target": "Read primitive values from objects {/read-primitive-values-from-objects/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 14,
+      "source": "Learn Responding To Events",
+      "relation": "references",
+      "target": "Sitemap",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 15,
+      "source": "Final cleanup {/final-cleanup/}",
+      "relation": "conceptually_related_to",
+      "target": "Wrapping up {/wrapping-up/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 16,
+      "source": "Learn Typescript",
+      "relation": "references",
+      "target": "Adding TypeScript to an existing React project {/adding-typescript-to-an-existing-react-project/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 17,
+      "source": "Reference Eslint Plugin React Hooks Lints Immutability",
+      "relation": "references",
+      "target": "Invalid {/invalid/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 18,
+      "source": "Invalid {/invalid/}",
+      "relation": "conceptually_related_to",
+      "target": "Valid {/valid/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 19,
+      "source": "Reference React Cachesignal",
+      "relation": "references",
+      "target": "Reference {/reference/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 20,
+      "source": "Parameters {/children-map-parameters/}",
+      "relation": "conceptually_related_to",
+      "target": "Returns {/children-map-returns/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 21,
+      "source": "Reference React Compiler Gating",
+      "relation": "references",
+      "target": "Basic feature flag setup {/basic-setup/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 22,
+      "source": "Caveats {/componentdidupdate-caveats/}",
+      "relation": "conceptually_related_to",
+      "target": "componentWillMount() {/componentwillmount/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 23,
+      "source": "Reference React Createelement",
+      "relation": "references",
+      "target": "Usage {/usage/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 24,
+      "source": "root.render(reactNode) {/root-render/}",
+      "relation": "conceptually_related_to",
+      "target": "Parameters {/root-render-parameters/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 25,
+      "source": "Reference React Dom Components Form",
+      "relation": "references",
+      "target": "<form> {/form/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 26,
+      "source": "I'm getting an error: \"A component is changing an uncontrolled input to be controlled\" {/im-getting-an-error-a-component-is-changing-an-uncontrolled-input-to-be",
+      "relation": "conceptually_related_to",
+      "target": "Sitemap",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 27,
+      "source": "Reference React Dom Hooks Useformstatus",
+      "relation": "references",
+      "target": "Reference {/reference/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 28,
+      "source": "Reference React Dom Server Rendertostring",
+      "relation": "references",
+      "target": "Returns {/returns/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 29,
+      "source": "Migrating from renderToString to a streaming render on the server {/migrating-from-rendertostring-to-a-streaming-method-on-the-server/}",
+      "relation": "conceptually_related_to",
+      "target": "Migrating from renderToString to a static prerender on the server {/migrating-from-rendertostring-to-a-static-prerender-on-the-server/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 30,
+      "source": "Reference React Fragment",
+      "relation": "references",
+      "target": "Parameters {/observeusing-parameters/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 31,
+      "source": "Returns {/getrootnode-returns/}",
+      "relation": "conceptually_related_to",
+      "target": "compareDocumentPosition(otherNode) {/comparedocumentposition/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 32,
+      "source": "Reference React Use",
+      "relation": "references",
+      "target": "Parameters {/promise-parameters/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 33,
+      "source": "My actions are being skipped {/actions-skipped/}",
+      "relation": "conceptually_related_to",
+      "target": "My state doesn't reset {/reset-state/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 34,
+      "source": "Reference React Useeffectevent",
+      "relation": "references",
+      "target": "Avoid reconnecting to external systems {/showing-a-notification-without-reconnecting/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 35,
+      "source": "Returns {/returns/}",
+      "relation": "conceptually_related_to",
+      "target": "Caveats {/caveats/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 36,
+      "source": "Reference React Useref",
+      "relation": "references",
+      "target": "Returns {/returns/}",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 37,
+      "source": "Subscribing to a browser API {/subscribing-to-a-browser-api/}",
+      "relation": "conceptually_related_to",
+      "target": "Extracting the logic to a custom Hook {/extracting-the-logic-to-a-custom-hook/}",
+      "confidence": "INFERRED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 38,
+      "source": "Reference Rsc Use Client",
+      "relation": "references",
+      "target": "Sitemap",
+      "confidence": "EXTRACTED",
+      "source_file": null,
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 39,
+      "source": "Hub: Learn (Guides & Tutorials)",
+      "relation": "references",
+      "target": "Learn State A Components Memory",
+      "confidence": "EXTRACTED",
+      "source_file": "__hub__/learn.md",
+      "source_location": null,
+      "evidence": ""
+    }
+  ]
+}

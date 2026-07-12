@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "id": "warnings_unknown_prop",
+      "label": "Warnings Unknown Prop",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/react-doc-scraper/docs/react-19/warnings-unknown-prop.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "warnings_unknown_prop_sitemap",
+      "label": "Sitemap",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/react-doc-scraper/docs/react-19/warnings-unknown-prop.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "warnings_unknown_prop",
+      "target": "warnings_unknown_prop_sitemap",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/react-doc-scraper/docs/react-19/warnings-unknown-prop.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "warnings_unknown_prop",
+      "target": "warnings_unknown_prop_sitemap",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/react-doc-scraper/docs/react-19/warnings-unknown-prop.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
