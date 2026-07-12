@@ -1,0 +1,133 @@
+{
+  "graph_json": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/graphify-out/graph.json",
+  "root": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16",
+  "files": [
+    {
+      "file": "01-app/04-glossary.mdx",
+      "file_type": "concept",
+      "text": "---\ntitle: Next.js Glossary\nnav_title: Glossary\ndescription: A glossary of common terms used in Next.js.\n---\n\n# A\n\n## App Router\n\nThe Next.js router introduced in version 13, built on top of React Server Components. It uses file-system based routing and supports layouts, nested routing, loading states, error handling, and more. Learn more in the [App Router documentation](index.mdx).\n\n# B\n\n## Build time\n\nThe stage when your application is being compiled. During build time, Next.js transforms your code into optimized files for production, generates static pages, and prepares assets for deployment. See the [`next build` CLI reference](03-api-reference/06-cli/next.mdx#next-build-options).\n\n# C\n\n## Cache Components\n\nA feature that enables component and function-level caching using the [`\"use cache\"` directive](03-api-reference/01-directives/use-cache.mdx). Cache Components allows you to mix static, cached, and dynamic content within a single route by prerendering a static HTML shell that's served immediately, while dynamic content streams in when ready. Configure cache duration with [`cacheLife()`](03-api-reference/04-functions/cacheLife.mdx), tag cached data with [`cacheTag()`](03-api-reference/04-functions/cacheTag.mdx), and invalidate on-demand with [`updateTag()`](03-api-reference/04-functions/updateTag.mdx). Learn more in the [Cache Components guide](01-getting-started/08-caching.mdx).\n\n## Catch-all Segments\n\nDynamic route segments that can match multiple URL parts using the `[...folder]/page.js` syntax. These segments capture all remaining URL segments and are useful for implementing features like documentation sites or file browsers. Learn more in [Dynamic Route Segments](03-api-reference/03-file-conventions/dynamic-routes.mdx#catch-all-segments).\n\n## Client Bundles\n\nJavaScript bundles sent to the browser. Next.js splits these automatically based on the [module graph](#module-graph) to reduce initial payload size and load only the necessary code for each page.\n\n## Client Component\n\nA React component that runs in the browser. In Next.js, Client Components can also be rendered on the server during initial page generation. They can use state, effects, event handlers, and browser APIs, and are marked with the [`\"use client\"` directive](#use-client-directive) at the top of a file. Learn more in [Server and Client Components](01-getting-started/05-server-and-client-components.mdx).\n\n## Client-side navigation\n\nA navigation technique where the page content updates dynamically without a full page reload. Next.js uses client-side navigation with the [`<Link>` component](03-api-reference/02-components/link.mdx), keeping shared layouts interactive and preserving browser state. Learn more in [Linking and Navigating](01-getting-started/04-linking-and-navigating.mdx#client-side-transitions).\n\n## Client Cache\n\nAn in-memory cache in the browser that stores [RSC Payload](#rsc-payload) for visited and prefetched routes. During [client-side navigation](#client-side-navigation), Next.js serves cached [layouts](#layout) and [loading states](#loading-ui) instantly without a server request. Pages are not cached by default but are reused during browser back/forward navigation.\n\nThe client cache is cleared on page refresh. It can be invalidated programmatically with [`revalidateTag`](03-api-reference/04-functions/revalidateTag.mdx), [`revalidatePath`](03-api-reference/04-functions/revalidatePath.mdx), [`updateTag`](03-api-reference/04-functions/updateTag.mdx), [`router.refresh`](03-api-reference/04-functions/use-router.mdx), [`cookies.set`](03-api-reference/04-functions/cookies.mdx), or [`cookies.delete`](03-api-reference/04-functions/cookies.mdx).\n\nYou can configure the client cache duration with [`staleTimes`](03-api-reference/05-config/01-next-config-js/staleTimes.mdx) globally, or per-route via the `stale` property in [`cacheLife`](03-api-reference/04-functions/cacheLife.mdx#client-cache-behavior) (recommended).\n\n## Code Splitting\n\nThe process of dividing your application into smaller JavaScript chunks based on routes. Instead of loading all code upfront, only the code needed for the current route is loaded, reducing initial load time. Next.js automatically performs code splitting based on routes. Learn more in the [Package Bundling guide](02-guides/package-bundling.mdx).\n\n# D\n\n## Dynamic rendering\n\nWhen a component is rendered at request time rather than [build time](#build-time). A component becomes dynamic when it uses [Request-time APIs](#request-time-apis).\n\n## Dynamic route segments\n\n[Route segments](#route-segment) that are generated from data at request time. Created by wrapping a folder name in square brackets (e.g., `[slug]`), they allow you to create routes from dynamic data like blog posts or product pages. Learn more in [Dynamic Route Segments](03-api-reference/03-file-conventions/dynamic-routes.mdx).\n\n# E\n\n## Environment Variables\n\nConfiguration values accessible at build time or request time. In Next.js, variables prefixed with `NEXT_PUBLIC_` are exposed to the browser, while others are only available server-side. Learn more in [Environment Variables](02-guides/environment-variables.mdx).\n\n## Error Boundary\n\nA React component that catches JavaScript errors in its child component tree and displays a fallback UI. In Next.js, create an [`error.js` file](03-api-reference/03-file-conventions/error.mdx) to automatically wrap a route segment in an error boundary. Learn more in [Error Handling](01-getting-started/10-error-handling.mdx).\n\n# F\n\n## Font Optimization\n\nAutomatic font optimization using [`next/font`](03-api-reference/02-components/font.mdx). Next.js self-hosts fonts, eliminates layout shift, and applies best practices for performance. Works with Google Fonts and local font files. Learn more in [Fonts](01-getting-started/13-fonts.mdx).\n\n## File-system caching\n\nA Turbopack feature that stores compiler artifacts on disk between runs, reducing work across `next dev` or `next build` commands f",
+      "nodes_in_graph": [
+        "Glossary: \"use cache\" Directive",
+        "Glossary: \"use client\" Directive",
+        "Glossary: \"use server\" Directive",
+        "Glossary: App Router",
+        "Glossary: Build time",
+        "Glossary: Cache Components",
+        "Glossary: Client Cache",
+        "Glossary: Client Component",
+        "Glossary: Hydration",
+        "Glossary: Incremental Static Regeneration (ISR)",
+        "Glossary: Partial Prerendering (PPR)",
+        "Glossary: RSC Payload",
+        "Glossary: Revalidation",
+        "Glossary: Server Component",
+        "Glossary: Static Export",
+        "Glossary: Static Shell",
+        "Glossary: Streaming",
+        "Glossary: Suspense boundary",
+        "Glossary: Turbopack",
+        "Glossary: Version skew",
+        "Next.js Glossary"
+      ],
+      "edges_in_graph": [
+        "Next.js Glossary -[references]-> Glossary: App Router",
+        "Next.js Glossary -[references]-> Glossary: Build time",
+        "Next.js Glossary -[references]-> Glossary: Cache Components",
+        "Next.js Glossary -[references]-> Glossary: Client Cache",
+        "Next.js Glossary -[references]-> Glossary: Client Component",
+        "Next.js Glossary -[references]-> Glossary: Hydration",
+        "Next.js Glossary -[references]-> Glossary: Incremental Static Regeneration (ISR)",
+        "Next.js Glossary -[references]-> Glossary: Partial Prerendering (PPR)",
+        "Next.js Glossary -[references]-> Glossary: Revalidation",
+        "Next.js Glossary -[references]-> Glossary: RSC Payload",
+        "Next.js Glossary -[references]-> Glossary: Server Component",
+        "Next.js Glossary -[references]-> Glossary: Static Export",
+        "Next.js Glossary -[references]-> Glossary: Static Shell",
+        "Next.js Glossary -[references]-> Glossary: Streaming",
+        "Next.js Glossary -[references]-> Glossary: Suspense boundary",
+        "Next.js Glossary -[references]-> Glossary: Turbopack",
+        "Next.js Glossary -[references]-> Glossary: \"use cache\" Directive",
+        "Next.js Glossary -[references]-> Glossary: \"use client\" Directive",
+        "Next.js Glossary -[references]-> Glossary: \"use server\" Directive",
+        "Next.js Glossary -[references]-> Glossary: Version skew"
+      ]
+    },
+    {
+      "file": "01-app/02-guides/view-transitions.mdx",
+      "file_type": "concept",
+      "text": "---\ntitle: Designing view transitions\ndescription: Learn how to use view transitions to communicate meaning during navigation, loading, and content changes in a Next.js app.\nnav_title: View transitions\n---\n\nIn web apps, route changes replace the entire page at once. One set of elements disappears, another appears, with no visual connection between them. A user selects a photo thumbnail to view it in detail on another page. They are the same image, but nothing on screen communicates that.\n\nApps that need these transitions typically rely on complex animation libraries that manage mount/unmount lifecycles, track element positions across routes, and coordinate timing manually, to animate how elements enter, exit, and move between states.\n\nReact's `<ViewTransition>` component integrates with the browser's [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) to handle this declaratively. You name the elements that should persist, and the browser animates between their old and new positions.\n\nThis guide walks through four patterns that cover the most common cases: morphing shared elements, animating loading states, adding directional navigation, and crossfading content within the same route.\n\n## Example\n\nAs an example, we'll build a photography gallery called _Frames_.\n\nWe'll start by morphing a thumbnail into a hero image (shared elements), then animate the loading skeleton into real content (Suspense reveals), add directional slides for forward and back navigation (route transitions), and finish with crossfades for switching between photographer tabs (same-route transitions).\n\nYou can find the resources used in this example here:\n\n- [Demo](https://react-view-transitions-demo.labs.vercel.dev)\n- [Code](https://github.com/vercel-labs/react-view-transitions-demo)\n\nBefore starting, enable view transitions in your Next.js config:\n\n```ts filename=\"next.config.ts\"\nimport type { NextConfig } from 'next'\n\nconst nextConfig: NextConfig = {\n  experimental: {\n    viewTransition: true,\n  },\n}\n\nexport default nextConfig\n```\n\nApp Router uses [React canary releases](https://react.dev/blog/2023/05/03/react-canaries), which contain all stable React 19 changes as well as newer features like `ViewTransition`. You do not need to install `react@canary` yourself.\n\n> [!NOTE]\n> The View Transitions API is supported in all major browsers, though some animations may behave differently in Safari. Without browser support, your application works normally, the transitions simply do not animate.\n\nThen import the `ViewTransition` component from React:\n\n```tsx\nimport { ViewTransition } from 'react'\n```\n\n`<ViewTransition>` animations are activated by [Transitions](https://react.dev/reference/react/useTransition), [`<Suspense>`](https://react.dev/reference/react/Suspense), and [`useDeferredValue`](https://react.dev/reference/react/useDeferredValue). Regular `setState` calls do not trigger them. In Next.js, route navigations are transitions, so `<ViewTransition>` animations activate automatically during navigation.\n\n### Step 1: Morph a thumbnail into a hero image\n\nThe gallery displays photos in a grid. Clicking a photo opens a detail page with a larger version of the same image. Without transitions, the thumbnail disappears and the hero appears. Nothing connects them visually. The user has to scan the detail page to confirm they clicked the right photo.\n\nIn motion design, when an object persists across a cut, it communicates continuity. The viewer understands they are looking at the same thing, not a replacement. This is the most important transition pattern: **shared element morphing**.\n\nWrap both the grid thumbnail and the detail hero in `<ViewTransition>` with the same `name`:\n\n```tsx filename=\"components/photo-grid.tsx\"\nimport { ViewTransition } from 'react'\nimport Image from 'next/image'\nimport Link from 'next/link'\n\nfunction PhotoGrid({ photos }) {\n  return (\n    <div className=\"grid grid-cols-3 gap-3\">\n      {photos.map((photo) => (\n        <Link key={photo.id} href={`/photo/${photo.id}`}>\n          <ViewTransition name={`photo-${photo.id}`}>\n            <Image src={photo.src} alt={photo.title} />\n          </ViewTransition>\n        </Link>\n      ))}\n    </div>\n  )\n}\n```\n\n```tsx filename=\"app/photo/[id]/photo-content.tsx\"\nimport { ViewTransition } from 'react'\nimport Image from 'next/image'\n\nasync function PhotoContent({ id }) {\n  const photo = await getPhoto(id)\n\n  return (\n    <ViewTransition name={`photo-${photo.id}`}>\n      <Image src={photo.src} alt={photo.title} fill />\n    </ViewTransition>\n  )\n}\n```\n\nThe `name` prop creates identity. React finds elements with the same name on the old and new pages, then animates between their size and position automatically. No additional props are needed for the morph to work.\n\nIf we click a thumbnail now, the image scales and repositions from its grid cell to the hero slot. Navigating back reverses the morph. The user sees one object moving, not two objects swapping.\n\n#### Customizing the morph animation\n\nThe morph works without any CSS. To customize it, add `share=\"morph\"`. This assigns the `morph` class to the view transition, which you can target with CSS pseudo-elements. For example, to soften the morph mid-flight with a [`blur`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur) keyframe:\n\n```tsx\n<ViewTransition name={`photo-${photo.id}`} share=\"morph\">\n  <Image src={photo.src} alt={photo.title} />\n</ViewTransition>\n```\n\n```css filename=\"app/globals.css\"\n::view-transition-group(.morph) {\n  animation-duration: 400ms;\n}\n::view-transition-image-pair(.morph) {\n  animation-name: via-blur;\n}\n@keyframes via-blur {\n  30% {\n    filter: blur(3px);\n  }\n}\n```\n\nThe blur hides pixel-level interpolation artifacts during the transition. At 400ms, the morph is slow enough to register but fast enough to feel direct.\n\n### Step 2: Animate loading states with Suspense reveals\n\nThe photo detail page loads its content asynchronously. While",
+      "nodes_in_graph": [
+        "Designing view transitions",
+        "crossfade same route",
+        "directional navigation transitiontypes",
+        "reduced motion view transitions",
+        "shared element morph",
+        "suspense reveal loading",
+        "view transition component"
+      ],
+      "edges_in_graph": [
+        "Designing view transitions -[references]-> crossfade same route",
+        "Designing view transitions -[references]-> directional navigation transitiontypes",
+        "Designing view transitions -[references]-> reduced motion view transitions",
+        "Designing view transitions -[references]-> shared element morph",
+        "Designing view transitions -[references]-> suspense reveal loading",
+        "Designing view transitions -[references]-> view transition component"
+      ]
+    },
+    {
+      "file": "01-app/02-guides/testing/vitest.mdx",
+      "file_type": "concept",
+      "text": "---\ntitle: How to set up Vitest with Next.js\nnav_title: Vitest\ndescription: Learn how to set up Vitest with Next.js for Unit Testing.\n---\n\nVitest and React Testing Library are frequently used together for **Unit Testing**. This guide will show you how to setup Vitest with Next.js and write your first tests.\n\n> **Good to know:** Since `async` Server Components are new to the React ecosystem, Vitest currently does not support them. While you can still run **unit tests** for synchronous Server and Client Components, we recommend using **E2E tests** for `async` components.\n\n## Quickstart\n\nYou can use `create-next-app` with the Next.js [with-vitest](https://github.com/vercel/next.js/tree/canary/examples/with-vitest) example to quickly get started:\n\n```bash package=\"pnpm\"\npnpm create next-app --example with-vitest with-vitest-app\n```\n\n```bash package=\"npm\"\nnpx create-next-app@latest --example with-vitest with-vitest-app\n```\n\n```bash package=\"yarn\"\nyarn create next-app --example with-vitest with-vitest-app\n```\n\n```bash package=\"bun\"\nbun create next-app --example with-vitest with-vitest-app\n```\n\n## Manual Setup\n\nTo manually set up Vitest, install `vitest` and the following packages as dev dependencies:\n\n```bash package=\"pnpm\"\n# Using TypeScript\npnpm add -D vitest @vitejs/plugin-react jsdom @testing-library/react @testing-library/dom vite-tsconfig-paths\n# Using JavaScript\npnpm add -D vitest @vitejs/plugin-react jsdom @testing-library/react @testing-library/dom\n```\n\n```bash package=\"npm\"\n# Using TypeScript\nnpm install -D vitest @vitejs/plugin-react jsdom @testing-library/react @testing-library/dom vite-tsconfig-paths\n# Using JavaScript\nnpm install -D vitest @vitejs/plugin-react jsdom @testing-library/react @testing-library/dom\n```\n\n```bash package=\"yarn\"\n# Using TypeScript\nyarn add -D vitest @vitejs/plugin-react jsdom @testing-library/react @testing-library/dom vite-tsconfig-paths\n# Using JavaScript\nyarn add -D vitest @vitejs/plugin-react jsdom @testing-library/react @testing-library/dom\n```\n\n```bash package=\"bun\"\n# Using TypeScript\nbun add -D vitest @vitejs/plugin-react jsdom @testing-library/react @testing-library/dom vite-tsconfig-paths\n# Using JavaScript\nbun add -D vitest @vitejs/plugin-react jsdom @testing-library/react @testing-library/dom\n```\n\nCreate a `vitest.config.mts|js` file in the root of your project, and add the following options:\n\n```ts filename=\"vitest.config.mts\" switcher\nimport { defineConfig } from 'vitest/config'\nimport react from '@vitejs/plugin-react'\nimport tsconfigPaths from 'vite-tsconfig-paths'\n\nexport default defineConfig({\n  plugins: [tsconfigPaths(), react()],\n  test: {\n    environment: 'jsdom',\n  },\n})\n```\n\n```js filename=\"vitest.config.js\" switcher\nimport { defineConfig } from 'vitest/config'\nimport react from '@vitejs/plugin-react'\n\nexport default defineConfig({\n  plugins: [react()],\n  test: {\n    environment: 'jsdom',\n  },\n})\n```\n\nFor more information on configuring Vitest, please refer to the [Vitest Configuration](https://vitest.dev/config/#configuration) docs.\n\nThen, add a `test` script to your `package.json`:\n\n```json filename=\"package.json\"\n{\n  \"scripts\": {\n    \"dev\": \"next dev\",\n    \"build\": \"next build\",\n    \"start\": \"next start\",\n    \"test\": \"vitest\"\n  }\n}\n```\n\nWhen you run `npm run test`, Vitest will **watch** for changes in your project by default.\n\n## Creating your first Vitest Unit Test\n\nCheck that everything is working by creating a test to check if the `<Page />` component successfully renders a heading:\n\n<AppOnly>\n\n```tsx filename=\"app/page.tsx\" switcher\nimport Link from 'next/link'\n\nexport default function Page() {\n  return (\n    <div>\n      <h1>Home</h1>\n      <Link href=\"/about\">About</Link>\n    </div>\n  )\n}\n```\n\n```jsx filename=\"app/page.jsx\" switcher\nimport Link from 'next/link'\n\nexport default function Page() {\n  return (\n    <div>\n      <h1>Home</h1>\n      <Link href=\"/about\">About</Link>\n    </div>\n  )\n}\n```\n\n```tsx filename=\"__tests__/page.test.tsx\" switcher\nimport { expect, test } from 'vitest'",
+      "nodes_in_graph": [
+        "How to set up Vitest with Next.js",
+        "vitest async server components",
+        "vitest unit testing"
+      ],
+      "edges_in_graph": [
+        "How to set up Vitest with Next.js -[references]-> vitest async server components",
+        "How to set up Vitest with Next.js -[references]-> vitest unit testing"
+      ]
+    },
+    {
+      "file": "02-pages/02-guides/scripts.mdx",
+      "file_type": "concept",
+      "text": "---\ntitle: How to load and optimize scripts\nnav_title: Scripts\ndescription: Optimize 3rd party scripts with the built-in Script component.\nsource: app/guides/scripts\n---\n\n{/* DO NOT EDIT. The content of this doc is generated from the source above. To edit the content of this page, navigate to the source page in your editor. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}",
+      "nodes_in_graph": [
+        "Script Component",
+        "Scripts"
+      ],
+      "edges_in_graph": [
+        "Scripts -[references]-> Script Component"
+      ]
+    },
+    {
+      "file": "01-app/02-guides/index.mdx",
+      "file_type": "document",
+      "text": "---\ntitle: Guides\ndescription: Learn how to implement common patterns and real-world use cases using Next.js\n---",
+      "nodes_in_graph": [
+        "Guides"
+      ],
+      "edges_in_graph": []
+    },
+    {
+      "file": "01-app/03-api-reference/05-config/01-next-config-js/pageExtensions.mdx",
+      "file_type": "document",
+      "text": "---\ntitle: pageExtensions\ndescription: Extend the default page extensions used by Next.js when resolving pages in the Pages Router.\n---\n\n{/* The content of this doc is shared between the app and pages router. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}\n\n<AppOnly>\n\nBy default, Next.js accepts files with the following extensions: `.tsx`, `.ts`, `.jsx`, `.js`. This can be modified to allow other extensions like markdown (`.md`, `.mdx`).\n\n```js filename=\"next.config.js\"\nconst withMDX = require('@next/mdx')()\n\n/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],\n}\n\nmodule.exports = withMDX(nextConfig)\n```\n\n</AppOnly>\n\n<PagesOnly>\n\nYou can extend the default Page extensions (`.tsx`, `.ts`, `.jsx`, `.js`) used by Next.js. Inside `next.config.js`, add the `pageExtensions` config:\n\n```js filename=\"next.config.js\"\nmodule.exports = {\n  pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts'],\n}\n```\n\nChanging these values affects _all_ Next.js pages, including the following:\n\n- [`proxy.js`](../../../../02-pages/04-api-reference/02-file-conventions/proxy.mdx)\n- [`instrumentation.js`](../../../../02-pages/02-guides/instrumentation.mdx)\n- `pages/_document.js`\n- `pages/_app.js`\n- `pages/api/`\n\nFor example, if you reconfigure `.ts` page extensions to `.page.ts`, you would need to rename pages like `proxy.page.ts`, `instrumentation.page.ts`, `_app.page.ts`.\n\n## Including non-page files in the `pages` directory\n\nYou can colocate test files or other files used by components in the `pages` directory. Inside `next.config.js`, add the `pageExtensions` config:\n\n```js filename=\"next.config.js\"\nmodule.exports = {\n  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js'],\n}\n```\n\nThen, rename your pages to have a file extension that includes `.page` (e.g. rename `MyPage.tsx` to `MyPage.page.tsx`). Ensure you rename _all_ Next.js pages, including the files mentioned above.\n\n</PagesOnly>",
+      "nodes_in_graph": [
+        "pageExtensions"
+      ],
+      "edges_in_graph": [
+        "pageExtensions -[references]-> MDX Compilation (Rust compiler & page extensions)"
+      ]
+    },
+    {
+      "file": "02-pages/04-api-reference/04-config/01-next-config-js/distDir.mdx",
+      "file_type": "document",
+      "text": "---\ntitle: distDir\ndescription: Set a custom build directory to use instead of the default .next directory.\nsource: app/api-reference/config/next-config-js/distDir\n---\n\n{/* DO NOT EDIT. The content of this doc is generated from the source above. To edit the content of this page, navigate to the source page in your editor. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}",
+      "nodes_in_graph": [
+        "distDir"
+      ],
+      "edges_in_graph": []
+    }
+  ]
+}

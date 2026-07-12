@@ -1,0 +1,58 @@
+{
+  "graphscore": 98.2,
+  "band": "great",
+  "axes": {
+    "truthful": 100.0,
+    "complete": 100.0,
+    "tidy": 90.8
+  },
+  "weights": {
+    "truthful": 0.5,
+    "complete": 0.3,
+    "tidy": 0.2
+  },
+  "detail": {
+    "truthful": {
+      "supported": 40,
+      "unsupported": 0,
+      "unclear": 0,
+      "graded": 40,
+      "made_up": []
+    },
+    "complete": {
+      "total_facts": 21,
+      "present": 21,
+      "missed": []
+    },
+    "tidy": {
+      "nodes": 1772,
+      "edges": 2148,
+      "mean_degree": 2.42,
+      "density": 0.00137,
+      "components": 4,
+      "largest_component_frac": 0.987,
+      "orphan_nodes": 0,
+      "orphan_frac": 0.0,
+      "self_loops": 0,
+      "dangling_edges": 0,
+      "duplicate_label_groups": 97,
+      "extra_duplicate_nodes": 133,
+      "duplicate_frac": 0.075,
+      "top_hub_edge_share": 0.031,
+      "distinct_relations": 3,
+      "relation_cardinality": 0.001,
+      "modularity": 0.801,
+      "communities": 170,
+      "confidence": {
+        "EXTRACTED": 1486,
+        "INFERRED": 662
+      }
+    }
+  },
+  "improve": {
+    "worst_files": [],
+    "structural": []
+  },
+  "judge_model": "Hermes (tencent/hy3)",
+  "graph_json": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/graphify-out/graph.json"
+}

@@ -1,0 +1,58 @@
+{
+  "subscore": 90.8,
+  "metrics": {
+    "nodes": 1772,
+    "edges": 2148,
+    "mean_degree": 2.42,
+    "density": 0.00137,
+    "components": 4,
+    "largest_component_frac": 0.987,
+    "orphan_nodes": 0,
+    "orphan_frac": 0.0,
+    "self_loops": 0,
+    "dangling_edges": 0,
+    "duplicate_label_groups": 97,
+    "extra_duplicate_nodes": 133,
+    "duplicate_frac": 0.075,
+    "top_hub_edge_share": 0.031,
+    "distinct_relations": 3,
+    "relation_cardinality": 0.001,
+    "modularity": 0.801,
+    "communities": 170,
+    "confidence": {
+      "EXTRACTED": 1486,
+      "INFERRED": 662
+    }
+  },
+  "checks": {
+    "connected": {
+      "score": 0.987,
+      "detail": "largest cluster holds 99% of dots (4 islands)"
+    },
+    "not_orphaned": {
+      "score": 1.0,
+      "detail": "0 lonely dots (0%)"
+    },
+    "clean_edges": {
+      "score": 1.0,
+      "detail": "0 self-loops, 0 broken lines"
+    },
+    "deduped": {
+      "score": 0.5,
+      "detail": "133 duplicate dots (8%)"
+    },
+    "hub_sane": {
+      "score": 1.0,
+      "detail": "busiest dot touches 3% of lines"
+    },
+    "linked": {
+      "score": 0.712,
+      "detail": "avg 2.4 lines per dot, density 0.001"
+    },
+    "well_clustered": {
+      "score": 1.0,
+      "detail": "community separation (modularity) = 0.80"
+    }
+  },
+  "graph_json": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/graphify-out/graph.json"
+}

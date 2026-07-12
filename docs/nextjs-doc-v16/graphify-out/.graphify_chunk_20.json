@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "id": "docs_v16_02_pages_02_guides_upgrading_version_14",
+      "label": "How to upgrade to version 14",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/02-pages/02-guides/upgrading/version-14.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_nextjs_upgrading",
+      "label": "Next.js upgrading",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/02-pages/02-guides/upgrading/version-14.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_nextjs_version_14",
+      "label": "Next.js version 14",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/02-pages/02-guides/upgrading/version-14.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_nextjs_version_13",
+      "label": "Next.js version 13",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/02-pages/02-guides/upgrading/version-14.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_v16_02_pages_02_guides_upgrading_version_14",
+      "target": "concept_nextjs_upgrading",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/02-pages/02-guides/upgrading/version-14.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_02_pages_02_guides_upgrading_version_14",
+      "target": "concept_nextjs_version_14",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/02-pages/02-guides/upgrading/version-14.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_02_pages_02_guides_upgrading_version_14",
+      "target": "concept_nextjs_version_13",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/02-pages/02-guides/upgrading/version-14.mdx",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

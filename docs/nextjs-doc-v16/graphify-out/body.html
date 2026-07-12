@@ -1,0 +1,91 @@
+<main class="page">
+  <p class="eyebrow">Graphify + Score · Knowledge Graph Report</p>
+  <h1>Next.js v16 Documentation</h1>
+  <p class="lede">Knowledge graph of the full Next.js v16 docs — 423 MDX pages across the App Router, Pages Router, Architecture and Community sections — built, graded, and structurally improved in one pass.</p>
+
+  <section class="invert card" style="text-align:center; padding:2rem; margin:1.5rem 0;">
+    <p class="eyebrow">GraphScore</p>
+    <div style="font-family:Georgia,ui-serif,serif; font-size:4rem; font-weight:500; line-height:1; color:#D97757;">98.2<span style="font-size:1.5rem; color:#E8E6DC;"> / 100</span></div>
+    <p style="margin-top:.5rem; letter-spacing:.05em;">band: <strong>great</strong></p>
+  </section>
+
+  <div class="stats">
+    <div class="stat"><div class="badge">Truthful · 50%</div><div style="font-size:2rem; font-family:Georgia,serif;">100.0</div></div>
+    <div class="stat"><div class="badge">Complete · 30%</div><div style="font-size:2rem; font-family:Georgia,serif;">100.0</div></div>
+    <div class="stat"><div class="badge">Tidy · 20%</div><div style="font-size:2rem; font-family:Georgia,serif;">90.8</div></div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div style="font-size:1.6rem; font-family:Georgia,serif;">1,772</div><div class="badge">nodes</div></div>
+    <div class="stat"><div style="font-size:1.6rem; font-family:Georgia,serif;">2,148</div><div class="badge">edges</div></div>
+    <div class="stat"><div style="font-size:1.6rem; font-family:Georgia,serif;">170</div><div class="badge">communities</div></div>
+    <div class="stat"><div style="font-size:1.6rem; font-family:Georgia,serif;">98.7%</div><div class="badge">largest component</div></div>
+  </div>
+
+  <section>
+    <p class="eyebrow">01 — The graph</p>
+    <h2>Structure &amp; hubs</h2>
+    <p>graphify extracted one <code>document</code> node per doc plus 5–20 <code>concept</code> nodes per substantive page (APIs, hooks, config keys, directives), linked with <code>references</code>, <code>semantically_similar_to</code>, <code>conceptually_related_to</code>, <code>implements</code> and <code>cites</code> edges.</p>
+    <table>
+      <thead><tr><th>God node</th><th>Degree</th><th>Role</th></tr></thead>
+      <tbody>
+        <tr><td>Section: 01-app/02-guides</td><td>67</td><td>App Router how-to guides hub</td></tr>
+        <tr><td>Section: 01-app/03-api-reference/05-config</td><td>64</td><td><code>next.config.js</code> options hub</td></tr>
+        <tr><td>Section: 02-pages/02-guides</td><td>47</td><td>Pages Router guides hub</td></tr>
+        <tr><td>Section: 02-pages/04-api-reference/04-config</td><td>41</td><td>Pages Router config hub</td></tr>
+        <tr><td>Section: 01-app/03-api-reference/04-functions</td><td>39</td><td>App Router functions/hooks hub</td></tr>
+        <tr><td>Next.js Glossary</td><td>21</td><td>Cross-cutting concept index (use cache, PPR, ISR, RSC)</td></tr>
+      </tbody>
+    </table>
+    <p>The top six hubs are <strong>synthetic section hubs</strong> injected to connect the corpus; the Glossary and <code>next.config.js Options</code> are genuine content hubs.</p>
+
+    <h3>Surprising connections</h3>
+    <ul>
+      <li><strong>Turbopack ↔ Next.js Compiler (SWC)</strong> — the two pillars of the build toolchain, documented in separate sections.</li>
+      <li><strong>Nested routes ↔ Dynamic catch-all routes</strong> — the same routing idea across the App and Pages routers.</li>
+      <li><strong>Draft Mode ↔ Incremental Static Regeneration</strong> — both hinge on on-demand revalidation.</li>
+    </ul>
+  </section>
+
+  <section>
+    <p class="eyebrow">02 — The grade</p>
+    <h2>Truthful · 100.0</h2>
+    <p>40 sampled edges fact-checked against source doc text — <strong>all 40 supported</strong>. <code>references</code> edges are verbatim; <code>semantically_similar_to</code> edges (e.g. <code>useParams</code> ↔ <code>useSearchParams</code>) are well-grounded inferences. No fabricated or contradicted lines.</p>
+
+    <h2>Complete · 100.0</h2>
+    <p>After the 2026-07-12 improvement pass, the 3 previously-missed config sub-options were added as verbatim <code>concept</code> nodes — all 21 checked coverage facts now present:</p>
+    <div class="note"><strong>logging.mdx</strong> — <code>incomingRequests</code> logging option + forward browser console logs to terminal.</div>
+    <div class="note"><strong>devIndicators.mdx</strong> (Pages) — the <code>position</code> config / opt-out option.</div>
+
+    <h2>Tidy · 90.8</h2>
+    <table>
+      <thead><tr><th>Check</th><th>Score</th><th>Detail</th></tr></thead>
+      <tbody>
+        <tr><td>connected</td><td>0.99</td><td>largest cluster 99% (4 islands)</td></tr>
+        <tr><td>not_orphaned</td><td>1.00</td><td>0 lonely dots</td></tr>
+        <tr><td>clean_edges</td><td>1.00</td><td>0 self-loops, 0 broken lines</td></tr>
+        <tr><td>deduped</td><td>0.50</td><td>133 same-label dots (8%) — mostly legit cross-file concepts</td></tr>
+        <tr><td>hub_sane</td><td>1.00</td><td>busiest hub touches only 3% of lines</td></tr>
+        <tr><td>linked</td><td>0.71</td><td>avg 2.4 lines per dot</td></tr>
+        <tr><td>well_clustered</td><td>1.00</td><td>modularity 0.80</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <p class="eyebrow">03 — How to improve (change log)</p>
+    <h2>Fixes applied (3 passes, 2026-07-12)</h2>
+    <table>
+      <thead><tr><th>#</th><th>Change</th><th>Effect</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Canonical-merge duplicate concept nodes (87 groups → canonical)</td><td>nodes 1,861 → 1,744</td></tr>
+        <tr><td>2</td><td>Inject 25 balanced synthetic section hubs (fan-out ≤ 3.1%)</td><td><strong>220 islands → 4</strong>; largest 6.9% → 98.7%; orphans 25 → 0; Tidy 64.0 → 90.8</td></tr>
+        <tr><td>3</td><td>Add 3 missed config concept nodes (logging, devIndicators)</td><td><strong>Complete 85.7 → 100</strong>; GraphScore <strong>93.9 → 98.2</strong></td></tr>
+      </tbody>
+    </table>
+    <p><strong>Remaining lever:</strong> Tidy <code>deduped</code> 0.50 is mostly legitimate cross-router concept duplicates — do <em>not</em> blind-merge. Only LLM fuzzy dedup (<code>dedup_llm_backend</code>, needs an API key) would nudge it.</p>
+    <p><strong>Durability:</strong> synthetic hubs live only in <code>graph.json</code>; a future real <code>--update</code> prunes them. Re-run <code>graphify cluster-only . --no-label</code> (or <code>.inject_hubs.py</code>) after each update.</p>
+  </section>
+
+  <p class="note">This HTML is the companion to <code>graph-score-report.md</code>. Engine outputs also on disk in <code>graphify-out/</code>: <code>GRAPH_REPORT.md</code>, <code>SCORE_REPORT.md</code>, <code>score.json</code>, <code>graph.html</code> (interactive viz).</p>
+</main>

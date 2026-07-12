@@ -1,0 +1,723 @@
+{
+  "nodes": [
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_cachecomponents",
+      "label": "cacheComponents (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/cacheComponents.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_cachehandlers",
+      "label": "cacheHandlers (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/cacheHandlers.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_cachelife",
+      "label": "cacheLife (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/cacheLife.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_compress",
+      "label": "compress (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/compress.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_crossorigin",
+      "label": "crossOrigin (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/crossOrigin.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_csschunking",
+      "label": "cssChunking (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/cssChunking.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_deploymentid",
+      "label": "deploymentId (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/deploymentId.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_devindicators",
+      "label": "devIndicators (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/devIndicators.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_distdir",
+      "label": "distDir (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/distDir.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_env",
+      "label": "env (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/env.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_expiretime",
+      "label": "expireTime (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/expireTime.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_exportpathmap",
+      "label": "exportPathMap (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/exportPathMap.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_generatebuildid",
+      "label": "generateBuildId (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/generateBuildId.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_generateetags",
+      "label": "generateEtags (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/generateEtags.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_headers",
+      "label": "headers (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/headers.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_htmllimitedbots",
+      "label": "htmlLimitedBots (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/htmlLimitedBots.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_httpagentoptions",
+      "label": "httpAgentOptions (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/httpAgentOptions.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_images",
+      "label": "images (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/images.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_incrementalcachehandlerpath",
+      "label": "incrementalCacheHandlerPath (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/incrementalCacheHandlerPath.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index",
+      "label": "next.config.js index",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_inlinecss",
+      "label": "inlineCss (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/inlineCss.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_logging",
+      "label": "logging (next.config.js)",
+      "file_type": "document",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/logging.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_cache_components",
+      "label": "Cache Components configuration",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_image_optimization",
+      "label": "Image Optimization configuration",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_response_headers",
+      "label": "Response Headers configuration",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_environment_variables",
+      "label": "Environment Variables configuration",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_build_configuration",
+      "label": "Build & Output configuration",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_compression",
+      "label": "Response Compression configuration",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_bot_management",
+      "label": "Bot Management configuration",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_css_optimization",
+      "label": "CSS Optimization configuration",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_logging_observability",
+      "label": "Logging & Observability configuration",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_custom_cache_handler",
+      "label": "Custom Cache Handler configuration",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_http_agent",
+      "label": "HTTP Agent configuration",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_next_config_js",
+      "label": "next.config.js file",
+      "file_type": "concept",
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_cachecomponents",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_cache_components",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/cacheComponents.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_cachehandlers",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_cache_components",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/cacheHandlers.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_cachelife",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_cache_components",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/cacheLife.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_expiretime",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_cache_components",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/expireTime.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_images",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_image_optimization",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/images.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_headers",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_response_headers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/headers.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_crossorigin",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_response_headers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/crossOrigin.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_env",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_environment_variables",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/env.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_distdir",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_build_configuration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/distDir.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_deploymentid",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_build_configuration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/deploymentId.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_generatebuildid",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_build_configuration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/generateBuildId.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_exportpathmap",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_build_configuration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/exportPathMap.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_compress",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_compression",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/compress.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_generateetags",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_compression",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/generateEtags.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_htmllimitedbots",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_bot_management",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/htmlLimitedBots.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_csschunking",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_css_optimization",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/cssChunking.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_inlinecss",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_css_optimization",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/inlineCss.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_logging",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_logging_observability",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/logging.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_devindicators",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_logging_observability",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/devIndicators.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_incrementalcachehandlerpath",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_custom_cache_handler",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/incrementalCacheHandlerPath.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_httpagentoptions",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_http_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/httpAgentOptions.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_next_config_js",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_cachecomponents",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_cachelife",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/cacheComponents.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_cachelife",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_expiretime",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/cacheLife.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_cachehandlers",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_incrementalcachehandlerpath",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/cacheHandlers.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_csschunking",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_inlinecss",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/cssChunking.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_headers",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_crossorigin",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/headers.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_generatebuildid",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_deploymentid",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/generateBuildId.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_compress",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_generateetags",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/compress.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_logging",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_devindicators",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/logging.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_cache_components",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_custom_cache_handler",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_response_headers",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_compression",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_css_optimization",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_build_configuration",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.55,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_logging_observability",
+      "target": "docs_v16_01_app_03_api_reference_05_config_01_next_config_js_index_next_config_js",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/01-app/03-api-reference/05-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

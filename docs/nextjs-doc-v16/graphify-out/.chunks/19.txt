@@ -1,0 +1,5 @@
+/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/03-architecture/supported-browsers.mdx
+/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/04-community/01-contribution-guide.mdx
+/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/04-community/02-rspack.mdx
+/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/04-community/index.mdx
+/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/index.mdx

@@ -1,0 +1,406 @@
+{
+  "graph_json": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16/graphify-out/graph.json",
+  "root": "/Users/mrp/Documents/1-Projects/webscraping/nextjs-doc-scraper/docs/v16",
+  "edges": [
+    {
+      "idx": 0,
+      "source": "Installation",
+      "relation": "references",
+      "target": "create-next-app",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/01-getting-started/01-installation.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: Installation\ndescription: Learn how to create a new Next.js application with the `create-next-app` CLI, and set up TypeScript, ESLint, and Module Path Aliases.\n---\n\n{/* The content of this doc is shared between the app and pages router. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}\n\n<AppOnly>\n\nCreate a new Next.js app and run it locally.\n\n## Quick start\n\n1. Create a new Next.js app named `my-app`\n2. `cd my-app` and start the dev server.\n3. Visit `http://localhost:3000`.\n\n```bash package=\"pnpm\"\npnpm create next-app@latest my-app --yes\ncd my-app\npnpm dev\n```\n\n```bash package=\"npm\"\nnpx create-next-app@latest my-app --yes\ncd my-app\nnpm run dev\n```\n\n```bash package=\"yarn\"\nyarn create next-app@latest my-app --yes\ncd my-app\nyarn dev\n```\n\n```bash package=\"bun\"\nbun create next-app@latest my-app --yes\ncd my-app\nbun dev\n```\n\n- `--yes` skips prompts using saved preferences or defaults. The default setup enables TypeScript, Tailwind CSS, ESLint, App Router, and Turbopack, with import alias `@/*`, and includes `AGENTS.md` (with a `CLAUDE.md` that references it"
+    },
+    {
+      "idx": 1,
+      "source": "Link component",
+      "relation": "semantically_similar_to",
+      "target": "prefetching",
+      "confidence": "INFERRED",
+      "source_file": "01-app/01-getting-started/03-layouts-and-pages.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: Layouts and Pages\ndescription: Learn how to create your first pages and layouts, and link between them with the Link component.\nrelated:\n  title: API Reference\n  description: Learn more about the features mentioned in this page by reading the API Reference.\n  links:\n    - app/getting-started/linking-and-navigating\n    - app/api-reference/file-conventions/layout\n    - app/api-reference/file-conventions/page\n    - app/api-reference/components/link\n    - app/api-reference/file-conventions/dynamic-routes\n---\n\nNext.js uses **file-system based routing**, meaning you can use folders and files to define routes. This page will guide you through how to create layouts and pages, and link between them.\n\n## Creating a page\n\nA **page** is UI that is rendered on a specific route. To create a page, add a [`page` file](../03-api-reference/03-file-conventions/page.mdx) inside the `app` directory and default export a React component. For example, to create an index page (`/`):\n\n<Image\n  alt=\"page.js special file\"\n  srcLight=\"/docs/light/page-special-file.png\"\n  srcDark=\"/docs/dark/page-special-file.png\"\n  width=\"1600\"\n  height=\"282\"\n/>\n\n```tsx filename=\"app/page.tsx\" switcher\nexport defaul"
+    },
+    {
+      "idx": 2,
+      "source": "Mutating Data",
+      "relation": "references",
+      "target": "redirect",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/01-getting-started/07-mutating-data.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: Mutating Data\ndescription: Learn how to mutate data using Server Functions and Server Actions in Next.js.\nrelated:\n  title: Next steps\n  description: Learn more about Server Actions and the APIs mentioned in this page.\n  links:\n    - app/guides/server-actions\n    - app/api-reference/functions/revalidatePath\n    - app/api-reference/functions/revalidateTag\n    - app/api-reference/functions/redirect\n---\n\nYou can mutate data in Next.js using [React Server Functions](https://react.dev/reference/rsc/server-functions). This page will go through how you can [create](#creating-server-functions) and [invoke](#invoking-server-functions) Server Functions. For Next.js-specific behaviors (single-roundtrip response, sequential dispatch, security, deployment), see [Server Actions and Mutations](../02-guides/server-actions.mdx).\n\n## What are Server Functions?\n\nA **Server Function** is an asynchronous function that runs on the server. You can call them from the client through a network request, which is why they must be asynchronous.\n\nIn an `action` or mutation context, they are also called **Server Actions**.\n\nBy convention, a Server Action is an async function used with [`startTransitio"
+    },
+    {
+      "idx": 3,
+      "source": "Route Handlers",
+      "relation": "references",
+      "target": "Route Handler",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/01-getting-started/15-route-handlers.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: Route Handlers\nnav_title: Route Handlers\ndescription: Learn how to use Route Handlers\nrelated:\n  title: API Reference\n  description: Learn more about Route Handlers\n  links:\n    - app/api-reference/file-conventions/route\n    - app/guides/backend-for-frontend\n---\n\n## Route Handlers\n\nRoute Handlers allow you to create custom request handlers for a given route using the Web [Request](https://developer.mozilla.org/docs/Web/API/Request) and [Response](https://developer.mozilla.org/docs/Web/API/Response) APIs.\n\n<Image\n  alt=\"Route.js Special File\"\n  srcLight=\"/docs/light/route-special-file.png\"\n  srcDark=\"/docs/dark/route-special-file.png\"\n  width=\"1600\"\n  height=\"444\"\n/>\n\n> **Good to know**: Route Handlers are only available inside the `app` directory. They are the equivalent of [API Routes](../../02-pages/03-building-your-application/01-routing/07-api-routes.mdx) inside the `pages` directory meaning you **do not** need to use API Routes and Route Handlers together.\n\n### Convention\n\nRoute Handlers are defined in a [`route.js|ts` file](../03-api-reference/03-file-conventions/route.mdx) inside the `app` directory:\n\n```ts filename=\"app/api/route.ts\" switcher\nexport async functio"
+    },
+    {
+      "idx": 4,
+      "source": "CI Build Caching",
+      "relation": "references",
+      "target": "Heroku cacheDirectories",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/02-guides/ci-build-caching.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: How to configure Continuous Integration (CI) build caching\nnav_title: CI Build Caching\ndescription: Learn how to configure CI to cache Next.js builds\n---\n\nTo improve build performance, Next.js saves a cache to `.next/cache` that is shared between builds.\n\nTo take advantage of this cache in Continuous Integration (CI) environments, your CI workflow will need to be configured to correctly persist the cache between builds.\n\n> If your CI is not configured to persist `.next/cache` between builds, you may see a [No Cache Detected](/docs/messages/no-cache) error.\n\nHere are some example cache configurations for common CI providers:\n\n## Vercel\n\nNext.js caching is automatically configured for you. There's no action required on your part. If you are using Turborepo on Vercel, [learn more here](https://vercel.com/docs/monorepos/turborepo).\n\n## CircleCI\n\nEdit your `save_cache` step in `.circleci/config.yml` to include `.next/cache`:\n\n```yaml\nsteps:\n  - save_cache:\n      key: dependency-cache-{{ checksum \"yarn.lock\" }}\n      paths:\n        - ./node_modules\n        - ./.next/cache\n```\n\nIf you do not have a `save_cache` key, please follow CircleCI's [documentation on setting up build ca"
+    },
+    {
+      "idx": 5,
+      "source": "Environment Variables",
+      "relation": "references",
+      "target": "@next/env loadEnvConfig",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/02-guides/environment-variables.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: How to use environment variables in Next.js\nnav_title: Environment Variables\ndescription: Learn to add and access environment variables in your Next.js application.\n---\n\n{/* The content of this doc is shared between the app and pages router. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}\n\nNext.js comes with built-in support for environment variables, which allows you to do the following:\n\n- [Use `.env` to load environment variables](#loading-environment-variables)\n- [Bundle environment variables for the browser by prefixing with `NEXT_PUBLIC_`](#bundling-environment-variables-for-the-browser)\n\n> **Warning:** The default `create-next-app` template ensures all `.env` files are added to your `.gitignore`. You almost never want to commit these files to your repository.\n\n## Loading Environment Variables\n\nNext.js has built-in support for loading environment variables from `.env*` files into `process.env`.\n\n```txt filename=\".env\"\nDB_HOST=localhost\nDB_USER=myuser\nDB_PASS=mypassword\n```\n\n<PagesOnly>\n\nThis loads `process.env.DB_HOST`, `process.env.DB_USER`,"
+    },
+    {
+      "idx": 6,
+      "source": "Lazy Loading",
+      "relation": "references",
+      "target": "Suspense for lazy loading",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/02-guides/lazy-loading.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: How to lazy load Client Components and libraries\nnav_title: Lazy Loading\ndescription: Lazy load imported libraries and React Components to improve your application's loading performance.\n---\n\n{/* The content of this doc is shared between the app and pages router. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}\n\n[Lazy loading](https://developer.mozilla.org/docs/Web/Performance/Lazy_loading) in Next.js helps improve the initial loading performance of an application by decreasing the amount of JavaScript needed to render a route.\n\n<AppOnly>\n\nIt allows you to defer loading of **Client Components** and imported libraries, and only include them in the client bundle when they're needed. For example, you might want to defer loading a modal until a user clicks to open it.\n\nThere are two ways you can implement lazy loading in Next.js:\n\n1. Using [Dynamic Imports](#nextdynamic) with `next/dynamic`\n2. Using [`React.lazy()`](https://react.dev/reference/react/lazy) with [Suspense](https://react.dev/reference/react/Suspense)\n\nBy default, Server Components are auto"
+    },
+    {
+      "idx": 7,
+      "source": "App Router Migration",
+      "relation": "references",
+      "target": "useRouter from next/navigation",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/02-guides/migrating/app-router-migration.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: How to migrate from Pages to the App Router\nnav_title: App Router\ndescription: Learn how to upgrade your existing Next.js application from the Pages Router to the App Router.\n---\n\nThis guide will help you:\n\n- [Update your Next.js application from version 12 to version 13](#nextjs-version)\n- [Upgrade features that work in both the `pages` and the `app` directories](#upgrading-new-features)\n- [Incrementally migrate your existing application from `pages` to `app`](#migrating-from-pages-to-app)\n\n## Upgrading\n\n### Node.js Version\n\nThe minimum Node.js version is now **v18.17**. See the [Node.js documentation](https://nodejs.org/docs/latest-v18.x/api/) for more information.\n\n### Next.js Version\n\nTo update to Next.js version 13, run the following command using your preferred package manager:\n\n```bash package=\"pnpm\"\npnpm add next@latest react@latest react-dom@latest\n```\n\n```bash package=\"npm\"\nnpm install next@latest react@latest react-dom@latest\n```\n\n```bash package=\"yarn\"\nyarn add next@latest react@latest react-dom@latest\n```\n\n```bash package=\"bun\"\nbun add next@latest react@latest react-dom@latest\n```\n\n### ESLint Version\n\nIf you're using ESLint, you need to upgrade your ESLint v"
+    },
+    {
+      "idx": 8,
+      "source": "Preventing Flash",
+      "relation": "references",
+      "target": "inline script for pre-paint DOM update",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/02-guides/preventing-flash-before-hydration.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: How to prevent flash before hydration\nnav_title: Preventing Flash\ndescription: Learn how to correct server-rendered content before the browser paints, avoiding visible flash when the page hydrates.\n---\n\nUser preferences, browser settings, and client-side storage aren't available during server rendering. The server emits a reasonable default, but any UI that depends on client-only state (locale, time zone, theme, persisted interactions) needs to be updated before the user sees it.\n\nSome common approaches to this problem:\n\n- A Client Component that re-renders with client values causes a hydration error.\n- Deferring to `useEffect` avoids the error but introduces a visible flash.\n- Rendering only on the server means giving up on client-specific formatting entirely.\n\nUsing an **inline script** that runs synchronously as the browser parses the HTML, you can update the DOM **before the first paint**. This guide covers dates, themes, and persisted UI state.\n\n## Example\n\nThe companion [demo](https://preventing-flash-before-hydration.labs.vercel.dev/) ([source](https://github.com/vercel-labs/preventing-flash-before-hydration)) is built with `LANG=ja_JP.UTF-8` to simulate a server/"
+    },
+    {
+      "idx": 9,
+      "source": "How to self-host your Next.js application",
+      "relation": "references",
+      "target": "image optimization self host",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/02-guides/self-hosting.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: How to self-host your Next.js application\nnav_title: Self-Hosting\ndescription: Learn how to self-host your Next.js application on a Node.js server, Docker image, or static HTML files (static exports).\n---\n\n{/* The content of this doc is shared between the app and pages router. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}\n\nWhen [deploying](../01-getting-started/17-deploying.mdx) your Next.js app, you may want to configure how different features are handled based on your infrastructure.\n\n> **🎥 Watch:** Learn more about self-hosting Next.js → [YouTube (45 minutes)](https://www.youtube.com/watch?v=sIVL4JMqRfc).\n\n## Reverse Proxy\n\nWhen self-hosting, it's recommended to use a reverse proxy (like nginx) in front of your Next.js server rather than exposing it directly to the internet. A reverse proxy can handle malformed requests, slow connection attacks, payload size limits, rate limiting, and other security concerns, offloading these tasks from the Next.js server. This allows the server to dedicate its resources to rendering rather than request valida"
+    },
+    {
+      "idx": 10,
+      "source": "How to optimize third-party libraries",
+      "relation": "references",
+      "target": "next third parties package",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/02-guides/third-party-libraries.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: How to optimize third-party libraries\nnav_title: Third Party Libraries\ndescription: Optimize the performance of third-party libraries in your application with the `@next/third-parties` package.\n---\n\n{/* The content of this doc is shared between the app and pages router. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}\n\n**`@next/third-parties`** is a library that provides a collection of components and utilities that improve the performance and developer experience of loading popular third-party libraries in your Next.js application.\n\nAll third-party integrations provided by `@next/third-parties` have been optimized for performance and ease of use.\n\n## Getting Started\n\nTo get started, install the `@next/third-parties` library:\n\n```bash package=\"pnpm\"\npnpm add @next/third-parties@latest next@latest\n```\n\n```bash package=\"npm\"\nnpm install @next/third-parties@latest next@latest\n```\n\n```bash package=\"yarn\"\nyarn add @next/third-parties@latest next@latest\n```\n\n```bash package=\"bun\"\nbun add @next/third-parties@latest next@latest\n```\n\n{/* To do: Remove this p"
+    },
+    {
+      "idx": 11,
+      "source": "use-cache.mdx",
+      "relation": "references",
+      "target": "use cache directive",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/01-directives/use-cache.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: use cache\ndescription: Learn how to use the \"use cache\" directive to cache data in your Next.js application.\nrelated:\n  title: Related\n  description: View related API references.\n  links:\n    - app/api-reference/directives/use-cache-private\n    - app/api-reference/config/next-config-js/cacheComponents\n    - app/api-reference/config/next-config-js/cacheLife\n    - app/api-reference/config/next-config-js/cacheHandlers\n    - app/api-reference/functions/cacheTag\n    - app/api-reference/functions/cacheLife\n    - app/api-reference/functions/revalidateTag\n---\n\nThe `use cache` directive allows you to mark a route, React component, or a function as cacheable. It can be used at the top of a file to indicate that all exports in the file should be cached, or inline at the top of function or component to cache the return value.\n\n> **Good to know:**\n>\n> - To use cookies or headers, read them outside cached scopes and pass values as arguments. This is the preferred pattern.\n> - If the in-memory cache isn't sufficient for runtime data, [`'use cache: remote'`](use-cache-remote.mdx) allows platforms to provide a dedicated cache handler, though it requires a network roundtrip to check the c"
+    },
+    {
+      "idx": 12,
+      "source": "app-icons.mdx",
+      "relation": "references",
+      "target": "image file based icons",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/03-file-conventions/01-metadata/app-icons.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: favicon, icon, and apple-icon\ndescription: API Reference for the Favicon, Icon and Apple Icon file conventions.\n---\n\nThe `favicon`, `icon`, or `apple-icon` file conventions allow you to set icons for your application.\n\nThey are useful for adding app icons that appear in places like web browser tabs, phone home screens, and search engine results.\n\nThere are two ways to set app icons:\n\n- [Using image files (.ico, .jpg, .png)](#image-files-ico-jpg-png)\n- [Using code to generate an icon (.js, .ts, .tsx)](#generate-icons-using-code-js-ts-tsx)\n\n## Image files (.ico, .jpg, .png)\n\nUse an image file to set an app icon by placing a `favicon`, `icon`, or `apple-icon` image file within your `/app` directory.\nThe `favicon` image can only be located in the top level of `app/`.\n\nNext.js will evaluate the file and automatically add the appropriate tags to your app's `<head>` element.\n\n| File convention             | Supported file types                    | Valid locations |\n| --------------------------- | --------------------------------------- | --------------- |\n| [`favicon`](#favicon)       | `.ico`                                  | `app/`          |\n| [`icon`](#icon)             |"
+    },
+    {
+      "idx": 13,
+      "source": "Route Segment Config overview",
+      "relation": "semantically_similar_to",
+      "target": "runtime option",
+      "confidence": "INFERRED",
+      "source_file": "01-app/03-api-reference/03-file-conventions/02-route-segment-config/index.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: Route Segment Config\ndescription: Learn about how to configure options for Next.js route segments.\n---\n\nThe Route Segment Config options allow you to configure the behavior of a [Page](../page.mdx), [Layout](../layout.mdx), or [Route Handler](../route.mdx) by directly exporting the following variables:\n\n| Option                                                                                             | Type                                                 | Default                    |\n| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | -------------------------- |\n| [`dynamicParams`](dynamicParams.mdx)     | `boolean`                                            | `true`                     |\n| [`runtime`](runtime.mdx)                 | `'nodejs' \\| 'edge'`                                 | `'nodejs'`                 |\n| [`preferredRegion`](preferredRegion.mdx) | `'auto' \\| 'global' \\| 'home' \\| string \\| string[]` | `'auto'`                   |\n| [`maxDuration`](maxDuration.mdx)         | `number`                                             | Set by deployment platf"
+    },
+    {
+      "idx": 14,
+      "source": "dynamic-routes",
+      "relation": "references",
+      "target": "params prop passed to page/layout/route",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/03-file-conventions/dynamic-routes.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: Dynamic Route Segments\nnav_title: Dynamic Segments\ndescription: Use Dynamic Segments to read URL path params and generate routes from dynamic data.\nrelated:\n  title: Next Steps\n  description: For more information on what to do next, we recommend the following sections\n  links:\n    - app/api-reference/functions/generate-static-params\n---\n\nA URL path is a sequence of path segments. In the App Router, a segment may be **static** (a literal value matched exactly) or **dynamic** (a placeholder that captures a value from the URL). When you don't know a segment's value ahead of time, define a Dynamic Segment to create routes from dynamic data. Next.js passes the captured values to your page via the path `params` prop, either filled in at request time or prerendered at build time.\n\n> **Good to know**: Dynamic Segments are often referred to as path params, route params, or URL params.\n\n## Convention\n\nA Dynamic Segment can be created by wrapping a folder's name in square brackets: `[folderName]`. For example, a blog could include the following route `app/blog/[slug]/page.js` where `[slug]` is the Dynamic Segment for blog posts.\n\n```tsx filename=\"app/blog/[slug]/page.tsx\" switcher\n"
+    },
+    {
+      "idx": 15,
+      "source": "mdx-components",
+      "relation": "references",
+      "target": "useMDXComponents exported function",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/03-file-conventions/mdx-components.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: mdx-components.js\ndescription: API reference for the mdx-components.js file.\nrelated:\n  title: Learn more about MDX Components\n  links:\n    - app/guides/mdx\n---\n\nThe `mdx-components.js|tsx` file is **required** to use [`@next/mdx` with App Router](../../02-guides/mdx.mdx) and will not work without it. Additionally, you can use it to [customize styles](../../02-guides/mdx.mdx#using-custom-styles-and-components).\n\nUse the file `mdx-components.tsx` (or `.js`) in the root of your project to define MDX Components. For example, at the same level as `pages` or `app`, or inside `src` if applicable.\n\n```tsx filename=\"mdx-components.tsx\" switcher\nimport type { MDXComponents } from 'mdx/types'\n\nconst components: MDXComponents = {}\n\nexport function useMDXComponents(): MDXComponents {\n  return components\n}\n```\n\n```js filename=\"mdx-components.js\" switcher\nconst components = {}\n\nexport function useMDXComponents() {\n  return components\n}\n```\n\n## Exports\n\n### `useMDXComponents` function\n\nThe file must export a single function named `useMDXComponents`. This function does not accept any arguments.\n\n```tsx filename=\"mdx-components.tsx\" switcher\nimport type { MDXComponents } from 'mdx/types'"
+    },
+    {
+      "idx": 16,
+      "source": "unauthorized",
+      "relation": "references",
+      "target": "unauthorized() function returning 401",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/03-file-conventions/unauthorized.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: unauthorized.js\ndescription: API reference for the unauthorized.js special file.\nrelated:\n  links:\n    - app/api-reference/functions/unauthorized\nversion: experimental\n---\n\nThe **unauthorized** file is used to render UI when the [`unauthorized`](../04-functions/unauthorized.mdx) function is invoked during authentication. Along with allowing you to customize the UI, Next.js will return a `401` status code.\n\n```tsx filename=\"app/unauthorized.tsx\" switcher\nimport Login from '@/app/components/Login'\n\nexport default function Unauthorized() {\n  return (\n    <main>\n      <h1>401 - Unauthorized</h1>\n      <p>Please log in to access this page.</p>\n      <Login />\n    </main>\n  )\n}\n```\n\n```jsx filename=\"app/unauthorized.js\" switcher\nimport Login from '@/app/components/Login'\n\nexport default function Unauthorized() {\n  return (\n    <main>\n      <h1>401 - Unauthorized</h1>\n      <p>Please log in to access this page.</p>\n      <Login />\n    </main>\n  )\n}\n```\n\n## Reference\n\n### Props\n\n`unauthorized.js` components do not accept any props.\n\n## Examples\n\n### Displaying login UI to unauthenticated users\n\nYou can use [`unauthorized`](../04-functions/unauthorized.mdx) function to render the"
+    },
+    {
+      "idx": 17,
+      "source": "draft-mode.mdx",
+      "relation": "references",
+      "target": "disable_method",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/04-functions/draft-mode.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: draftMode\ndescription: API Reference for the draftMode function.\nrelated:\n  title: Next Steps\n  description: Learn how to use Draft Mode with this step-by-step guide.\n  links:\n    - app/guides/draft-mode\n---\n\n`draftMode` is an **async** function allows you to enable and disable [Draft Mode](../../02-guides/draft-mode.mdx), as well as check if Draft Mode is enabled in a [Server Component](../../01-getting-started/05-server-and-client-components.mdx).\n\n```tsx filename=\"app/page.ts\" switcher\nimport { draftMode } from 'next/headers'\n\nexport default async function Page() {\n  const { isEnabled } = await draftMode()\n}\n```\n\n```jsx filename=\"app/page.js\" switcher\nimport { draftMode } from 'next/headers'\n\nexport default async function Page() {\n  const { isEnabled } = await draftMode()\n}\n```\n\n## Reference\n\nThe following methods and properties are available:\n\n| Method      | Description                                                                       |\n| ----------- | --------------------------------------------------------------------------------- |\n| `isEnabled` | A boolean value that indicates if Draft Mode is enabled.                          |\n| `enable()`  | Enables Draft"
+    },
+    {
+      "idx": 18,
+      "source": "generate-viewport.mdx",
+      "relation": "references",
+      "target": "theme_color",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/04-functions/generate-viewport.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: generateViewport\ndescription: API Reference for the generateViewport function.\nrelated:\n  title: Next Steps\n  description: View all the Metadata API options.\n  links:\n    - app/api-reference/file-conventions/metadata\n    - app/getting-started/caching\n    - app/api-reference/config/next-config-js/cacheComponents\n---\n\nYou can customize the initial viewport of the page with the static `viewport` object or the dynamic `generateViewport` function.\n\n> **Good to know**:\n>\n> - The `viewport` object and `generateViewport` function exports are **only supported in Server Components**.\n> - You cannot export both the `viewport` object and `generateViewport` function from the same route segment.\n> - If you're coming from migrating `metadata` exports, you can use [metadata-to-viewport-export codemod](../../02-guides/upgrading/codemods.mdx#metadata-to-viewport-export) to update your changes.\n\n## The `viewport` object\n\nTo define the viewport options, export a `viewport` object from a `layout.jsx` or `page.jsx` file.\n\n```tsx filename=\"layout.tsx | page.tsx\" switcher\nimport type { Viewport } from 'next'\n\nexport const viewport: Viewport = {\n  themeColor: 'black',\n}\n\nexport default function "
+    },
+    {
+      "idx": 19,
+      "source": "redirect.mdx",
+      "relation": "references",
+      "target": "redirect_type",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/04-functions/redirect.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: redirect\ndescription: API Reference for the redirect function.\nrelated:\n  links:\n    - app/api-reference/functions/permanentRedirect\n---\n\nThe `redirect` function allows you to redirect the user to another URL. `redirect` can be used while rendering in [Server and Client Components](../../01-getting-started/05-server-and-client-components.mdx), [Route Handlers](../03-file-conventions/route.mdx), and [Server Functions](../../01-getting-started/07-mutating-data.mdx).\n\nWhen used in a [streaming context](../../01-getting-started/04-linking-and-navigating.mdx#streaming), this will insert a meta tag to emit the redirect on the client side. When used in a server action, it will serve a 303 HTTP redirect response to the caller. Otherwise, it will serve a 307 HTTP redirect response to the caller.\n\nIf a resource doesn't exist, you can use the [`notFound` function](not-found.mdx) instead.\n\n## Reference\n\n### Parameters\n\nThe `redirect` function accepts two arguments:\n\n```js\nredirect(path, type)\n```\n\n| Parameter | Type                                                          | Description                                                 |\n| --------- | ----------------------------------"
+    },
+    {
+      "idx": 20,
+      "source": "updateTag",
+      "relation": "references",
+      "target": "Tags via cacheTag with 'use cache' directive",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/04-functions/updateTag.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: updateTag\ndescription: API Reference for the updateTag function.\n---\n\n`updateTag` allows you to update cached data on-demand for a specific cache tag from within [Server Actions](../../01-getting-started/07-mutating-data.mdx).\n\nThis function is designed for **read-your-own-writes** scenarios, where a user makes a change (like creating a post), and the UI immediately shows the change, rather than stale data.\n\n## Usage\n\n`updateTag` can **only** be called from within [Server Actions](../../01-getting-started/07-mutating-data.mdx). It cannot be used in Route Handlers, Client Components, or any other context.\n\nIf you need to invalidate cache tags in Route Handlers or other contexts, use [`revalidateTag`](revalidateTag.mdx) instead.\n\n> **Good to know**: `updateTag` immediately expires the cached data for the specified tag. The next request will wait to fetch fresh data rather than serving stale content from the cache, ensuring users see their changes immediately.\n\n## Parameters\n\n```tsx\nupdateTag(tag: string): void;\n```\n\n- `tag`: A string representing the cache tag associated with the data you want to update. Must not exceed 256 characters. This value is case-sensitive.\n\nTags m"
+    },
+    {
+      "idx": 21,
+      "source": "useParams",
+      "relation": "semantically_similar_to",
+      "target": "useSearchParams",
+      "confidence": "INFERRED",
+      "source_file": "01-app/03-api-reference/04-functions/use-params.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: useParams\ndescription: API Reference for the useParams hook.\n---\n\n`useParams` is a **Client Component** hook that lets you read a route's [dynamic params](../03-file-conventions/dynamic-routes.mdx) filled in by the current URL.\n\n```tsx filename=\"app/example-client-component.tsx\" switcher\n'use client'\n\nimport { useParams } from 'next/navigation'\n\nexport default function ExampleClientComponent() {\n  const params = useParams<{ tag: string; item: string }>()\n\n  // Route -> /shop/[tag]/[item]\n  // URL -> /shop/shoes/nike-air-max-97\n  // `params` -> { tag: 'shoes', item: 'nike-air-max-97' }\n  console.log(params)\n\n  return '...'\n}\n```\n\n```jsx filename=\"app/example-client-component.js\" switcher\n'use client'\n\nimport { useParams } from 'next/navigation'\n\nexport default function ExampleClientComponent() {\n  const params = useParams()\n\n  // Route -> /shop/[tag]/[item]\n  // URL -> /shop/shoes/nike-air-max-97\n  // `params` -> { tag: 'shoes', item: 'nike-air-max-97' }\n  console.log(params)\n\n  return '...'\n}\n```\n\n## Parameters\n\n```tsx\nconst params = useParams()\n```\n\n`useParams` does not take any parameters.\n\n## Returns\n\n`useParams` returns an object containing the current route's filled"
+    },
+    {
+      "idx": 22,
+      "source": "useSearchParams",
+      "relation": "references",
+      "target": "Read the current URL's query string",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/04-functions/use-search-params.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: useSearchParams\ndescription: API Reference for the useSearchParams hook.\n---\n\n`useSearchParams` is a **Client Component** hook that lets you read the current URL's **query string**.\n\n`useSearchParams` returns a **read-only** version of the [`URLSearchParams`](https://developer.mozilla.org/docs/Web/API/URLSearchParams) interface.\n\n```tsx filename=\"app/dashboard/search-bar.tsx\" switcher\n'use client'\n\nimport { useSearchParams } from 'next/navigation'\n\nexport default function SearchBar() {\n  const searchParams = useSearchParams()\n\n  const search = searchParams.get('search')\n\n  // URL -> `/dashboard?search=my-project`\n  // `search` -> 'my-project'\n  return <>Search: {search}</>\n}\n```\n\n```jsx filename=\"app/dashboard/search-bar.js\" switcher\n'use client'\n\nimport { useSearchParams } from 'next/navigation'\n\nexport default function SearchBar() {\n  const searchParams = useSearchParams()\n\n  const search = searchParams.get('search')\n\n  // URL -> `/dashboard?search=my-project`\n  // `search` -> 'my-project'\n  return <>Search: {search}</>\n}\n```\n\n## Parameters\n\n```tsx\nconst searchParams = useSearchParams()\n```\n\n`useSearchParams` does not take any parameters.\n\n## Returns\n\n`useSearchParams`"
+    },
+    {
+      "idx": 23,
+      "source": "cacheComponents (next.config.js)",
+      "relation": "references",
+      "target": "Cache Components configuration",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/05-config/01-next-config-js/cacheComponents.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: cacheComponents\ndescription: Learn how to enable the cacheComponents flag in Next.js.\n---\n\nCache Components enables component and function-level caching using the [`use cache`](../../01-directives/use-cache.mdx) directive. Data fetching is dynamic by default, and you choose what to cache at the page, component, or function level. Next.js prerenders a static HTML shell that is served immediately while dynamic content streams in when ready, letting you mix static and dynamic content within a single route.\n\n## Usage\n\nTo enable the `cacheComponents` flag, set it to `true` in your `next.config.ts` file:\n\n```ts filename=\"next.config.ts\"\nimport type { NextConfig } from 'next'\n\nconst nextConfig: NextConfig = {\n  cacheComponents: true,\n}\n\nexport default nextConfig\n```\n\nWhen `cacheComponents` is enabled, you can use the following cache functions and configurations:\n\n- The [`use cache` directive](../../01-directives/use-cache.mdx)\n- The [`cacheLife` function](cacheLife.mdx) with `use cache`\n- The [`cacheTag` function](../../04-functions/cacheTag.mdx)\n\n> **Good to know**: If you used `experimental.useCache` or `experimental.dynamicIO`, migrate using the [Version 16 upgrade guide](.."
+    },
+    {
+      "idx": 24,
+      "source": "turbopack",
+      "relation": "references",
+      "target": "local_postcss_config",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/05-config/01-next-config-js/turbopack.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: turbopack\ndescription: Configure Next.js with Turbopack-specific options\n---\n\n{/* The content of this doc is shared between the app and pages router. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}\n\nThe `turbopack` option lets you customize [Turbopack](../../08-turbopack.mdx) to transform different files and change how modules are resolved.\n\n> **Good to know**: The `turbopack` option was previously named `experimental.turbo` in Next.js versions 13.0.0 to 15.2.x. The `experimental.turbo` option will be removed in Next.js 16.\n>\n> If you are using an older version of Next.js, run `npx @next/codemod@latest next-experimental-turbo-to-turbopack .` to automatically migrate your configuration.\n\n```ts filename=\"next.config.ts\" switcher\nimport type { NextConfig } from 'next'\n\nconst nextConfig: NextConfig = {\n  turbopack: {\n    // ...\n  },\n}\n\nexport default nextConfig\n```\n\n```js filename=\"next.config.js\" switcher\n/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  turbopack: {\n    // ...\n  },\n}\n\nmodule.exports = nextConfig\n```\n\n> **Good to know**:"
+    },
+    {
+      "idx": 25,
+      "source": "Runtime Integration",
+      "relation": "references",
+      "target": "Deployment Adapter API (build-time)",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/07-adapters/07-runtime-integration.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: Runtime Integration\ndescription: Understand how build-time adapters and runtime cache interfaces work together.\n---\n\nThe Deployment Adapter API is a **build-time** interface. It tells your platform what was built and how to route requests. **Runtime** behavior (request handling, streaming, caching) is handled by the Next.js server itself and by the cache interfaces [`cacheHandler`](../05-config/01-next-config-js/incrementalCacheHandlerPath.mdx) and [`cacheHandlers`](../05-config/01-next-config-js/cacheHandlers.mdx).\n\nTogether, the adapter and cache interfaces form the complete platform integration surface:\n\n- **Adapter** (build-time): processes build outputs, configures routing, and sets up platform-specific infrastructure.\n- **Cache Interfaces** (runtime): `cacheHandler` manages ISR/server cache storage and revalidation across instances; `cacheHandlers` configures `'use cache'` directive backends and tag coordination.\n\n## Handler Context\n\nWhen invoking entrypoints, adapters pass a `ctx` object to the Next.js handler. Key fields include:\n\n- **`ctx.waitUntil`**: a function that accepts a promise. Use this to keep the serverless function alive after the response is sent, a"
+    },
+    {
+      "idx": 26,
+      "source": "Turbopack",
+      "relation": "references",
+      "target": "Turbopack incremental bundler",
+      "confidence": "EXTRACTED",
+      "source_file": "01-app/03-api-reference/08-turbopack.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: Turbopack\ndescription: Turbopack is an incremental bundler optimized for JavaScript and TypeScript, written in Rust, and built into Next.js.\n---\n\n{/* The content of this doc is shared between the app and pages router. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}\n\nTurbopack is an **incremental bundler** optimized for JavaScript and TypeScript, written in Rust, and built into **Next.js**. You can use Turbopack with both the Pages and App Router for a **much faster** local development experience.\n\n## Why Turbopack?\n\nWe built Turbopack to push the performance of Next.js, including:\n\n- **Unified Graph:** Next.js supports multiple output environments (e.g., client and server). Managing multiple compilers and stitching bundles together can be tedious. Turbopack uses a **single, unified graph** for all environments.\n- **Bundling vs Native ESM:** Some tools skip bundling in development and rely on the browser's native ESM. This works well for small apps but can slow down large apps due to excessive network requests. Turbopack **bundles** in dev, but in a"
+    },
+    {
+      "idx": 27,
+      "source": "Deploying (Pages Router)",
+      "relation": "references",
+      "target": "Deploying a Next.js application",
+      "confidence": "EXTRACTED",
+      "source_file": "02-pages/01-getting-started/11-deploying.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: How to deploy your Next.js application\nnav_title: Deploying\ndescription: Learn how to deploy your Next.js application.\nsource: app/getting-started/deploying\n---"
+    },
+    {
+      "idx": 28,
+      "source": "css_in_js",
+      "relation": "semantically_similar_to",
+      "target": "postcss",
+      "confidence": "INFERRED",
+      "source_file": "02-pages/02-guides/css-in-js.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: How to use CSS-in-JS libraries\nnav_title: CSS-in-JS\ndescription: Use CSS-in-JS libraries with Next.js\nsource: app/guides/css-in-js\n---\n\n{/* DO NOT EDIT. The content of this doc is generated from the source above. To edit the content of this page, navigate to the source page in your editor. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}"
+    },
+    {
+      "idx": 29,
+      "source": "Version 13",
+      "relation": "references",
+      "target": "Version Upgrade",
+      "confidence": "EXTRACTED",
+      "source_file": "02-pages/02-guides/upgrading/version-13.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: How to upgrade to version 13\nnav_title: Version 13\ndescription: Upgrade your Next.js Application from Version 12 to 13.\n---\n\n## Upgrading from 12 to 13\n\nTo update to Next.js version 13, run the following command using your preferred package manager:\n\n```bash filename=\"Terminal\"\nnpm i next@13 react@latest react-dom@latest eslint-config-next@13\n```\n\n```bash filename=\"Terminal\"\nyarn add next@13 react@latest react-dom@latest eslint-config-next@13\n```\n\n```bash filename=\"Terminal\"\npnpm i next@13 react@latest react-dom@latest eslint-config-next@13\n```\n\n```bash filename=\"Terminal\"\nbun add next@13 react@latest react-dom@latest eslint-config-next@13\n```\n\n> **Good to know:** If you are using TypeScript, ensure you also upgrade `@types/react` and `@types/react-dom` to their latest versions.\n\n### v13 Summary\n\n- The [Supported Browsers](../../../03-architecture/supported-browsers.mdx) have been changed to drop Internet Explorer and target modern browsers.\n- The minimum Node.js version has been bumped from 12.22.0 to 16.14.0, since 12.x and 14.x have reached end-of-life.\n- The minimum React version has been bumped from 17.0.2 to 18.2.0.\n- The `swcMinify` configuration property was chan"
+    },
+    {
+      "idx": 30,
+      "source": "adapterPath",
+      "relation": "references",
+      "target": "Custom adapter hooks build process",
+      "confidence": "EXTRACTED",
+      "source_file": "02-pages/04-api-reference/04-config/01-next-config-js/adapterPath.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: adapterPath\ndescription: Configure a custom adapter for Next.js to hook into the build process.\nsource: app/api-reference/config/next-config-js/adapterPath\n---\n\n{/* DO NOT EDIT. The content of this doc is generated from the source above. To edit the content of this page, navigate to the source page in your editor. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}"
+    },
+    {
+      "idx": 31,
+      "source": "next.config.js Options",
+      "relation": "references",
+      "target": "httpAgentOptions",
+      "confidence": "INFERRED",
+      "source_file": "02-pages/04-api-reference/04-config/01-next-config-js/index.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: next.config.js Options\ndescription: Learn about the options available in next.config.js for the Pages Router.\nsource: app/api-reference/config/next-config-js\n---\n\n{/* DO NOT EDIT. The content of this doc is generated from the source above. To edit the content of this page, navigate to the source page in your editor. You can use the `<PagesOnly>Content</PagesOnly>` component to add content that is specific to the Pages Router. Any shared content should not be wrapped in a component. */}"
+    },
+    {
+      "idx": 32,
+      "source": "Fast Refresh",
+      "relation": "references",
+      "target": "Fast Refresh",
+      "confidence": "EXTRACTED",
+      "source_file": "03-architecture/fast-refresh.mdx",
+      "source_location": null,
+      "evidence": "---\ntitle: Fast Refresh\ndescription: Fast Refresh is a hot module reloading experience that gives you instantaneous feedback on edits made to your React components.\n---\n\nFast refresh is a React feature integrated into Next.js that allows you to live reload the browser page while maintaining temporary client-side state when you save changes to a file. It's enabled by default in all Next.js applications on **9.4 or newer**. With Fast Refresh enabled, most edits should be visible within a second.\n\n## How It Works\n\n- If you edit a file that **only exports React component(s)**, Fast Refresh will\n  update the code only for that file, and re-render your component. You can edit\n  anything in that file, including styles, rendering logic, event handlers, or\n  effects.\n- If you edit a file with exports that _aren't_ React components, Fast Refresh\n  will re-run both that file, and the other files importing it. So if both\n  `Button.js` and `Modal.js` import `theme.js`, editing `theme.js` will update\n  both components.\n- Finally, if you **edit a file** that's **imported by files outside of the\n  React tree**, Fast Refresh **will fall back to doing a full reload**. You\n  might have a file which r"
+    },
+    {
+      "idx": 33,
+      "source": "Section: 01-app/02-guides",
+      "relation": "references",
+      "target": "How to upgrade to version 14",
+      "confidence": "INFERRED",
+      "source_file": "__hub__/hub_section_01_app_02_guides.mdx",
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 34,
+      "source": "Section: 01-app/03-api-reference/01-directives",
+      "relation": "references",
+      "target": "use-cache.mdx",
+      "confidence": "INFERRED",
+      "source_file": "__hub__/hub_section_01_app_03_api_reference_01_directives.mdx",
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 35,
+      "source": "Section: 01-app/03-api-reference/04-functions",
+      "relation": "references",
+      "target": "generate-sitemaps.mdx",
+      "confidence": "INFERRED",
+      "source_file": "__hub__/hub_section_01_app_03_api_reference_04_functions.mdx",
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 36,
+      "source": "Section: 01-app/03-api-reference/05-config",
+      "relation": "references",
+      "target": "logging (next.config.js)",
+      "confidence": "INFERRED",
+      "source_file": "__hub__/hub_section_01_app_03_api_reference_05_config.mdx",
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 37,
+      "source": "Section: 02-pages/01-getting-started",
+      "relation": "references",
+      "target": "Images (Pages Router)",
+      "confidence": "INFERRED",
+      "source_file": "__hub__/hub_section_02_pages_01_getting_started.mdx",
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 38,
+      "source": "Section: 02-pages/03-building-your-application",
+      "relation": "references",
+      "target": "05-custom-app.mdx",
+      "confidence": "INFERRED",
+      "source_file": "__hub__/hub_section_02_pages_03_building_your_application.mdx",
+      "source_location": null,
+      "evidence": ""
+    },
+    {
+      "idx": 39,
+      "source": "Section: 02-pages/04-api-reference/04-config",
+      "relation": "references",
+      "target": "distDir",
+      "confidence": "INFERRED",
+      "source_file": "__hub__/hub_section_02_pages_04_api_reference_04_config.mdx",
+      "source_location": null,
+      "evidence": ""
+    }
+  ]
+}
